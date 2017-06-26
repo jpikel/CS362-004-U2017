@@ -1,1 +1,1 @@
-My name is Johannes Pikel
+This is my assignment-1 submission
