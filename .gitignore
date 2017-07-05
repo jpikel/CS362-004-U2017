@@ -1,0 +1,15 @@
+#ignore these files when committing to git repo
+
+#temporary VIM files
+*.swp
+
+#executable files
+testDrawCard
+badTestDrawCard
+playdom
+player
+
+#GNU compiled extensions
+*.gcno
+*.o
+*.gcda

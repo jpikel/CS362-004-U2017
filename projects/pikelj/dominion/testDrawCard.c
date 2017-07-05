@@ -3,9 +3,11 @@
 #include <string.h>
 #include <stdio.h>
 #include <assert.h>
+#include <math.h> /* for the floor function */
+#include <stdlib.h> /* for the exit function */
 #include "rngs.h"
 
-#define DEBUG 0
+//#define DEBUG 0
 #define NOISY_TEST 1
 
 int checkDrawCard(int p, struct gameState *post) {
@@ -37,6 +39,8 @@ int checkDrawCard(int p, struct gameState *post) {
   assert (r == 0);
 
   assert(memcmp(&pre, post, sizeof(struct gameState)) == 0);
+
+    return(0);
 }
 
 int main () {
@@ -77,6 +81,7 @@ int main () {
 	for (handCount = 0; handCount < 5; handCount++) {
 	  memset(&G, 23, sizeof(struct gameState)); 
 	  r = initializeGame(2, k, 1, &G);
+        if(r==0){} // temporarily to avoid set but not used warning
 	  G.deckCount[p] = deckCount;
 	  memset(G.deck[p], 0, sizeof(int) * deckCount);
 	  G.discardCount[p] = discardCount;

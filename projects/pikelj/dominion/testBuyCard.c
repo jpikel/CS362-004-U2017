@@ -5,7 +5,7 @@
 #include <assert.h>
 #include "rngs.h"
 
-#define DEBUG 0
+//#define DEBUG 0
 #define NOISY_TEST 1
 
 int checkDrawCard(int p, struct gameState *post) {
