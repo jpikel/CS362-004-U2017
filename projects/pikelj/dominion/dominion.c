@@ -1173,9 +1173,6 @@ int playAdventurer(int currentPlayer, struct gameState *state, int handPos){
 
     int temphand[MAX_HAND];
 
-    /*put the card into the played pile */
-    discardCard(handPos, currentPlayer, state, 0);
-
     while(drawntreasure<2){
         //if the deck is empty we need to shuffle discard and add to deck
         if (state->deckCount[currentPlayer] <1){
