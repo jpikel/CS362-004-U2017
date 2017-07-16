@@ -434,8 +434,8 @@ Testing base game after initialization...game should not be over...TEST SUCCESSF
 Ending one turn... game should not be over...TEST SUCCESSFUL
 Testing first if provinces are all gone, game is over...TEST SUCCESSFUL
 Going through the supply pile and set 2 cards to 0 every other card
-Game should never be over, setting all supply piles to 1
-1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+Game should never be over, setting all supply piles to 5
+5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
 Set supply card Curse and Duchy to 0...TEST SUCCESSFUL
 Set supply card Estate and Province to 0...TEST SUCCESSFUL
 Set supply card Duchy and Copper to 0...TEST SUCCESSFUL
@@ -484,6 +484,54 @@ Set supply card Steward, Ambassador and Embargo to 0...TEST SUCCESSFUL
 Set supply card Tribute, Cutpurse and Outpost to 0...TEST SUCCESSFUL
 Set supply card Ambassador, Embargo and Salvager to 0...TEST SUCCESSFUL
 Set supply card Cutpurse, Outpost and Sea Hag to 0...TEST FAILED
+Now setting sets of 3 cards to -1, every other card
+Game should be over each time
+Set supply card Curse, Duchy and Copper to -1...TEST FAILED
+Set supply card Estate, Province and Silver to -1...TEST FAILED
+Set supply card Duchy, Copper and Gold to -1...TEST FAILED
+Set supply card Province, Silver and Adventurer to -1...TEST FAILED
+Set supply card Copper, Gold and Council Room to -1...TEST FAILED
+Set supply card Silver, Adventurer and Feast to -1...TEST FAILED
+Set supply card Gold, Council Room and Gardens to -1...TEST FAILED
+Set supply card Adventurer, Feast and Mine to -1...TEST FAILED
+Set supply card Council Room, Gardens and Remodel to -1...TEST FAILED
+Set supply card Feast, Mine and Smithy to -1...TEST FAILED
+Set supply card Gardens, Remodel and Village to -1...TEST FAILED
+Set supply card Mine, Smithy and Baron to -1...TEST FAILED
+Set supply card Remodel, Village and Great Hall to -1...TEST FAILED
+Set supply card Smithy, Baron and Minion to -1...TEST FAILED
+Set supply card Village, Great Hall and Steward to -1...TEST FAILED
+Set supply card Baron, Minion and Tribute to -1...TEST FAILED
+Set supply card Great Hall, Steward and Ambassador to -1...TEST FAILED
+Set supply card Minion, Tribute and Cutpurse to -1...TEST FAILED
+Set supply card Steward, Ambassador and Embargo to -1...TEST FAILED
+Set supply card Tribute, Cutpurse and Outpost to -1...TEST FAILED
+Set supply card Ambassador, Embargo and Salvager to -1...TEST FAILED
+Set supply card Cutpurse, Outpost and Sea Hag to -1...TEST FAILED
+Now setting sets of 3 cards to 1, every other card
+Game should not be over each time
+Set supply card Curse, Duchy and Copper to 1...TEST SUCCESSFUL
+Set supply card Estate, Province and Silver to 1...TEST SUCCESSFUL
+Set supply card Duchy, Copper and Gold to 1...TEST SUCCESSFUL
+Set supply card Province, Silver and Adventurer to 1...TEST SUCCESSFUL
+Set supply card Copper, Gold and Council Room to 1...TEST SUCCESSFUL
+Set supply card Silver, Adventurer and Feast to 1...TEST SUCCESSFUL
+Set supply card Gold, Council Room and Gardens to 1...TEST SUCCESSFUL
+Set supply card Adventurer, Feast and Mine to 1...TEST SUCCESSFUL
+Set supply card Council Room, Gardens and Remodel to 1...TEST SUCCESSFUL
+Set supply card Feast, Mine and Smithy to 1...TEST SUCCESSFUL
+Set supply card Gardens, Remodel and Village to 1...TEST SUCCESSFUL
+Set supply card Mine, Smithy and Baron to 1...TEST SUCCESSFUL
+Set supply card Remodel, Village and Great Hall to 1...TEST SUCCESSFUL
+Set supply card Smithy, Baron and Minion to 1...TEST SUCCESSFUL
+Set supply card Village, Great Hall and Steward to 1...TEST SUCCESSFUL
+Set supply card Baron, Minion and Tribute to 1...TEST SUCCESSFUL
+Set supply card Great Hall, Steward and Ambassador to 1...TEST SUCCESSFUL
+Set supply card Minion, Tribute and Cutpurse to 1...TEST SUCCESSFUL
+Set supply card Steward, Ambassador and Embargo to 1...TEST SUCCESSFUL
+Set supply card Tribute, Cutpurse and Outpost to 1...TEST SUCCESSFUL
+Set supply card Ambassador, Embargo and Salvager to 1...TEST SUCCESSFUL
+Set supply card Cutpurse, Outpost and Sea Hag to 1...TEST SUCCESSFUL
 Now setting sets of 4 cards to 0, every other card
 Game should be over each time
 Set supply card Curse, Duchy, Copper and Gold to 0...TEST SUCCESSFUL
@@ -1630,40 +1678,40 @@ call    0 returned 100%
        19:  396:    return 0;
         -:  397:}
         -:  398:
-function isGameOver called 69 returned 100% blocks executed 100%
-       69:  399:int isGameOver(struct gameState *state) {
+function isGameOver called 113 returned 100% blocks executed 100%
+      113:  399:int isGameOver(struct gameState *state) {
         -:  400:    int i;
         -:  401:    int j;
         -:  402:
         -:  403:    //if stack of Province cards is empty, the game ends
-       69:  404:    if (state->supplyCount[province] == 0)
-branch  0 taken 10% (fallthrough)
-branch  1 taken 90%
+      113:  404:    if (state->supplyCount[province] == 0)
+branch  0 taken 6% (fallthrough)
+branch  1 taken 94%
         -:  405:    {
         7:  406:        return 1;
         -:  407:    }
         -:  408:
         -:  409:    //if three supply pile are at 0, the game ends
-       62:  410:    j = 0;
-     1612:  411:    for (i = 0; i < 25; i++)
+      106:  410:    j = 0;
+     2756:  411:    for (i = 0; i < 25; i++)
 branch  0 taken 96%
 branch  1 taken 4% (fallthrough)
         -:  412:    {
-     1550:  413:        if (state->supplyCount[i] == 0)
-branch  0 taken 11% (fallthrough)
-branch  1 taken 89%
+     2650:  413:        if (state->supplyCount[i] == 0)
+branch  0 taken 7% (fallthrough)
+branch  1 taken 93%
         -:  414:        {
       173:  415:            j++;
         -:  416:        }
         -:  417:    }
-       62:  418:    if ( j >= 3)
-branch  0 taken 60% (fallthrough)
-branch  1 taken 40%
+      106:  418:    if ( j >= 3)
+branch  0 taken 35% (fallthrough)
+branch  1 taken 65%
         -:  419:    {
        37:  420:        return 1;
         -:  421:    }
         -:  422:
-       25:  423:    return 0;
+       69:  423:    return 0;
         -:  424:}
         -:  425:
 function scoreFor called 0 returned 0% blocks executed 0%

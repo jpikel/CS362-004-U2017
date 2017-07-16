@@ -525,40 +525,40 @@ call    0 returned 100%
        19:  396:    return 0;
         -:  397:}
         -:  398:
-function isGameOver called 69 returned 100% blocks executed 100%
-       69:  399:int isGameOver(struct gameState *state) {
+function isGameOver called 113 returned 100% blocks executed 100%
+      113:  399:int isGameOver(struct gameState *state) {
         -:  400:    int i;
         -:  401:    int j;
         -:  402:
         -:  403:    //if stack of Province cards is empty, the game ends
-       69:  404:    if (state->supplyCount[province] == 0)
-branch  0 taken 10% (fallthrough)
-branch  1 taken 90%
+      113:  404:    if (state->supplyCount[province] == 0)
+branch  0 taken 6% (fallthrough)
+branch  1 taken 94%
         -:  405:    {
         7:  406:        return 1;
         -:  407:    }
         -:  408:
         -:  409:    //if three supply pile are at 0, the game ends
-       62:  410:    j = 0;
-     1612:  411:    for (i = 0; i < 25; i++)
+      106:  410:    j = 0;
+     2756:  411:    for (i = 0; i < 25; i++)
 branch  0 taken 96%
 branch  1 taken 4% (fallthrough)
         -:  412:    {
-     1550:  413:        if (state->supplyCount[i] == 0)
-branch  0 taken 11% (fallthrough)
-branch  1 taken 89%
+     2650:  413:        if (state->supplyCount[i] == 0)
+branch  0 taken 7% (fallthrough)
+branch  1 taken 93%
         -:  414:        {
       173:  415:            j++;
         -:  416:        }
         -:  417:    }
-       62:  418:    if ( j >= 3)
-branch  0 taken 60% (fallthrough)
-branch  1 taken 40%
+      106:  418:    if ( j >= 3)
+branch  0 taken 35% (fallthrough)
+branch  1 taken 65%
         -:  419:    {
        37:  420:        return 1;
         -:  421:    }
         -:  422:
-       25:  423:    return 0;
+       69:  423:    return 0;
         -:  424:}
         -:  425:
 function scoreFor called 0 returned 0% blocks executed 0%

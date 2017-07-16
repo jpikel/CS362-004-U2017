@@ -19,7 +19,7 @@
 #define RETSUCCESS 0
 #define RETFAIL -1
 #define GAMEOVER 1
-#define SUPPLY 1
+#define SUPPLY 5
 
 /*define some function prototypes*/
 void fail();
@@ -76,7 +76,7 @@ int main(void){
     testGame->supplyCount[province] = 0;
 
     printf("Going through the supply pile and set 2 cards to 0 every other card\n");
-    printf("Game should never be over, setting all supply piles to 1\n");
+    printf("Game should never be over, setting all supply piles to 5\n");
 
     for(i = 0; i < 25; i++){
         testGame->supplyCount[i] = SUPPLY;
@@ -110,6 +110,36 @@ int main(void){
         printf("Set supply card %s, %s and %s to 0...", cardNames[i], cardNames[i+2],
                 cardNames[i+4]);
         validate(isGameOver(testGame), GAMEOVER);
+        testGame->supplyCount[i] = SUPPLY;
+        testGame->supplyCount[i+2] = SUPPLY;
+        testGame->supplyCount[i+4] = SUPPLY;
+    }
+
+    printf("Now setting sets of 3 cards to -1, every other card\n");
+    printf("Game should be over each time\n");
+
+    for(i = 0; i < 22; i += 1){
+        testGame->supplyCount[i] = -1;
+        testGame->supplyCount[i+2] = -1;
+        testGame->supplyCount[i+4] = -1;
+        printf("Set supply card %s, %s and %s to -1...", cardNames[i], cardNames[i+2],
+                cardNames[i+4]);
+        validate(isGameOver(testGame), GAMEOVER);
+        testGame->supplyCount[i] = SUPPLY;
+        testGame->supplyCount[i+2] = SUPPLY;
+        testGame->supplyCount[i+4] = SUPPLY;
+    }
+
+    printf("Now setting sets of 3 cards to 1, every other card\n");
+    printf("Game should not be over each time\n");
+
+    for(i = 0; i < 22; i += 1){
+        testGame->supplyCount[i] = 1;
+        testGame->supplyCount[i+2] = 1;
+        testGame->supplyCount[i+4] = 1;
+        printf("Set supply card %s, %s and %s to 1...", cardNames[i], cardNames[i+2],
+                cardNames[i+4]);
+        validate(isGameOver(testGame), RETSUCCESS);
         testGame->supplyCount[i] = SUPPLY;
         testGame->supplyCount[i+2] = SUPPLY;
         testGame->supplyCount[i+4] = SUPPLY;
