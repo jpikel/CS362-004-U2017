@@ -38,22 +38,22 @@ char inputChar()
  *  Preconditions: none
  *  Postconditions: returns a char*
  *  Description: assigns some memory on the heap, and sets the entire location to the
- *  null byte.  Then for the first 4 letters chooses at random a letter from the
- *  word "rest" and returns address of the start of the
- *  resulting string to the calling function.
+ *  null byte.  then assigns 4 letters from the lower case alphabet to a string where
+ *  the letters r, s, e, t are a bit more heavily weighted.  Meaning they show up
+ *  more often. Then returns the string to the calling function.
  *  ***************************************/
 
 char *inputString()
 {
     // TODO: rewrite this function
-    char source[4] = "rest";
+    char source[34] = "abcdeeefghijklmnopqrrrssstttuvwxyz";
     char *str;
     int i;
 
     str = malloc(sizeof(char)*6);
     memset(str, '\0', sizeof(char)*6);
     for (i = 0; i < 5; i++){
-        str[i] = source[(rand() / (RAND_MAX / (3 - 0 + 1) + 1))];
+        str[i] = source[(rand() / (RAND_MAX / (33 - 0 + 1) + 1))];
     }
     
     return str;

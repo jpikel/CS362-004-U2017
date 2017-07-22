@@ -17,7 +17,7 @@ SRCS = testme.c
 
 all: ${SRCS}
 	${CC} ${CLAGS} ${SRCS} -o testme
-	#./testme
+	./testme
 
 clean:
 	rm -f *.o testme
