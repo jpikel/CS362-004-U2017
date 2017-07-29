@@ -1165,7 +1165,6 @@ int updateCoins(int player, struct gameState *state, int bonus)
  * Postcondition: 2 treasure added to current player's hand, all other cards
  * drawn from deck discarded into played pile
  *  ************************************/
-
 int playAdventurer(int currentPlayer, struct gameState *state, int handPos){
     int cardDrawn,
         z=0,
@@ -1185,9 +1184,10 @@ int playAdventurer(int currentPlayer, struct gameState *state, int handPos){
             drawntreasure++;
         else{
             temphand[z]=cardDrawn;
+
             //this should just remove the top card (the most recently drawn one).
             state->handCount[currentPlayer]--;
-            z--;
+            z++;
         }
     }
     /*$$*/
@@ -1375,7 +1375,7 @@ int playVillage(int currentPlayer, struct gameState *state, int handPos){
     //+1 Card
     drawCard(currentPlayer, state);
     /*$$*/
-    drawCard(currentPlayer, state);
+   drawCard(currentPlayer, state);
 
     //+2 Actions
     state->numActions = state->numActions + 2;

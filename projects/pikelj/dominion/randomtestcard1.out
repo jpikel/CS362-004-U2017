@@ -1,1321 +1,2018 @@
-******************************************
-******************************************
-This unit test, tests the initializeGame()
-Testing for number of players initialized into game
-Max players allowed in the game 4
-Testing initialize game with -1 players...Expected result = -1....TEST SUCCESSFUL
-Expecting 0 players, game has 0...TEST SUCCESSFUL
-Testing initialize game with 0 players...Expected result = -1....TEST SUCCESSFUL
-Expecting 0 players, game has 0...TEST SUCCESSFUL
-Testing initialize game with 1 players...Expected result = -1....TEST SUCCESSFUL
-Expecting 0 players, game has 0...TEST SUCCESSFUL
-Testing initialize game with 2 players...Expected result = 0...TEST SUCCESSFUL
-Expecting 2 players, game has 2...TEST SUCCESSFUL
-Testing initialize game with 3 players...Expected result = 0...TEST SUCCESSFUL
-Expecting 3 players, game has 3...TEST SUCCESSFUL
-Testing initialize game with 4 players...Expected result = 0...TEST SUCCESSFUL
-Expecting 4 players, game has 4...TEST SUCCESSFUL
-Testing initialize game with 5 players...Expected result = -1....TEST SUCCESSFUL
-Expecting 0 players, game has 4...TEST FAILED
-Testing initialize game with 6 players...Expected result = -1....TEST SUCCESSFUL
-Expecting 0 players, game has 4...TEST FAILED
-
-Testing the for loop that checks if there are no duplicate cards in deck
-Card number 0 is duplicate...expecting -1...TEST SUCCESSFUL
-Card number 1 is duplicate...expecting -1...TEST SUCCESSFUL
-Card number 2 is duplicate...expecting -1...TEST SUCCESSFUL
-Card number 3 is duplicate...expecting -1...TEST SUCCESSFUL
-Card number 4 is duplicate...expecting -1...TEST SUCCESSFUL
-Card number 5 is duplicate...expecting -1...TEST SUCCESSFUL
-Card number 6 is duplicate...expecting -1...TEST SUCCESSFUL
-Card number 7 is duplicate...expecting -1...TEST SUCCESSFUL
-Card number 8 is duplicate...expecting -1...TEST SUCCESSFUL
-
-Checking game state supply for 2, 3 and 4 players
-Initializing with 2 players
-Curse cards expected 10, found 10...TEST SUCCESSFUL
-Estate cards expected 8, found 8...TEST SUCCESSFUL
-Duchy cards expected 8, found 8...TEST SUCCESSFUL
-Province cards expected 8, found 8...TEST SUCCESSFUL
-Expected copper 46, found 46...TEST SUCCESSFUL
-Expected silver 40, found 40...TEST SUCCESSFUL
-Expected gold 30, found 30...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Kingdom victory cards expected 8, found 8...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Kingdom victory cards expected 8, found 8...TEST SUCCESSFUL
-Player 0 has 5 cards in deck. Expected 5...TEST SUCCESSFUL
-Player 0 had 5 cards in Hand. Expected 5...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Player 1 has 10 cards in deck. Expected 10...TEST SUCCESSFUL
-Player 1 had 0 cards in Hand. Expected 0...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 0 turn...TEST SUCCESSFUL
-Initializing with 3 players
-Curse cards expected 20, found 20...TEST SUCCESSFUL
-Estate cards expected 12, found 12...TEST SUCCESSFUL
-Duchy cards expected 12, found 12...TEST SUCCESSFUL
-Province cards expected 12, found 12...TEST SUCCESSFUL
-Expected copper 39, found 39...TEST SUCCESSFUL
-Expected silver 40, found 40...TEST SUCCESSFUL
-Expected gold 30, found 30...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Kingdom victory cards expected 12, found 12...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Kingdom victory cards expected 12, found 12...TEST SUCCESSFUL
-Player 0 has 5 cards in deck. Expected 5...TEST SUCCESSFUL
-Player 0 had 5 cards in Hand. Expected 5...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Player 1 has 10 cards in deck. Expected 10...TEST SUCCESSFUL
-Player 1 had 0 cards in Hand. Expected 0...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Player 2 has 10 cards in deck. Expected 10...TEST SUCCESSFUL
-Player 2 had 0 cards in Hand. Expected 0...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 0 turn...TEST SUCCESSFUL
-Initializing with 4 players
-Curse cards expected 30, found 30...TEST SUCCESSFUL
-Estate cards expected 12, found 12...TEST SUCCESSFUL
-Duchy cards expected 12, found 12...TEST SUCCESSFUL
-Province cards expected 12, found 12...TEST SUCCESSFUL
-Expected copper 32, found 32...TEST SUCCESSFUL
-Expected silver 40, found 40...TEST SUCCESSFUL
-Expected gold 30, found 30...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Kingdom victory cards expected 12, found 12...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Supply cards expected 10, found 10...TEST SUCCESSFUL
-Kingdom victory cards expected 12, found 12...TEST SUCCESSFUL
-Player 0 has 5 cards in deck. Expected 5...TEST SUCCESSFUL
-Player 0 had 5 cards in Hand. Expected 5...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Player 1 has 10 cards in deck. Expected 10...TEST SUCCESSFUL
-Player 1 had 0 cards in Hand. Expected 0...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Player 2 has 10 cards in deck. Expected 10...TEST SUCCESSFUL
-Player 2 had 0 cards in Hand. Expected 0...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Player 3 has 10 cards in deck. Expected 10...TEST SUCCESSFUL
-Player 3 had 0 cards in Hand. Expected 0...TEST SUCCESSFUL
-Player should have 3 estate and 7 copper to start
-Copper found 7...TEST SUCCESSFUL
-Estate found 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 0 turn...TEST SUCCESSFUL
+Testing playVillage randomly
+Iteration:0 memcmp failed.
+Iteration:1 memcmp failed.
+Iteration:2 memcmp failed.
+Iteration:3 memcmp failed.
+Iteration:4 memcmp failed.
+Iteration:5 memcmp failed.
+Iteration:6 memcmp failed.
+Iteration:7 memcmp failed.
+Iteration:8 memcmp failed.
+Iteration:9 memcmp failed.
+Iteration:10 memcmp failed.
+Iteration:11 memcmp failed.
+Iteration:12 memcmp failed.
+Iteration:13 memcmp failed.
+Iteration:14 memcmp failed.
+Iteration:15 memcmp failed.
+Iteration:16 memcmp failed.
+Iteration:17 memcmp failed.
+Iteration:18 memcmp failed.
+Iteration:19 memcmp failed.
+Iteration:20 memcmp failed.
+Iteration:21 memcmp failed.
+Iteration:22 memcmp failed.
+Iteration:23 memcmp failed.
+Iteration:24 memcmp failed.
+Iteration:25 memcmp failed.
+Iteration:26 memcmp failed.
+Iteration:27 memcmp failed.
+Iteration:28 memcmp failed.
+Iteration:29 memcmp failed.
+Iteration:30 memcmp failed.
+Iteration:31 memcmp failed.
+Iteration:32 memcmp failed.
+Iteration:33 memcmp failed.
+Iteration:34 memcmp failed.
+Iteration:35 memcmp failed.
+Iteration:36 memcmp failed.
+Iteration:37 memcmp failed.
+Iteration:38 memcmp failed.
+Iteration:39 memcmp failed.
+Iteration:40 memcmp failed.
+Iteration:41 memcmp failed.
+Iteration:42 memcmp failed.
+Iteration:43 memcmp failed.
+Iteration:44 memcmp failed.
+Iteration:45 memcmp failed.
+Iteration:46 memcmp failed.
+Iteration:47 memcmp failed.
+Iteration:48 memcmp failed.
+Iteration:49 memcmp failed.
+Iteration:50 memcmp failed.
+Iteration:51 memcmp failed.
+Iteration:52 memcmp failed.
+Iteration:53 memcmp failed.
+Iteration:54 memcmp failed.
+Iteration:55 memcmp failed.
+Iteration:56 memcmp failed.
+Iteration:57 memcmp failed.
+Iteration:58 memcmp failed.
+Iteration:59 memcmp failed.
+Iteration:60 memcmp failed.
+Iteration:61 memcmp failed.
+Iteration:62 memcmp failed.
+Iteration:63 memcmp failed.
+Iteration:64 memcmp failed.
+Iteration:65 memcmp failed.
+Iteration:66 memcmp failed.
+Iteration:67 memcmp failed.
+Iteration:68 memcmp failed.
+Iteration:69 memcmp failed.
+Iteration:70 memcmp failed.
+Iteration:71 memcmp failed.
+Iteration:72 memcmp failed.
+Iteration:73 memcmp failed.
+Iteration:74 memcmp failed.
+Iteration:75 memcmp failed.
+Iteration:76 memcmp failed.
+Iteration:77 memcmp failed.
+Iteration:78 memcmp failed.
+Iteration:79 memcmp failed.
+Iteration:80 memcmp failed.
+Iteration:81 memcmp failed.
+Iteration:82 memcmp failed.
+Iteration:83 memcmp failed.
+Iteration:84 memcmp failed.
+Iteration:85 memcmp failed.
+Iteration:86 memcmp failed.
+Iteration:87 memcmp failed.
+Iteration:88 memcmp failed.
+Iteration:89 memcmp failed.
+Iteration:90 memcmp failed.
+Iteration:91 memcmp failed.
+Iteration:92 memcmp failed.
+Iteration:93 memcmp failed.
+Iteration:94 memcmp failed.
+Iteration:95 memcmp failed.
+Iteration:96 memcmp failed.
+Iteration:97 memcmp failed.
+Iteration:98 memcmp failed.
+Iteration:99 memcmp failed.
+Iteration:100 memcmp failed.
+Iteration:101 memcmp failed.
+Iteration:102 memcmp failed.
+Iteration:103 memcmp failed.
+Iteration:104 memcmp failed.
+Iteration:105 memcmp failed.
+Iteration:106 memcmp failed.
+Iteration:107 memcmp failed.
+Iteration:108 memcmp failed.
+Iteration:109 memcmp failed.
+Iteration:110 memcmp failed.
+Iteration:111 memcmp failed.
+Iteration:112 memcmp failed.
+Iteration:113 memcmp failed.
+Iteration:114 memcmp failed.
+Iteration:115 memcmp failed.
+Iteration:116 memcmp failed.
+Iteration:117 memcmp failed.
+Iteration:118 memcmp failed.
+Iteration:119 memcmp failed.
+Iteration:120 memcmp failed.
+Iteration:121 memcmp failed.
+Iteration:122 memcmp failed.
+Iteration:123 memcmp failed.
+Iteration:124 memcmp failed.
+Iteration:125 memcmp failed.
+Iteration:126 memcmp failed.
+Iteration:127 memcmp failed.
+Iteration:128 memcmp failed.
+Iteration:129 memcmp failed.
+Iteration:130 memcmp failed.
+Iteration:131 memcmp failed.
+Iteration:132 memcmp failed.
+Iteration:133 memcmp failed.
+Iteration:134 memcmp failed.
+Iteration:135 memcmp failed.
+Iteration:136 memcmp failed.
+Iteration:137 memcmp failed.
+Iteration:138 memcmp failed.
+Iteration:139 memcmp failed.
+Iteration:140 memcmp failed.
+Iteration:141 memcmp failed.
+Iteration:142 memcmp failed.
+Iteration:143 memcmp failed.
+Iteration:144 memcmp failed.
+Iteration:145 memcmp failed.
+Iteration:146 memcmp failed.
+Iteration:147 memcmp failed.
+Iteration:148 memcmp failed.
+Iteration:149 memcmp failed.
+Iteration:150 memcmp failed.
+Iteration:151 memcmp failed.
+Iteration:152 memcmp failed.
+Iteration:153 memcmp failed.
+Iteration:154 memcmp failed.
+Iteration:155 memcmp failed.
+Iteration:156 memcmp failed.
+Iteration:157 memcmp failed.
+Iteration:158 memcmp failed.
+Iteration:159 memcmp failed.
+Iteration:160 memcmp failed.
+Iteration:161 memcmp failed.
+Iteration:162 memcmp failed.
+Iteration:163 memcmp failed.
+Iteration:164 memcmp failed.
+Iteration:165 memcmp failed.
+Iteration:166 memcmp failed.
+Iteration:167 memcmp failed.
+Iteration:168 memcmp failed.
+Iteration:169 memcmp failed.
+Iteration:170 memcmp failed.
+Iteration:171 memcmp failed.
+Iteration:172 memcmp failed.
+Iteration:173 memcmp failed.
+Iteration:174 memcmp failed.
+Iteration:175 memcmp failed.
+Iteration:176 memcmp failed.
+Iteration:177 memcmp failed.
+Iteration:178 memcmp failed.
+Iteration:179 memcmp failed.
+Iteration:180 memcmp failed.
+Iteration:181 memcmp failed.
+Iteration:182 memcmp failed.
+Iteration:183 memcmp failed.
+Iteration:184 memcmp failed.
+Iteration:185 memcmp failed.
+Iteration:186 memcmp failed.
+Iteration:187 memcmp failed.
+Iteration:188 memcmp failed.
+Iteration:189 memcmp failed.
+Iteration:190 memcmp failed.
+Iteration:191 memcmp failed.
+Iteration:192 memcmp failed.
+Iteration:193 memcmp failed.
+Iteration:194 memcmp failed.
+Iteration:195 memcmp failed.
+Iteration:196 memcmp failed.
+Iteration:197 memcmp failed.
+Iteration:198 memcmp failed.
+Iteration:199 memcmp failed.
+Iteration:200 memcmp failed.
+Iteration:201 memcmp failed.
+Iteration:202 memcmp failed.
+Iteration:203 memcmp failed.
+Iteration:204 memcmp failed.
+Iteration:205 memcmp failed.
+Iteration:206 memcmp failed.
+Iteration:207 memcmp failed.
+Iteration:208 memcmp failed.
+Iteration:209 memcmp failed.
+Iteration:210 memcmp failed.
+Iteration:211 memcmp failed.
+Iteration:212 memcmp failed.
+Iteration:213 memcmp failed.
+Iteration:214 memcmp failed.
+Iteration:215 memcmp failed.
+Iteration:216 memcmp failed.
+Iteration:217 memcmp failed.
+Iteration:218 memcmp failed.
+Iteration:219 memcmp failed.
+Iteration:220 memcmp failed.
+Iteration:221 memcmp failed.
+Iteration:222 memcmp failed.
+Iteration:223 memcmp failed.
+Iteration:224 memcmp failed.
+Iteration:225 memcmp failed.
+Iteration:226 memcmp failed.
+Iteration:227 memcmp failed.
+Iteration:228 memcmp failed.
+Iteration:229 memcmp failed.
+Iteration:230 memcmp failed.
+Iteration:231 memcmp failed.
+Iteration:232 memcmp failed.
+Iteration:233 memcmp failed.
+Iteration:234 memcmp failed.
+Iteration:235 memcmp failed.
+Iteration:236 memcmp failed.
+Iteration:237 memcmp failed.
+Iteration:238 memcmp failed.
+Iteration:239 memcmp failed.
+Iteration:240 memcmp failed.
+Iteration:241 memcmp failed.
+Iteration:242 memcmp failed.
+Iteration:243 memcmp failed.
+Iteration:244 memcmp failed.
+Iteration:245 memcmp failed.
+Iteration:246 memcmp failed.
+Iteration:247 memcmp failed.
+Iteration:248 memcmp failed.
+Iteration:249 memcmp failed.
+Iteration:250 memcmp failed.
+Iteration:251 memcmp failed.
+Iteration:252 memcmp failed.
+Iteration:253 memcmp failed.
+Iteration:254 memcmp failed.
+Iteration:255 memcmp failed.
+Iteration:256 memcmp failed.
+Iteration:257 memcmp failed.
+Iteration:258 memcmp failed.
+Iteration:259 memcmp failed.
+Iteration:260 memcmp failed.
+Iteration:261 memcmp failed.
+Iteration:262 memcmp failed.
+Iteration:263 memcmp failed.
+Iteration:264 memcmp failed.
+Iteration:265 memcmp failed.
+Iteration:266 memcmp failed.
+Iteration:267 memcmp failed.
+Iteration:268 memcmp failed.
+Iteration:269 memcmp failed.
+Iteration:270 memcmp failed.
+Iteration:271 memcmp failed.
+Iteration:272 memcmp failed.
+Iteration:273 memcmp failed.
+Iteration:274 memcmp failed.
+Iteration:275 memcmp failed.
+Iteration:276 memcmp failed.
+Iteration:277 memcmp failed.
+Iteration:278 memcmp failed.
+Iteration:279 memcmp failed.
+Iteration:280 memcmp failed.
+Iteration:281 memcmp failed.
+Iteration:282 memcmp failed.
+Iteration:283 memcmp failed.
+Iteration:284 memcmp failed.
+Iteration:285 memcmp failed.
+Iteration:286 memcmp failed.
+Iteration:287 memcmp failed.
+Iteration:288 memcmp failed.
+Iteration:289 memcmp failed.
+Iteration:290 memcmp failed.
+Iteration:291 memcmp failed.
+Iteration:292 memcmp failed.
+Iteration:293 memcmp failed.
+Iteration:294 memcmp failed.
+Iteration:295 memcmp failed.
+Iteration:296 memcmp failed.
+Iteration:297 memcmp failed.
+Iteration:298 memcmp failed.
+Iteration:299 memcmp failed.
+Iteration:300 memcmp failed.
+Iteration:301 memcmp failed.
+Iteration:302 memcmp failed.
+Iteration:303 memcmp failed.
+Iteration:304 memcmp failed.
+Iteration:305 memcmp failed.
+Iteration:306 memcmp failed.
+Iteration:307 memcmp failed.
+Iteration:308 memcmp failed.
+Iteration:309 memcmp failed.
+Iteration:310 memcmp failed.
+Iteration:311 memcmp failed.
+Iteration:312 memcmp failed.
+Iteration:313 memcmp failed.
+Iteration:314 memcmp failed.
+Iteration:315 memcmp failed.
+Iteration:316 memcmp failed.
+Iteration:317 memcmp failed.
+Iteration:318 memcmp failed.
+Iteration:319 memcmp failed.
+Iteration:320 memcmp failed.
+Iteration:321 memcmp failed.
+Iteration:322 memcmp failed.
+Iteration:323 memcmp failed.
+Iteration:324 memcmp failed.
+Iteration:325 memcmp failed.
+Iteration:326 memcmp failed.
+Iteration:327 memcmp failed.
+Iteration:328 memcmp failed.
+Iteration:329 memcmp failed.
+Iteration:330 memcmp failed.
+Iteration:331 memcmp failed.
+Iteration:332 memcmp failed.
+Iteration:333 memcmp failed.
+Iteration:334 memcmp failed.
+Iteration:335 memcmp failed.
+Iteration:336 memcmp failed.
+Iteration:337 memcmp failed.
+Iteration:338 memcmp failed.
+Iteration:339 memcmp failed.
+Iteration:340 memcmp failed.
+Iteration:341 memcmp failed.
+Iteration:342 memcmp failed.
+Iteration:343 memcmp failed.
+Iteration:344 memcmp failed.
+Iteration:345 memcmp failed.
+Iteration:346 memcmp failed.
+Iteration:347 memcmp failed.
+Iteration:348 memcmp failed.
+Iteration:349 memcmp failed.
+Iteration:350 memcmp failed.
+Iteration:351 memcmp failed.
+Iteration:352 memcmp failed.
+Iteration:353 memcmp failed.
+Iteration:354 memcmp failed.
+Iteration:355 memcmp failed.
+Iteration:356 memcmp failed.
+Iteration:357 memcmp failed.
+Iteration:358 memcmp failed.
+Iteration:359 memcmp failed.
+Iteration:360 memcmp failed.
+Iteration:361 memcmp failed.
+Iteration:362 memcmp failed.
+Iteration:363 memcmp failed.
+Iteration:364 memcmp failed.
+Iteration:365 memcmp failed.
+Iteration:366 memcmp failed.
+Iteration:367 memcmp failed.
+Iteration:368 memcmp failed.
+Iteration:369 memcmp failed.
+Iteration:370 memcmp failed.
+Iteration:371 memcmp failed.
+Iteration:372 memcmp failed.
+Iteration:373 memcmp failed.
+Iteration:374 memcmp failed.
+Iteration:375 memcmp failed.
+Iteration:376 memcmp failed.
+Iteration:377 memcmp failed.
+Iteration:378 memcmp failed.
+Iteration:379 memcmp failed.
+Iteration:380 memcmp failed.
+Iteration:381 memcmp failed.
+Iteration:382 memcmp failed.
+Iteration:383 memcmp failed.
+Iteration:384 memcmp failed.
+Iteration:385 memcmp failed.
+Iteration:386 memcmp failed.
+Iteration:387 memcmp failed.
+Iteration:388 memcmp failed.
+Iteration:389 memcmp failed.
+Iteration:390 memcmp failed.
+Iteration:391 memcmp failed.
+Iteration:392 memcmp failed.
+Iteration:393 memcmp failed.
+Iteration:394 memcmp failed.
+Iteration:395 memcmp failed.
+Iteration:396 memcmp failed.
+Iteration:397 memcmp failed.
+Iteration:398 memcmp failed.
+Iteration:399 memcmp failed.
+Iteration:400 memcmp failed.
+Iteration:401 memcmp failed.
+Iteration:402 memcmp failed.
+Iteration:403 memcmp failed.
+Iteration:404 memcmp failed.
+Iteration:405 memcmp failed.
+Iteration:406 memcmp failed.
+Iteration:407 memcmp failed.
+Iteration:408 memcmp failed.
+Iteration:409 memcmp failed.
+Iteration:410 memcmp failed.
+Iteration:411 memcmp failed.
+Iteration:412 memcmp failed.
+Iteration:413 memcmp failed.
+Iteration:414 memcmp failed.
+Iteration:415 memcmp failed.
+Iteration:416 memcmp failed.
+Iteration:417 memcmp failed.
+Iteration:418 memcmp failed.
+Iteration:419 memcmp failed.
+Iteration:420 memcmp failed.
+Iteration:421 memcmp failed.
+Iteration:422 memcmp failed.
+Iteration:423 memcmp failed.
+Iteration:424 memcmp failed.
+Iteration:425 memcmp failed.
+Iteration:426 memcmp failed.
+Iteration:427 memcmp failed.
+Iteration:428 memcmp failed.
+Iteration:429 memcmp failed.
+Iteration:430 memcmp failed.
+Iteration:431 memcmp failed.
+Iteration:432 memcmp failed.
+Iteration:433 memcmp failed.
+Iteration:434 memcmp failed.
+Iteration:435 memcmp failed.
+Iteration:436 memcmp failed.
+Iteration:437 memcmp failed.
+Iteration:438 memcmp failed.
+Iteration:439 memcmp failed.
+Iteration:440 memcmp failed.
+Iteration:441 memcmp failed.
+Iteration:442 memcmp failed.
+Iteration:443 memcmp failed.
+Iteration:444 memcmp failed.
+Iteration:445 memcmp failed.
+Iteration:446 memcmp failed.
+Iteration:447 memcmp failed.
+Iteration:448 memcmp failed.
+Iteration:449 memcmp failed.
+Iteration:450 memcmp failed.
+Iteration:451 memcmp failed.
+Iteration:452 memcmp failed.
+Iteration:453 memcmp failed.
+Iteration:454 memcmp failed.
+Iteration:455 memcmp failed.
+Iteration:456 memcmp failed.
+Iteration:457 memcmp failed.
+Iteration:458 memcmp failed.
+Iteration:459 memcmp failed.
+Iteration:460 memcmp failed.
+Iteration:461 memcmp failed.
+Iteration:462 memcmp failed.
+Iteration:463 memcmp failed.
+Iteration:464 memcmp failed.
+Iteration:465 memcmp failed.
+Iteration:466 memcmp failed.
+Iteration:467 memcmp failed.
+Iteration:468 memcmp failed.
+Iteration:469 memcmp failed.
+Iteration:470 memcmp failed.
+Iteration:471 memcmp failed.
+Iteration:472 memcmp failed.
+Iteration:473 memcmp failed.
+Iteration:474 memcmp failed.
+Iteration:475 memcmp failed.
+Iteration:476 memcmp failed.
+Iteration:477 memcmp failed.
+Iteration:478 memcmp failed.
+Iteration:479 memcmp failed.
+Iteration:480 memcmp failed.
+Iteration:481 memcmp failed.
+Iteration:482 memcmp failed.
+Iteration:483 memcmp failed.
+Iteration:484 memcmp failed.
+Iteration:485 memcmp failed.
+Iteration:486 memcmp failed.
+Iteration:487 memcmp failed.
+Iteration:488 memcmp failed.
+Iteration:489 memcmp failed.
+Iteration:490 memcmp failed.
+Iteration:491 memcmp failed.
+Iteration:492 memcmp failed.
+Iteration:493 memcmp failed.
+Iteration:494 memcmp failed.
+Iteration:495 memcmp failed.
+Iteration:496 memcmp failed.
+Iteration:497 memcmp failed.
+Iteration:498 memcmp failed.
+Iteration:499 memcmp failed.
+Iteration:500 memcmp failed.
+Iteration:501 memcmp failed.
+Iteration:502 memcmp failed.
+Iteration:503 memcmp failed.
+Iteration:504 memcmp failed.
+Iteration:505 memcmp failed.
+Iteration:506 memcmp failed.
+Iteration:507 memcmp failed.
+Iteration:508 memcmp failed.
+Iteration:509 memcmp failed.
+Iteration:510 memcmp failed.
+Iteration:511 memcmp failed.
+Iteration:512 memcmp failed.
+Iteration:513 memcmp failed.
+Iteration:514 memcmp failed.
+Iteration:515 memcmp failed.
+Iteration:516 memcmp failed.
+Iteration:517 memcmp failed.
+Iteration:518 memcmp failed.
+Iteration:519 memcmp failed.
+Iteration:520 memcmp failed.
+Iteration:521 memcmp failed.
+Iteration:522 memcmp failed.
+Iteration:523 memcmp failed.
+Iteration:524 memcmp failed.
+Iteration:525 memcmp failed.
+Iteration:526 memcmp failed.
+Iteration:527 memcmp failed.
+Iteration:528 memcmp failed.
+Iteration:529 memcmp failed.
+Iteration:530 memcmp failed.
+Iteration:531 memcmp failed.
+Iteration:532 memcmp failed.
+Iteration:533 memcmp failed.
+Iteration:534 memcmp failed.
+Iteration:535 memcmp failed.
+Iteration:536 memcmp failed.
+Iteration:537 memcmp failed.
+Iteration:538 memcmp failed.
+Iteration:539 memcmp failed.
+Iteration:540 memcmp failed.
+Iteration:541 memcmp failed.
+Iteration:542 memcmp failed.
+Iteration:543 memcmp failed.
+Iteration:544 memcmp failed.
+Iteration:545 memcmp failed.
+Iteration:546 memcmp failed.
+Iteration:547 memcmp failed.
+Iteration:548 memcmp failed.
+Iteration:549 memcmp failed.
+Iteration:550 memcmp failed.
+Iteration:551 memcmp failed.
+Iteration:552 memcmp failed.
+Iteration:553 memcmp failed.
+Iteration:554 memcmp failed.
+Iteration:555 memcmp failed.
+Iteration:556 memcmp failed.
+Iteration:557 memcmp failed.
+Iteration:558 memcmp failed.
+Iteration:559 memcmp failed.
+Iteration:560 memcmp failed.
+Iteration:561 memcmp failed.
+Iteration:562 memcmp failed.
+Iteration:563 memcmp failed.
+Iteration:564 memcmp failed.
+Iteration:565 memcmp failed.
+Iteration:566 memcmp failed.
+Iteration:567 memcmp failed.
+Iteration:568 memcmp failed.
+Iteration:569 memcmp failed.
+Iteration:570 memcmp failed.
+Iteration:571 memcmp failed.
+Iteration:572 memcmp failed.
+Iteration:573 memcmp failed.
+Iteration:574 memcmp failed.
+Iteration:575 memcmp failed.
+Iteration:576 memcmp failed.
+Iteration:577 memcmp failed.
+Iteration:578 memcmp failed.
+Iteration:579 memcmp failed.
+Iteration:580 memcmp failed.
+Iteration:581 memcmp failed.
+Iteration:582 memcmp failed.
+Iteration:583 memcmp failed.
+Iteration:584 memcmp failed.
+Iteration:585 memcmp failed.
+Iteration:586 memcmp failed.
+Iteration:587 memcmp failed.
+Iteration:588 memcmp failed.
+Iteration:589 memcmp failed.
+Iteration:590 memcmp failed.
+Iteration:591 memcmp failed.
+Iteration:592 memcmp failed.
+Iteration:593 memcmp failed.
+Iteration:594 memcmp failed.
+Iteration:595 memcmp failed.
+Iteration:596 memcmp failed.
+Iteration:597 memcmp failed.
+Iteration:598 memcmp failed.
+Iteration:599 memcmp failed.
+Iteration:600 memcmp failed.
+Iteration:601 memcmp failed.
+Iteration:602 memcmp failed.
+Iteration:603 memcmp failed.
+Iteration:604 memcmp failed.
+Iteration:605 memcmp failed.
+Iteration:606 memcmp failed.
+Iteration:607 memcmp failed.
+Iteration:608 memcmp failed.
+Iteration:609 memcmp failed.
+Iteration:610 memcmp failed.
+Iteration:611 memcmp failed.
+Iteration:612 memcmp failed.
+Iteration:613 memcmp failed.
+Iteration:614 memcmp failed.
+Iteration:615 memcmp failed.
+Iteration:616 memcmp failed.
+Iteration:617 memcmp failed.
+Iteration:618 memcmp failed.
+Iteration:619 memcmp failed.
+Iteration:620 memcmp failed.
+Iteration:621 memcmp failed.
+Iteration:622 memcmp failed.
+Iteration:623 memcmp failed.
+Iteration:624 memcmp failed.
+Iteration:625 memcmp failed.
+Iteration:626 memcmp failed.
+Iteration:627 memcmp failed.
+Iteration:628 memcmp failed.
+Iteration:629 memcmp failed.
+Iteration:630 memcmp failed.
+Iteration:631 memcmp failed.
+Iteration:632 memcmp failed.
+Iteration:633 memcmp failed.
+Iteration:634 memcmp failed.
+Iteration:635 memcmp failed.
+Iteration:636 memcmp failed.
+Iteration:637 memcmp failed.
+Iteration:638 memcmp failed.
+Iteration:639 memcmp failed.
+Iteration:640 memcmp failed.
+Iteration:641 memcmp failed.
+Iteration:642 memcmp failed.
+Iteration:643 memcmp failed.
+Iteration:644 memcmp failed.
+Iteration:645 memcmp failed.
+Iteration:646 memcmp failed.
+Iteration:647 memcmp failed.
+Iteration:648 memcmp failed.
+Iteration:649 memcmp failed.
+Iteration:650 memcmp failed.
+Iteration:651 memcmp failed.
+Iteration:652 memcmp failed.
+Iteration:653 memcmp failed.
+Iteration:654 memcmp failed.
+Iteration:655 memcmp failed.
+Iteration:656 memcmp failed.
+Iteration:657 memcmp failed.
+Iteration:658 memcmp failed.
+Iteration:659 memcmp failed.
+Iteration:660 memcmp failed.
+Iteration:661 memcmp failed.
+Iteration:662 memcmp failed.
+Iteration:663 memcmp failed.
+Iteration:664 memcmp failed.
+Iteration:665 memcmp failed.
+Iteration:666 memcmp failed.
+Iteration:667 memcmp failed.
+Iteration:668 memcmp failed.
+Iteration:669 memcmp failed.
+Iteration:670 memcmp failed.
+Iteration:671 memcmp failed.
+Iteration:672 memcmp failed.
+Iteration:673 memcmp failed.
+Iteration:674 memcmp failed.
+Iteration:675 memcmp failed.
+Iteration:676 memcmp failed.
+Iteration:677 memcmp failed.
+Iteration:678 memcmp failed.
+Iteration:679 memcmp failed.
+Iteration:680 memcmp failed.
+Iteration:681 memcmp failed.
+Iteration:682 memcmp failed.
+Iteration:683 memcmp failed.
+Iteration:684 memcmp failed.
+Iteration:685 memcmp failed.
+Iteration:686 memcmp failed.
+Iteration:687 memcmp failed.
+Iteration:688 memcmp failed.
+Iteration:689 memcmp failed.
+Iteration:690 memcmp failed.
+Iteration:691 memcmp failed.
+Iteration:692 memcmp failed.
+Iteration:693 memcmp failed.
+Iteration:694 memcmp failed.
+Iteration:695 memcmp failed.
+Iteration:696 memcmp failed.
+Iteration:697 memcmp failed.
+Iteration:698 memcmp failed.
+Iteration:699 memcmp failed.
+Iteration:700 memcmp failed.
+Iteration:701 memcmp failed.
+Iteration:702 memcmp failed.
+Iteration:703 memcmp failed.
+Iteration:704 memcmp failed.
+Iteration:705 memcmp failed.
+Iteration:706 memcmp failed.
+Iteration:707 memcmp failed.
+Iteration:708 memcmp failed.
+Iteration:709 memcmp failed.
+Iteration:710 memcmp failed.
+Iteration:711 memcmp failed.
+Iteration:712 memcmp failed.
+Iteration:713 memcmp failed.
+Iteration:714 memcmp failed.
+Iteration:715 memcmp failed.
+Iteration:716 memcmp failed.
+Iteration:717 memcmp failed.
+Iteration:718 memcmp failed.
+Iteration:719 memcmp failed.
+Iteration:720 memcmp failed.
+Iteration:721 memcmp failed.
+Iteration:722 memcmp failed.
+Iteration:723 memcmp failed.
+Iteration:724 memcmp failed.
+Iteration:725 memcmp failed.
+Iteration:726 memcmp failed.
+Iteration:727 memcmp failed.
+Iteration:728 memcmp failed.
+Iteration:729 memcmp failed.
+Iteration:730 memcmp failed.
+Iteration:731 memcmp failed.
+Iteration:732 memcmp failed.
+Iteration:733 memcmp failed.
+Iteration:734 memcmp failed.
+Iteration:735 memcmp failed.
+Iteration:736 memcmp failed.
+Iteration:737 memcmp failed.
+Iteration:738 memcmp failed.
+Iteration:739 memcmp failed.
+Iteration:740 memcmp failed.
+Iteration:741 memcmp failed.
+Iteration:742 memcmp failed.
+Iteration:743 memcmp failed.
+Iteration:744 memcmp failed.
+Iteration:745 memcmp failed.
+Iteration:746 memcmp failed.
+Iteration:747 memcmp failed.
+Iteration:748 memcmp failed.
+Iteration:749 memcmp failed.
+Iteration:750 memcmp failed.
+Iteration:751 memcmp failed.
+Iteration:752 memcmp failed.
+Iteration:753 memcmp failed.
+Iteration:754 memcmp failed.
+Iteration:755 memcmp failed.
+Iteration:756 memcmp failed.
+Iteration:757 memcmp failed.
+Iteration:758 memcmp failed.
+Iteration:759 memcmp failed.
+Iteration:760 memcmp failed.
+Iteration:761 memcmp failed.
+Iteration:762 memcmp failed.
+Iteration:763 memcmp failed.
+Iteration:764 memcmp failed.
+Iteration:765 memcmp failed.
+Iteration:766 memcmp failed.
+Iteration:767 memcmp failed.
+Iteration:768 memcmp failed.
+Iteration:769 memcmp failed.
+Iteration:770 memcmp failed.
+Iteration:771 memcmp failed.
+Iteration:772 memcmp failed.
+Iteration:773 memcmp failed.
+Iteration:774 memcmp failed.
+Iteration:775 memcmp failed.
+Iteration:776 memcmp failed.
+Iteration:777 memcmp failed.
+Iteration:778 memcmp failed.
+Iteration:779 memcmp failed.
+Iteration:780 memcmp failed.
+Iteration:781 memcmp failed.
+Iteration:782 memcmp failed.
+Iteration:783 memcmp failed.
+Iteration:784 memcmp failed.
+Iteration:785 memcmp failed.
+Iteration:786 memcmp failed.
+Iteration:787 memcmp failed.
+Iteration:788 memcmp failed.
+Iteration:789 memcmp failed.
+Iteration:790 memcmp failed.
+Iteration:791 memcmp failed.
+Iteration:792 memcmp failed.
+Iteration:793 memcmp failed.
+Iteration:794 memcmp failed.
+Iteration:795 memcmp failed.
+Iteration:796 memcmp failed.
+Iteration:797 memcmp failed.
+Iteration:798 memcmp failed.
+Iteration:799 memcmp failed.
+Iteration:800 memcmp failed.
+Iteration:801 memcmp failed.
+Iteration:802 memcmp failed.
+Iteration:803 memcmp failed.
+Iteration:804 memcmp failed.
+Iteration:805 memcmp failed.
+Iteration:806 memcmp failed.
+Iteration:807 memcmp failed.
+Iteration:808 memcmp failed.
+Iteration:809 memcmp failed.
+Iteration:810 memcmp failed.
+Iteration:811 memcmp failed.
+Iteration:812 memcmp failed.
+Iteration:813 memcmp failed.
+Iteration:814 memcmp failed.
+Iteration:815 memcmp failed.
+Iteration:816 memcmp failed.
+Iteration:817 memcmp failed.
+Iteration:818 memcmp failed.
+Iteration:819 memcmp failed.
+Iteration:820 memcmp failed.
+Iteration:821 memcmp failed.
+Iteration:822 memcmp failed.
+Iteration:823 memcmp failed.
+Iteration:824 memcmp failed.
+Iteration:825 memcmp failed.
+Iteration:826 memcmp failed.
+Iteration:827 memcmp failed.
+Iteration:828 memcmp failed.
+Iteration:829 memcmp failed.
+Iteration:830 memcmp failed.
+Iteration:831 memcmp failed.
+Iteration:832 memcmp failed.
+Iteration:833 memcmp failed.
+Iteration:834 memcmp failed.
+Iteration:835 memcmp failed.
+Iteration:836 memcmp failed.
+Iteration:837 memcmp failed.
+Iteration:838 memcmp failed.
+Iteration:839 memcmp failed.
+Iteration:840 memcmp failed.
+Iteration:841 memcmp failed.
+Iteration:842 memcmp failed.
+Iteration:843 memcmp failed.
+Iteration:844 memcmp failed.
+Iteration:845 memcmp failed.
+Iteration:846 memcmp failed.
+Iteration:847 memcmp failed.
+Iteration:848 memcmp failed.
+Iteration:849 memcmp failed.
+Iteration:850 memcmp failed.
+Iteration:851 memcmp failed.
+Iteration:852 memcmp failed.
+Iteration:853 memcmp failed.
+Iteration:854 memcmp failed.
+Iteration:855 memcmp failed.
+Iteration:856 memcmp failed.
+Iteration:857 memcmp failed.
+Iteration:858 memcmp failed.
+Iteration:859 memcmp failed.
+Iteration:860 memcmp failed.
+Iteration:861 memcmp failed.
+Iteration:862 memcmp failed.
+Iteration:863 memcmp failed.
+Iteration:864 memcmp failed.
+Iteration:865 memcmp failed.
+Iteration:866 memcmp failed.
+Iteration:867 memcmp failed.
+Iteration:868 memcmp failed.
+Iteration:869 memcmp failed.
+Iteration:870 memcmp failed.
+Iteration:871 memcmp failed.
+Iteration:872 memcmp failed.
+Iteration:873 memcmp failed.
+Iteration:874 memcmp failed.
+Iteration:875 memcmp failed.
+Iteration:876 memcmp failed.
+Iteration:877 memcmp failed.
+Iteration:878 memcmp failed.
+Iteration:879 memcmp failed.
+Iteration:880 memcmp failed.
+Iteration:881 memcmp failed.
+Iteration:882 memcmp failed.
+Iteration:883 memcmp failed.
+Iteration:884 memcmp failed.
+Iteration:885 memcmp failed.
+Iteration:886 memcmp failed.
+Iteration:887 memcmp failed.
+Iteration:888 memcmp failed.
+Iteration:889 memcmp failed.
+Iteration:890 memcmp failed.
+Iteration:891 memcmp failed.
+Iteration:892 memcmp failed.
+Iteration:893 memcmp failed.
+Iteration:894 memcmp failed.
+Iteration:895 memcmp failed.
+Iteration:896 memcmp failed.
+Iteration:897 memcmp failed.
+Iteration:898 memcmp failed.
+Iteration:899 memcmp failed.
+Iteration:900 memcmp failed.
+Iteration:901 memcmp failed.
+Iteration:902 memcmp failed.
+Iteration:903 memcmp failed.
+Iteration:904 memcmp failed.
+Iteration:905 memcmp failed.
+Iteration:906 memcmp failed.
+Iteration:907 memcmp failed.
+Iteration:908 memcmp failed.
+Iteration:909 memcmp failed.
+Iteration:910 memcmp failed.
+Iteration:911 memcmp failed.
+Iteration:912 memcmp failed.
+Iteration:913 memcmp failed.
+Iteration:914 memcmp failed.
+Iteration:915 memcmp failed.
+Iteration:916 memcmp failed.
+Iteration:917 memcmp failed.
+Iteration:918 memcmp failed.
+Iteration:919 memcmp failed.
+Iteration:920 memcmp failed.
+Iteration:921 memcmp failed.
+Iteration:922 memcmp failed.
+Iteration:923 memcmp failed.
+Iteration:924 memcmp failed.
+Iteration:925 memcmp failed.
+Iteration:926 memcmp failed.
+Iteration:927 memcmp failed.
+Iteration:928 memcmp failed.
+Iteration:929 memcmp failed.
+Iteration:930 memcmp failed.
+Iteration:931 memcmp failed.
+Iteration:932 memcmp failed.
+Iteration:933 memcmp failed.
+Iteration:934 memcmp failed.
+Iteration:935 memcmp failed.
+Iteration:936 memcmp failed.
+Iteration:937 memcmp failed.
+Iteration:938 memcmp failed.
+Iteration:939 memcmp failed.
+Iteration:940 memcmp failed.
+Iteration:941 memcmp failed.
+Iteration:942 memcmp failed.
+Iteration:943 memcmp failed.
+Iteration:944 memcmp failed.
+Iteration:945 memcmp failed.
+Iteration:946 memcmp failed.
+Iteration:947 memcmp failed.
+Iteration:948 memcmp failed.
+Iteration:949 memcmp failed.
+Iteration:950 memcmp failed.
+Iteration:951 memcmp failed.
+Iteration:952 memcmp failed.
+Iteration:953 memcmp failed.
+Iteration:954 memcmp failed.
+Iteration:955 memcmp failed.
+Iteration:956 memcmp failed.
+Iteration:957 memcmp failed.
+Iteration:958 memcmp failed.
+Iteration:959 memcmp failed.
+Iteration:960 memcmp failed.
+Iteration:961 memcmp failed.
+Iteration:962 memcmp failed.
+Iteration:963 memcmp failed.
+Iteration:964 memcmp failed.
+Iteration:965 memcmp failed.
+Iteration:966 memcmp failed.
+Iteration:967 memcmp failed.
+Iteration:968 memcmp failed.
+Iteration:969 memcmp failed.
+Iteration:970 memcmp failed.
+Iteration:971 memcmp failed.
+Iteration:972 memcmp failed.
+Iteration:973 memcmp failed.
+Iteration:974 memcmp failed.
+Iteration:975 memcmp failed.
+Iteration:976 memcmp failed.
+Iteration:977 memcmp failed.
+Iteration:978 memcmp failed.
+Iteration:979 memcmp failed.
+Iteration:980 memcmp failed.
+Iteration:981 memcmp failed.
+Iteration:982 memcmp failed.
+Iteration:983 memcmp failed.
+Iteration:984 memcmp failed.
+Iteration:985 memcmp failed.
+Iteration:986 memcmp failed.
+Iteration:987 memcmp failed.
+Iteration:988 memcmp failed.
+Iteration:989 memcmp failed.
+Iteration:990 memcmp failed.
+Iteration:991 memcmp failed.
+Iteration:992 memcmp failed.
+Iteration:993 memcmp failed.
+Iteration:994 memcmp failed.
+Iteration:995 memcmp failed.
+Iteration:996 memcmp failed.
+Iteration:997 memcmp failed.
+Iteration:998 memcmp failed.
+Iteration:999 memcmp failed.
+Iteration:1000 memcmp failed.
+Iteration:1001 memcmp failed.
+Iteration:1002 memcmp failed.
+Iteration:1003 memcmp failed.
+Iteration:1004 memcmp failed.
+Iteration:1005 memcmp failed.
+Iteration:1006 memcmp failed.
+Iteration:1007 memcmp failed.
+Iteration:1008 memcmp failed.
+Iteration:1009 memcmp failed.
+Iteration:1010 memcmp failed.
+Iteration:1011 memcmp failed.
+Iteration:1012 memcmp failed.
+Iteration:1013 memcmp failed.
+Iteration:1014 memcmp failed.
+Iteration:1015 memcmp failed.
+Iteration:1016 memcmp failed.
+Iteration:1017 memcmp failed.
+Iteration:1018 memcmp failed.
+Iteration:1019 memcmp failed.
+Iteration:1020 memcmp failed.
+Iteration:1021 memcmp failed.
+Iteration:1022 memcmp failed.
+Iteration:1023 memcmp failed.
+Iteration:1024 memcmp failed.
+Iteration:1025 memcmp failed.
+Iteration:1026 memcmp failed.
+Iteration:1027 memcmp failed.
+Iteration:1028 memcmp failed.
+Iteration:1029 memcmp failed.
+Iteration:1030 memcmp failed.
+Iteration:1031 memcmp failed.
+Iteration:1032 memcmp failed.
+Iteration:1033 memcmp failed.
+Iteration:1034 memcmp failed.
+Iteration:1035 memcmp failed.
+Iteration:1036 memcmp failed.
+Iteration:1037 memcmp failed.
+Iteration:1038 memcmp failed.
+Iteration:1039 memcmp failed.
+Iteration:1040 memcmp failed.
+Iteration:1041 memcmp failed.
+Iteration:1042 memcmp failed.
+Iteration:1043 memcmp failed.
+Iteration:1044 memcmp failed.
+Iteration:1045 memcmp failed.
+Iteration:1046 memcmp failed.
+Iteration:1047 memcmp failed.
+Iteration:1048 memcmp failed.
+Iteration:1049 memcmp failed.
+Iteration:1050 memcmp failed.
+Iteration:1051 memcmp failed.
+Iteration:1052 memcmp failed.
+Iteration:1053 memcmp failed.
+Iteration:1054 memcmp failed.
+Iteration:1055 memcmp failed.
+Iteration:1056 memcmp failed.
+Iteration:1057 memcmp failed.
+Iteration:1058 memcmp failed.
+Iteration:1059 memcmp failed.
+Iteration:1060 memcmp failed.
+Iteration:1061 memcmp failed.
+Iteration:1062 memcmp failed.
+Iteration:1063 memcmp failed.
+Iteration:1064 memcmp failed.
+Iteration:1065 memcmp failed.
+Iteration:1066 memcmp failed.
+Iteration:1067 memcmp failed.
+Iteration:1068 memcmp failed.
+Iteration:1069 memcmp failed.
+Iteration:1070 memcmp failed.
+Iteration:1071 memcmp failed.
+Iteration:1072 memcmp failed.
+Iteration:1073 memcmp failed.
+Iteration:1074 memcmp failed.
+Iteration:1075 memcmp failed.
+Iteration:1076 memcmp failed.
+Iteration:1077 memcmp failed.
+Iteration:1078 memcmp failed.
+Iteration:1079 memcmp failed.
+Iteration:1080 memcmp failed.
+Iteration:1081 memcmp failed.
+Iteration:1082 memcmp failed.
+Iteration:1083 memcmp failed.
+Iteration:1084 memcmp failed.
+Iteration:1085 memcmp failed.
+Iteration:1086 memcmp failed.
+Iteration:1087 memcmp failed.
+Iteration:1088 memcmp failed.
+Iteration:1089 memcmp failed.
+Iteration:1090 memcmp failed.
+Iteration:1091 memcmp failed.
+Iteration:1092 memcmp failed.
+Iteration:1093 memcmp failed.
+Iteration:1094 memcmp failed.
+Iteration:1095 memcmp failed.
+Iteration:1096 memcmp failed.
+Iteration:1097 memcmp failed.
+Iteration:1098 memcmp failed.
+Iteration:1099 memcmp failed.
+Iteration:1100 memcmp failed.
+Iteration:1101 memcmp failed.
+Iteration:1102 memcmp failed.
+Iteration:1103 memcmp failed.
+Iteration:1104 memcmp failed.
+Iteration:1105 memcmp failed.
+Iteration:1106 memcmp failed.
+Iteration:1107 memcmp failed.
+Iteration:1108 memcmp failed.
+Iteration:1109 memcmp failed.
+Iteration:1110 memcmp failed.
+Iteration:1111 memcmp failed.
+Iteration:1112 memcmp failed.
+Iteration:1113 memcmp failed.
+Iteration:1114 memcmp failed.
+Iteration:1115 memcmp failed.
+Iteration:1116 memcmp failed.
+Iteration:1117 memcmp failed.
+Iteration:1118 memcmp failed.
+Iteration:1119 memcmp failed.
+Iteration:1120 memcmp failed.
+Iteration:1121 memcmp failed.
+Iteration:1122 memcmp failed.
+Iteration:1123 memcmp failed.
+Iteration:1124 memcmp failed.
+Iteration:1125 memcmp failed.
+Iteration:1126 memcmp failed.
+Iteration:1127 memcmp failed.
+Iteration:1128 memcmp failed.
+Iteration:1129 memcmp failed.
+Iteration:1130 memcmp failed.
+Iteration:1131 memcmp failed.
+Iteration:1132 memcmp failed.
+Iteration:1133 memcmp failed.
+Iteration:1134 memcmp failed.
+Iteration:1135 memcmp failed.
+Iteration:1136 memcmp failed.
+Iteration:1137 memcmp failed.
+Iteration:1138 memcmp failed.
+Iteration:1139 memcmp failed.
+Iteration:1140 memcmp failed.
+Iteration:1141 memcmp failed.
+Iteration:1142 memcmp failed.
+Iteration:1143 memcmp failed.
+Iteration:1144 memcmp failed.
+Iteration:1145 memcmp failed.
+Iteration:1146 memcmp failed.
+Iteration:1147 memcmp failed.
+Iteration:1148 memcmp failed.
+Iteration:1149 memcmp failed.
+Iteration:1150 memcmp failed.
+Iteration:1151 memcmp failed.
+Iteration:1152 memcmp failed.
+Iteration:1153 memcmp failed.
+Iteration:1154 memcmp failed.
+Iteration:1155 memcmp failed.
+Iteration:1156 memcmp failed.
+Iteration:1157 memcmp failed.
+Iteration:1158 memcmp failed.
+Iteration:1159 memcmp failed.
+Iteration:1160 memcmp failed.
+Iteration:1161 memcmp failed.
+Iteration:1162 memcmp failed.
+Iteration:1163 memcmp failed.
+Iteration:1164 memcmp failed.
+Iteration:1165 memcmp failed.
+Iteration:1166 memcmp failed.
+Iteration:1167 memcmp failed.
+Iteration:1168 memcmp failed.
+Iteration:1169 memcmp failed.
+Iteration:1170 memcmp failed.
+Iteration:1171 memcmp failed.
+Iteration:1172 memcmp failed.
+Iteration:1173 memcmp failed.
+Iteration:1174 memcmp failed.
+Iteration:1175 memcmp failed.
+Iteration:1176 memcmp failed.
+Iteration:1177 memcmp failed.
+Iteration:1178 memcmp failed.
+Iteration:1179 memcmp failed.
+Iteration:1180 memcmp failed.
+Iteration:1181 memcmp failed.
+Iteration:1182 memcmp failed.
+Iteration:1183 memcmp failed.
+Iteration:1184 memcmp failed.
+Iteration:1185 memcmp failed.
+Iteration:1186 memcmp failed.
+Iteration:1187 memcmp failed.
+Iteration:1188 memcmp failed.
+Iteration:1189 memcmp failed.
+Iteration:1190 memcmp failed.
+Iteration:1191 memcmp failed.
+Iteration:1192 memcmp failed.
+Iteration:1193 memcmp failed.
+Iteration:1194 memcmp failed.
+Iteration:1195 memcmp failed.
+Iteration:1196 memcmp failed.
+Iteration:1197 memcmp failed.
+Iteration:1198 memcmp failed.
+Iteration:1199 memcmp failed.
+Iteration:1200 memcmp failed.
+Iteration:1201 memcmp failed.
+Iteration:1202 memcmp failed.
+Iteration:1203 memcmp failed.
+Iteration:1204 memcmp failed.
+Iteration:1205 memcmp failed.
+Iteration:1206 memcmp failed.
+Iteration:1207 memcmp failed.
+Iteration:1208 memcmp failed.
+Iteration:1209 memcmp failed.
+Iteration:1210 memcmp failed.
+Iteration:1211 memcmp failed.
+Iteration:1212 memcmp failed.
+Iteration:1213 memcmp failed.
+Iteration:1214 memcmp failed.
+Iteration:1215 memcmp failed.
+Iteration:1216 memcmp failed.
+Iteration:1217 memcmp failed.
+Iteration:1218 memcmp failed.
+Iteration:1219 memcmp failed.
+Iteration:1220 memcmp failed.
+Iteration:1221 memcmp failed.
+Iteration:1222 memcmp failed.
+Iteration:1223 memcmp failed.
+Iteration:1224 memcmp failed.
+Iteration:1225 memcmp failed.
+Iteration:1226 memcmp failed.
+Iteration:1227 memcmp failed.
+Iteration:1228 memcmp failed.
+Iteration:1229 memcmp failed.
+Iteration:1230 memcmp failed.
+Iteration:1231 memcmp failed.
+Iteration:1232 memcmp failed.
+Iteration:1233 memcmp failed.
+Iteration:1234 memcmp failed.
+Iteration:1235 memcmp failed.
+Iteration:1236 memcmp failed.
+Iteration:1237 memcmp failed.
+Iteration:1238 memcmp failed.
+Iteration:1239 memcmp failed.
+Iteration:1240 memcmp failed.
+Iteration:1241 memcmp failed.
+Iteration:1242 memcmp failed.
+Iteration:1243 memcmp failed.
+Iteration:1244 memcmp failed.
+Iteration:1245 memcmp failed.
+Iteration:1246 memcmp failed.
+Iteration:1247 memcmp failed.
+Iteration:1248 memcmp failed.
+Iteration:1249 memcmp failed.
+Iteration:1250 memcmp failed.
+Iteration:1251 memcmp failed.
+Iteration:1252 memcmp failed.
+Iteration:1253 memcmp failed.
+Iteration:1254 memcmp failed.
+Iteration:1255 memcmp failed.
+Iteration:1256 memcmp failed.
+Iteration:1257 memcmp failed.
+Iteration:1258 memcmp failed.
+Iteration:1259 memcmp failed.
+Iteration:1260 memcmp failed.
+Iteration:1261 memcmp failed.
+Iteration:1262 memcmp failed.
+Iteration:1263 memcmp failed.
+Iteration:1264 memcmp failed.
+Iteration:1265 memcmp failed.
+Iteration:1266 memcmp failed.
+Iteration:1267 memcmp failed.
+Iteration:1268 memcmp failed.
+Iteration:1269 memcmp failed.
+Iteration:1270 memcmp failed.
+Iteration:1271 memcmp failed.
+Iteration:1272 memcmp failed.
+Iteration:1273 memcmp failed.
+Iteration:1274 memcmp failed.
+Iteration:1275 memcmp failed.
+Iteration:1276 memcmp failed.
+Iteration:1277 memcmp failed.
+Iteration:1278 memcmp failed.
+Iteration:1279 memcmp failed.
+Iteration:1280 memcmp failed.
+Iteration:1281 memcmp failed.
+Iteration:1282 memcmp failed.
+Iteration:1283 memcmp failed.
+Iteration:1284 memcmp failed.
+Iteration:1285 memcmp failed.
+Iteration:1286 memcmp failed.
+Iteration:1287 memcmp failed.
+Iteration:1288 memcmp failed.
+Iteration:1289 memcmp failed.
+Iteration:1290 memcmp failed.
+Iteration:1291 memcmp failed.
+Iteration:1292 memcmp failed.
+Iteration:1293 memcmp failed.
+Iteration:1294 memcmp failed.
+Iteration:1295 memcmp failed.
+Iteration:1296 memcmp failed.
+Iteration:1297 memcmp failed.
+Iteration:1298 memcmp failed.
+Iteration:1299 memcmp failed.
+Iteration:1300 memcmp failed.
+Iteration:1301 memcmp failed.
+Iteration:1302 memcmp failed.
+Iteration:1303 memcmp failed.
+Iteration:1304 memcmp failed.
+Iteration:1305 memcmp failed.
+Iteration:1306 memcmp failed.
+Iteration:1307 memcmp failed.
+Iteration:1308 memcmp failed.
+Iteration:1309 memcmp failed.
+Iteration:1310 memcmp failed.
+Iteration:1311 memcmp failed.
+Iteration:1312 memcmp failed.
+Iteration:1313 memcmp failed.
+Iteration:1314 memcmp failed.
+Iteration:1315 memcmp failed.
+Iteration:1316 memcmp failed.
+Iteration:1317 memcmp failed.
+Iteration:1318 memcmp failed.
+Iteration:1319 memcmp failed.
+Iteration:1320 memcmp failed.
+Iteration:1321 memcmp failed.
+Iteration:1322 memcmp failed.
+Iteration:1323 memcmp failed.
+Iteration:1324 memcmp failed.
+Iteration:1325 memcmp failed.
+Iteration:1326 memcmp failed.
+Iteration:1327 memcmp failed.
+Iteration:1328 memcmp failed.
+Iteration:1329 memcmp failed.
+Iteration:1330 memcmp failed.
+Iteration:1331 memcmp failed.
+Iteration:1332 memcmp failed.
+Iteration:1333 memcmp failed.
+Iteration:1334 memcmp failed.
+Iteration:1335 memcmp failed.
+Iteration:1336 memcmp failed.
+Iteration:1337 memcmp failed.
+Iteration:1338 memcmp failed.
+Iteration:1339 memcmp failed.
+Iteration:1340 memcmp failed.
+Iteration:1341 memcmp failed.
+Iteration:1342 memcmp failed.
+Iteration:1343 memcmp failed.
+Iteration:1344 memcmp failed.
+Iteration:1345 memcmp failed.
+Iteration:1346 memcmp failed.
+Iteration:1347 memcmp failed.
+Iteration:1348 memcmp failed.
+Iteration:1349 memcmp failed.
+Iteration:1350 memcmp failed.
+Iteration:1351 memcmp failed.
+Iteration:1352 memcmp failed.
+Iteration:1353 memcmp failed.
+Iteration:1354 memcmp failed.
+Iteration:1355 memcmp failed.
+Iteration:1356 memcmp failed.
+Iteration:1357 memcmp failed.
+Iteration:1358 memcmp failed.
+Iteration:1359 memcmp failed.
+Iteration:1360 memcmp failed.
+Iteration:1361 memcmp failed.
+Iteration:1362 memcmp failed.
+Iteration:1363 memcmp failed.
+Iteration:1364 memcmp failed.
+Iteration:1365 memcmp failed.
+Iteration:1366 memcmp failed.
+Iteration:1367 memcmp failed.
+Iteration:1368 memcmp failed.
+Iteration:1369 memcmp failed.
+Iteration:1370 memcmp failed.
+Iteration:1371 memcmp failed.
+Iteration:1372 memcmp failed.
+Iteration:1373 memcmp failed.
+Iteration:1374 memcmp failed.
+Iteration:1375 memcmp failed.
+Iteration:1376 memcmp failed.
+Iteration:1377 memcmp failed.
+Iteration:1378 memcmp failed.
+Iteration:1379 memcmp failed.
+Iteration:1380 memcmp failed.
+Iteration:1381 memcmp failed.
+Iteration:1382 memcmp failed.
+Iteration:1383 memcmp failed.
+Iteration:1384 memcmp failed.
+Iteration:1385 memcmp failed.
+Iteration:1386 memcmp failed.
+Iteration:1387 memcmp failed.
+Iteration:1388 memcmp failed.
+Iteration:1389 memcmp failed.
+Iteration:1390 memcmp failed.
+Iteration:1391 memcmp failed.
+Iteration:1392 memcmp failed.
+Iteration:1393 memcmp failed.
+Iteration:1394 memcmp failed.
+Iteration:1395 memcmp failed.
+Iteration:1396 memcmp failed.
+Iteration:1397 memcmp failed.
+Iteration:1398 memcmp failed.
+Iteration:1399 memcmp failed.
+Iteration:1400 memcmp failed.
+Iteration:1401 memcmp failed.
+Iteration:1402 memcmp failed.
+Iteration:1403 memcmp failed.
+Iteration:1404 memcmp failed.
+Iteration:1405 memcmp failed.
+Iteration:1406 memcmp failed.
+Iteration:1407 memcmp failed.
+Iteration:1408 memcmp failed.
+Iteration:1409 memcmp failed.
+Iteration:1410 memcmp failed.
+Iteration:1411 memcmp failed.
+Iteration:1412 memcmp failed.
+Iteration:1413 memcmp failed.
+Iteration:1414 memcmp failed.
+Iteration:1415 memcmp failed.
+Iteration:1416 memcmp failed.
+Iteration:1417 memcmp failed.
+Iteration:1418 memcmp failed.
+Iteration:1419 memcmp failed.
+Iteration:1420 memcmp failed.
+Iteration:1421 memcmp failed.
+Iteration:1422 memcmp failed.
+Iteration:1423 memcmp failed.
+Iteration:1424 memcmp failed.
+Iteration:1425 memcmp failed.
+Iteration:1426 memcmp failed.
+Iteration:1427 memcmp failed.
+Iteration:1428 memcmp failed.
+Iteration:1429 memcmp failed.
+Iteration:1430 memcmp failed.
+Iteration:1431 memcmp failed.
+Iteration:1432 memcmp failed.
+Iteration:1433 memcmp failed.
+Iteration:1434 memcmp failed.
+Iteration:1435 memcmp failed.
+Iteration:1436 memcmp failed.
+Iteration:1437 memcmp failed.
+Iteration:1438 memcmp failed.
+Iteration:1439 memcmp failed.
+Iteration:1440 memcmp failed.
+Iteration:1441 memcmp failed.
+Iteration:1442 memcmp failed.
+Iteration:1443 memcmp failed.
+Iteration:1444 memcmp failed.
+Iteration:1445 memcmp failed.
+Iteration:1446 memcmp failed.
+Iteration:1447 memcmp failed.
+Iteration:1448 memcmp failed.
+Iteration:1449 memcmp failed.
+Iteration:1450 memcmp failed.
+Iteration:1451 memcmp failed.
+Iteration:1452 memcmp failed.
+Iteration:1453 memcmp failed.
+Iteration:1454 memcmp failed.
+Iteration:1455 memcmp failed.
+Iteration:1456 memcmp failed.
+Iteration:1457 memcmp failed.
+Iteration:1458 memcmp failed.
+Iteration:1459 memcmp failed.
+Iteration:1460 memcmp failed.
+Iteration:1461 memcmp failed.
+Iteration:1462 memcmp failed.
+Iteration:1463 memcmp failed.
+Iteration:1464 memcmp failed.
+Iteration:1465 memcmp failed.
+Iteration:1466 memcmp failed.
+Iteration:1467 memcmp failed.
+Iteration:1468 memcmp failed.
+Iteration:1469 memcmp failed.
+Iteration:1470 memcmp failed.
+Iteration:1471 memcmp failed.
+Iteration:1472 memcmp failed.
+Iteration:1473 memcmp failed.
+Iteration:1474 memcmp failed.
+Iteration:1475 memcmp failed.
+Iteration:1476 memcmp failed.
+Iteration:1477 memcmp failed.
+Iteration:1478 memcmp failed.
+Iteration:1479 memcmp failed.
+Iteration:1480 memcmp failed.
+Iteration:1481 memcmp failed.
+Iteration:1482 memcmp failed.
+Iteration:1483 memcmp failed.
+Iteration:1484 memcmp failed.
+Iteration:1485 memcmp failed.
+Iteration:1486 memcmp failed.
+Iteration:1487 memcmp failed.
+Iteration:1488 memcmp failed.
+Iteration:1489 memcmp failed.
+Iteration:1490 memcmp failed.
+Iteration:1491 memcmp failed.
+Iteration:1492 memcmp failed.
+Iteration:1493 memcmp failed.
+Iteration:1494 memcmp failed.
+Iteration:1495 memcmp failed.
+Iteration:1496 memcmp failed.
+Iteration:1497 memcmp failed.
+Iteration:1498 memcmp failed.
+Iteration:1499 memcmp failed.
+Iteration:1500 memcmp failed.
+Iteration:1501 memcmp failed.
+Iteration:1502 memcmp failed.
+Iteration:1503 memcmp failed.
+Iteration:1504 memcmp failed.
+Iteration:1505 memcmp failed.
+Iteration:1506 memcmp failed.
+Iteration:1507 memcmp failed.
+Iteration:1508 memcmp failed.
+Iteration:1509 memcmp failed.
+Iteration:1510 memcmp failed.
+Iteration:1511 memcmp failed.
+Iteration:1512 memcmp failed.
+Iteration:1513 memcmp failed.
+Iteration:1514 memcmp failed.
+Iteration:1515 memcmp failed.
+Iteration:1516 memcmp failed.
+Iteration:1517 memcmp failed.
+Iteration:1518 memcmp failed.
+Iteration:1519 memcmp failed.
+Iteration:1520 memcmp failed.
+Iteration:1521 memcmp failed.
+Iteration:1522 memcmp failed.
+Iteration:1523 memcmp failed.
+Iteration:1524 memcmp failed.
+Iteration:1525 memcmp failed.
+Iteration:1526 memcmp failed.
+Iteration:1527 memcmp failed.
+Iteration:1528 memcmp failed.
+Iteration:1529 memcmp failed.
+Iteration:1530 memcmp failed.
+Iteration:1531 memcmp failed.
+Iteration:1532 memcmp failed.
+Iteration:1533 memcmp failed.
+Iteration:1534 memcmp failed.
+Iteration:1535 memcmp failed.
+Iteration:1536 memcmp failed.
+Iteration:1537 memcmp failed.
+Iteration:1538 memcmp failed.
+Iteration:1539 memcmp failed.
+Iteration:1540 memcmp failed.
+Iteration:1541 memcmp failed.
+Iteration:1542 memcmp failed.
+Iteration:1543 memcmp failed.
+Iteration:1544 memcmp failed.
+Iteration:1545 memcmp failed.
+Iteration:1546 memcmp failed.
+Iteration:1547 memcmp failed.
+Iteration:1548 memcmp failed.
+Iteration:1549 memcmp failed.
+Iteration:1550 memcmp failed.
+Iteration:1551 memcmp failed.
+Iteration:1552 memcmp failed.
+Iteration:1553 memcmp failed.
+Iteration:1554 memcmp failed.
+Iteration:1555 memcmp failed.
+Iteration:1556 memcmp failed.
+Iteration:1557 memcmp failed.
+Iteration:1558 memcmp failed.
+Iteration:1559 memcmp failed.
+Iteration:1560 memcmp failed.
+Iteration:1561 memcmp failed.
+Iteration:1562 memcmp failed.
+Iteration:1563 memcmp failed.
+Iteration:1564 memcmp failed.
+Iteration:1565 memcmp failed.
+Iteration:1566 memcmp failed.
+Iteration:1567 memcmp failed.
+Iteration:1568 memcmp failed.
+Iteration:1569 memcmp failed.
+Iteration:1570 memcmp failed.
+Iteration:1571 memcmp failed.
+Iteration:1572 memcmp failed.
+Iteration:1573 memcmp failed.
+Iteration:1574 memcmp failed.
+Iteration:1575 memcmp failed.
+Iteration:1576 memcmp failed.
+Iteration:1577 memcmp failed.
+Iteration:1578 memcmp failed.
+Iteration:1579 memcmp failed.
+Iteration:1580 memcmp failed.
+Iteration:1581 memcmp failed.
+Iteration:1582 memcmp failed.
+Iteration:1583 memcmp failed.
+Iteration:1584 memcmp failed.
+Iteration:1585 memcmp failed.
+Iteration:1586 memcmp failed.
+Iteration:1587 memcmp failed.
+Iteration:1588 memcmp failed.
+Iteration:1589 memcmp failed.
+Iteration:1590 memcmp failed.
+Iteration:1591 memcmp failed.
+Iteration:1592 memcmp failed.
+Iteration:1593 memcmp failed.
+Iteration:1594 memcmp failed.
+Iteration:1595 memcmp failed.
+Iteration:1596 memcmp failed.
+Iteration:1597 memcmp failed.
+Iteration:1598 memcmp failed.
+Iteration:1599 memcmp failed.
+Iteration:1600 memcmp failed.
+Iteration:1601 memcmp failed.
+Iteration:1602 memcmp failed.
+Iteration:1603 memcmp failed.
+Iteration:1604 memcmp failed.
+Iteration:1605 memcmp failed.
+Iteration:1606 memcmp failed.
+Iteration:1607 memcmp failed.
+Iteration:1608 memcmp failed.
+Iteration:1609 memcmp failed.
+Iteration:1610 memcmp failed.
+Iteration:1611 memcmp failed.
+Iteration:1612 memcmp failed.
+Iteration:1613 memcmp failed.
+Iteration:1614 memcmp failed.
+Iteration:1615 memcmp failed.
+Iteration:1616 memcmp failed.
+Iteration:1617 memcmp failed.
+Iteration:1618 memcmp failed.
+Iteration:1619 memcmp failed.
+Iteration:1620 memcmp failed.
+Iteration:1621 memcmp failed.
+Iteration:1622 memcmp failed.
+Iteration:1623 memcmp failed.
+Iteration:1624 memcmp failed.
+Iteration:1625 memcmp failed.
+Iteration:1626 memcmp failed.
+Iteration:1627 memcmp failed.
+Iteration:1628 memcmp failed.
+Iteration:1629 memcmp failed.
+Iteration:1630 memcmp failed.
+Iteration:1631 memcmp failed.
+Iteration:1632 memcmp failed.
+Iteration:1633 memcmp failed.
+Iteration:1634 memcmp failed.
+Iteration:1635 memcmp failed.
+Iteration:1636 memcmp failed.
+Iteration:1637 memcmp failed.
+Iteration:1638 memcmp failed.
+Iteration:1639 memcmp failed.
+Iteration:1640 memcmp failed.
+Iteration:1641 memcmp failed.
+Iteration:1642 memcmp failed.
+Iteration:1643 memcmp failed.
+Iteration:1644 memcmp failed.
+Iteration:1645 memcmp failed.
+Iteration:1646 memcmp failed.
+Iteration:1647 memcmp failed.
+Iteration:1648 memcmp failed.
+Iteration:1649 memcmp failed.
+Iteration:1650 memcmp failed.
+Iteration:1651 memcmp failed.
+Iteration:1652 memcmp failed.
+Iteration:1653 memcmp failed.
+Iteration:1654 memcmp failed.
+Iteration:1655 memcmp failed.
+Iteration:1656 memcmp failed.
+Iteration:1657 memcmp failed.
+Iteration:1658 memcmp failed.
+Iteration:1659 memcmp failed.
+Iteration:1660 memcmp failed.
+Iteration:1661 memcmp failed.
+Iteration:1662 memcmp failed.
+Iteration:1663 memcmp failed.
+Iteration:1664 memcmp failed.
+Iteration:1665 memcmp failed.
+Iteration:1666 memcmp failed.
+Iteration:1667 memcmp failed.
+Iteration:1668 memcmp failed.
+Iteration:1669 memcmp failed.
+Iteration:1670 memcmp failed.
+Iteration:1671 memcmp failed.
+Iteration:1672 memcmp failed.
+Iteration:1673 memcmp failed.
+Iteration:1674 memcmp failed.
+Iteration:1675 memcmp failed.
+Iteration:1676 memcmp failed.
+Iteration:1677 memcmp failed.
+Iteration:1678 memcmp failed.
+Iteration:1679 memcmp failed.
+Iteration:1680 memcmp failed.
+Iteration:1681 memcmp failed.
+Iteration:1682 memcmp failed.
+Iteration:1683 memcmp failed.
+Iteration:1684 memcmp failed.
+Iteration:1685 memcmp failed.
+Iteration:1686 memcmp failed.
+Iteration:1687 memcmp failed.
+Iteration:1688 memcmp failed.
+Iteration:1689 memcmp failed.
+Iteration:1690 memcmp failed.
+Iteration:1691 memcmp failed.
+Iteration:1692 memcmp failed.
+Iteration:1693 memcmp failed.
+Iteration:1694 memcmp failed.
+Iteration:1695 memcmp failed.
+Iteration:1696 memcmp failed.
+Iteration:1697 memcmp failed.
+Iteration:1698 memcmp failed.
+Iteration:1699 memcmp failed.
+Iteration:1700 memcmp failed.
+Iteration:1701 memcmp failed.
+Iteration:1702 memcmp failed.
+Iteration:1703 memcmp failed.
+Iteration:1704 memcmp failed.
+Iteration:1705 memcmp failed.
+Iteration:1706 memcmp failed.
+Iteration:1707 memcmp failed.
+Iteration:1708 memcmp failed.
+Iteration:1709 memcmp failed.
+Iteration:1710 memcmp failed.
+Iteration:1711 memcmp failed.
+Iteration:1712 memcmp failed.
+Iteration:1713 memcmp failed.
+Iteration:1714 memcmp failed.
+Iteration:1715 memcmp failed.
+Iteration:1716 memcmp failed.
+Iteration:1717 memcmp failed.
+Iteration:1718 memcmp failed.
+Iteration:1719 memcmp failed.
+Iteration:1720 memcmp failed.
+Iteration:1721 memcmp failed.
+Iteration:1722 memcmp failed.
+Iteration:1723 memcmp failed.
+Iteration:1724 memcmp failed.
+Iteration:1725 memcmp failed.
+Iteration:1726 memcmp failed.
+Iteration:1727 memcmp failed.
+Iteration:1728 memcmp failed.
+Iteration:1729 memcmp failed.
+Iteration:1730 memcmp failed.
+Iteration:1731 memcmp failed.
+Iteration:1732 memcmp failed.
+Iteration:1733 memcmp failed.
+Iteration:1734 memcmp failed.
+Iteration:1735 memcmp failed.
+Iteration:1736 memcmp failed.
+Iteration:1737 memcmp failed.
+Iteration:1738 memcmp failed.
+Iteration:1739 memcmp failed.
+Iteration:1740 memcmp failed.
+Iteration:1741 memcmp failed.
+Iteration:1742 memcmp failed.
+Iteration:1743 memcmp failed.
+Iteration:1744 memcmp failed.
+Iteration:1745 memcmp failed.
+Iteration:1746 memcmp failed.
+Iteration:1747 memcmp failed.
+Iteration:1748 memcmp failed.
+Iteration:1749 memcmp failed.
+Iteration:1750 memcmp failed.
+Iteration:1751 memcmp failed.
+Iteration:1752 memcmp failed.
+Iteration:1753 memcmp failed.
+Iteration:1754 memcmp failed.
+Iteration:1755 memcmp failed.
+Iteration:1756 memcmp failed.
+Iteration:1757 memcmp failed.
+Iteration:1758 memcmp failed.
+Iteration:1759 memcmp failed.
+Iteration:1760 memcmp failed.
+Iteration:1761 memcmp failed.
+Iteration:1762 memcmp failed.
+Iteration:1763 memcmp failed.
+Iteration:1764 memcmp failed.
+Iteration:1765 memcmp failed.
+Iteration:1766 memcmp failed.
+Iteration:1767 memcmp failed.
+Iteration:1768 memcmp failed.
+Iteration:1769 memcmp failed.
+Iteration:1770 memcmp failed.
+Iteration:1771 memcmp failed.
+Iteration:1772 memcmp failed.
+Iteration:1773 memcmp failed.
+Iteration:1774 memcmp failed.
+Iteration:1775 memcmp failed.
+Iteration:1776 memcmp failed.
+Iteration:1777 memcmp failed.
+Iteration:1778 memcmp failed.
+Iteration:1779 memcmp failed.
+Iteration:1780 memcmp failed.
+Iteration:1781 memcmp failed.
+Iteration:1782 memcmp failed.
+Iteration:1783 memcmp failed.
+Iteration:1784 memcmp failed.
+Iteration:1785 memcmp failed.
+Iteration:1786 memcmp failed.
+Iteration:1787 memcmp failed.
+Iteration:1788 memcmp failed.
+Iteration:1789 memcmp failed.
+Iteration:1790 memcmp failed.
+Iteration:1791 memcmp failed.
+Iteration:1792 memcmp failed.
+Iteration:1793 memcmp failed.
+Iteration:1794 memcmp failed.
+Iteration:1795 memcmp failed.
+Iteration:1796 memcmp failed.
+Iteration:1797 memcmp failed.
+Iteration:1798 memcmp failed.
+Iteration:1799 memcmp failed.
+Iteration:1800 memcmp failed.
+Iteration:1801 memcmp failed.
+Iteration:1802 memcmp failed.
+Iteration:1803 memcmp failed.
+Iteration:1804 memcmp failed.
+Iteration:1805 memcmp failed.
+Iteration:1806 memcmp failed.
+Iteration:1807 memcmp failed.
+Iteration:1808 memcmp failed.
+Iteration:1809 memcmp failed.
+Iteration:1810 memcmp failed.
+Iteration:1811 memcmp failed.
+Iteration:1812 memcmp failed.
+Iteration:1813 memcmp failed.
+Iteration:1814 memcmp failed.
+Iteration:1815 memcmp failed.
+Iteration:1816 memcmp failed.
+Iteration:1817 memcmp failed.
+Iteration:1818 memcmp failed.
+Iteration:1819 memcmp failed.
+Iteration:1820 memcmp failed.
+Iteration:1821 memcmp failed.
+Iteration:1822 memcmp failed.
+Iteration:1823 memcmp failed.
+Iteration:1824 memcmp failed.
+Iteration:1825 memcmp failed.
+Iteration:1826 memcmp failed.
+Iteration:1827 memcmp failed.
+Iteration:1828 memcmp failed.
+Iteration:1829 memcmp failed.
+Iteration:1830 memcmp failed.
+Iteration:1831 memcmp failed.
+Iteration:1832 memcmp failed.
+Iteration:1833 memcmp failed.
+Iteration:1834 memcmp failed.
+Iteration:1835 memcmp failed.
+Iteration:1836 memcmp failed.
+Iteration:1837 memcmp failed.
+Iteration:1838 memcmp failed.
+Iteration:1839 memcmp failed.
+Iteration:1840 memcmp failed.
+Iteration:1841 memcmp failed.
+Iteration:1842 memcmp failed.
+Iteration:1843 memcmp failed.
+Iteration:1844 memcmp failed.
+Iteration:1845 memcmp failed.
+Iteration:1846 memcmp failed.
+Iteration:1847 memcmp failed.
+Iteration:1848 memcmp failed.
+Iteration:1849 memcmp failed.
+Iteration:1850 memcmp failed.
+Iteration:1851 memcmp failed.
+Iteration:1852 memcmp failed.
+Iteration:1853 memcmp failed.
+Iteration:1854 memcmp failed.
+Iteration:1855 memcmp failed.
+Iteration:1856 memcmp failed.
+Iteration:1857 memcmp failed.
+Iteration:1858 memcmp failed.
+Iteration:1859 memcmp failed.
+Iteration:1860 memcmp failed.
+Iteration:1861 memcmp failed.
+Iteration:1862 memcmp failed.
+Iteration:1863 memcmp failed.
+Iteration:1864 memcmp failed.
+Iteration:1865 memcmp failed.
+Iteration:1866 memcmp failed.
+Iteration:1867 memcmp failed.
+Iteration:1868 memcmp failed.
+Iteration:1869 memcmp failed.
+Iteration:1870 memcmp failed.
+Iteration:1871 memcmp failed.
+Iteration:1872 memcmp failed.
+Iteration:1873 memcmp failed.
+Iteration:1874 memcmp failed.
+Iteration:1875 memcmp failed.
+Iteration:1876 memcmp failed.
+Iteration:1877 memcmp failed.
+Iteration:1878 memcmp failed.
+Iteration:1879 memcmp failed.
+Iteration:1880 memcmp failed.
+Iteration:1881 memcmp failed.
+Iteration:1882 memcmp failed.
+Iteration:1883 memcmp failed.
+Iteration:1884 memcmp failed.
+Iteration:1885 memcmp failed.
+Iteration:1886 memcmp failed.
+Iteration:1887 memcmp failed.
+Iteration:1888 memcmp failed.
+Iteration:1889 memcmp failed.
+Iteration:1890 memcmp failed.
+Iteration:1891 memcmp failed.
+Iteration:1892 memcmp failed.
+Iteration:1893 memcmp failed.
+Iteration:1894 memcmp failed.
+Iteration:1895 memcmp failed.
+Iteration:1896 memcmp failed.
+Iteration:1897 memcmp failed.
+Iteration:1898 memcmp failed.
+Iteration:1899 memcmp failed.
+Iteration:1900 memcmp failed.
+Iteration:1901 memcmp failed.
+Iteration:1902 memcmp failed.
+Iteration:1903 memcmp failed.
+Iteration:1904 memcmp failed.
+Iteration:1905 memcmp failed.
+Iteration:1906 memcmp failed.
+Iteration:1907 memcmp failed.
+Iteration:1908 memcmp failed.
+Iteration:1909 memcmp failed.
+Iteration:1910 memcmp failed.
+Iteration:1911 memcmp failed.
+Iteration:1912 memcmp failed.
+Iteration:1913 memcmp failed.
+Iteration:1914 memcmp failed.
+Iteration:1915 memcmp failed.
+Iteration:1916 memcmp failed.
+Iteration:1917 memcmp failed.
+Iteration:1918 memcmp failed.
+Iteration:1919 memcmp failed.
+Iteration:1920 memcmp failed.
+Iteration:1921 memcmp failed.
+Iteration:1922 memcmp failed.
+Iteration:1923 memcmp failed.
+Iteration:1924 memcmp failed.
+Iteration:1925 memcmp failed.
+Iteration:1926 memcmp failed.
+Iteration:1927 memcmp failed.
+Iteration:1928 memcmp failed.
+Iteration:1929 memcmp failed.
+Iteration:1930 memcmp failed.
+Iteration:1931 memcmp failed.
+Iteration:1932 memcmp failed.
+Iteration:1933 memcmp failed.
+Iteration:1934 memcmp failed.
+Iteration:1935 memcmp failed.
+Iteration:1936 memcmp failed.
+Iteration:1937 memcmp failed.
+Iteration:1938 memcmp failed.
+Iteration:1939 memcmp failed.
+Iteration:1940 memcmp failed.
+Iteration:1941 memcmp failed.
+Iteration:1942 memcmp failed.
+Iteration:1943 memcmp failed.
+Iteration:1944 memcmp failed.
+Iteration:1945 memcmp failed.
+Iteration:1946 memcmp failed.
+Iteration:1947 memcmp failed.
+Iteration:1948 memcmp failed.
+Iteration:1949 memcmp failed.
+Iteration:1950 memcmp failed.
+Iteration:1951 memcmp failed.
+Iteration:1952 memcmp failed.
+Iteration:1953 memcmp failed.
+Iteration:1954 memcmp failed.
+Iteration:1955 memcmp failed.
+Iteration:1956 memcmp failed.
+Iteration:1957 memcmp failed.
+Iteration:1958 memcmp failed.
+Iteration:1959 memcmp failed.
+Iteration:1960 memcmp failed.
+Iteration:1961 memcmp failed.
+Iteration:1962 memcmp failed.
+Iteration:1963 memcmp failed.
+Iteration:1964 memcmp failed.
+Iteration:1965 memcmp failed.
+Iteration:1966 memcmp failed.
+Iteration:1967 memcmp failed.
+Iteration:1968 memcmp failed.
+Iteration:1969 memcmp failed.
+Iteration:1970 memcmp failed.
+Iteration:1971 memcmp failed.
+Iteration:1972 memcmp failed.
+Iteration:1973 memcmp failed.
+Iteration:1974 memcmp failed.
+Iteration:1975 memcmp failed.
+Iteration:1976 memcmp failed.
+Iteration:1977 memcmp failed.
+Iteration:1978 memcmp failed.
+Iteration:1979 memcmp failed.
+Iteration:1980 memcmp failed.
+Iteration:1981 memcmp failed.
+Iteration:1982 memcmp failed.
+Iteration:1983 memcmp failed.
+Iteration:1984 memcmp failed.
+Iteration:1985 memcmp failed.
+Iteration:1986 memcmp failed.
+Iteration:1987 memcmp failed.
+Iteration:1988 memcmp failed.
+Iteration:1989 memcmp failed.
+Iteration:1990 memcmp failed.
+Iteration:1991 memcmp failed.
+Iteration:1992 memcmp failed.
+Iteration:1993 memcmp failed.
+Iteration:1994 memcmp failed.
+Iteration:1995 memcmp failed.
+Iteration:1996 memcmp failed.
+Iteration:1997 memcmp failed.
+Iteration:1998 memcmp failed.
+Iteration:1999 memcmp failed.
+Finished all tests.
 Processing file 1 out of 1
 File 'dominion.c'
-Lines executed:17.60% of 574
-Branches executed:16.23% of 419
-Taken at least once:14.80% of 419
-Calls executed:6.86% of 102
-Creating 'dominion.c.gcov'
-
-******************************************
-******************************************
-This unit test, tests the shuffle()
-Game initialized with 2 players
-Recording current deck for player 0
-1 1 4 4 4 
-Attemping to shuffle deck for player 0...expecting success
-Current deck size 5...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-1 4 4 4 1 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 0 drawing cards until deck count < 1
-Player 0 deck count 0, shuffling, TEST SUCCESSFUL
-Recording current deck for player 1
-1 4 4 4 4 4 4 4 1 1 
-Attemping to shuffle deck for player 1...expecting success
-Current deck size 10...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-4 1 4 4 1 4 4 1 4 4 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 1 drawing cards until deck count < 1
-Player 1 deck count 0, shuffling, TEST SUCCESSFUL
-
-Game initialized with 3 players
-Recording current deck for player 0
-1 1 4 4 4 
-Attemping to shuffle deck for player 0...expecting success
-Current deck size 5...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-4 1 1 4 4 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 0 drawing cards until deck count < 1
-Player 0 deck count 0, shuffling, TEST SUCCESSFUL
-Recording current deck for player 1
-1 4 4 4 4 4 4 4 1 1 
-Attemping to shuffle deck for player 1...expecting success
-Current deck size 10...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-4 4 4 4 1 4 1 4 4 1 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 1 drawing cards until deck count < 1
-Player 1 deck count 0, shuffling, TEST SUCCESSFUL
-Recording current deck for player 2
-1 4 4 4 4 4 1 4 4 1 
-Attemping to shuffle deck for player 2...expecting success
-Current deck size 10...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-4 1 1 4 4 1 4 4 4 4 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 2 drawing cards until deck count < 1
-Player 2 deck count 0, shuffling, TEST SUCCESSFUL
-
-Game initialized with 4 players
-Recording current deck for player 0
-1 1 4 4 4 
-Attemping to shuffle deck for player 0...expecting success
-Current deck size 5...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-4 1 4 4 1 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 0 drawing cards until deck count < 1
-Player 0 deck count 0, shuffling, TEST SUCCESSFUL
-Recording current deck for player 1
-1 4 4 4 4 4 4 4 1 1 
-Attemping to shuffle deck for player 1...expecting success
-Current deck size 10...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-4 1 1 4 4 1 4 4 4 4 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 1 drawing cards until deck count < 1
-Player 1 deck count 0, shuffling, TEST SUCCESSFUL
-Recording current deck for player 2
-1 4 4 4 4 4 1 4 4 1 
-Attemping to shuffle deck for player 2...expecting success
-Current deck size 10...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-4 4 4 4 4 1 1 4 1 4 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 2 drawing cards until deck count < 1
-Player 2 deck count 0, shuffling, TEST SUCCESSFUL
-Recording current deck for player 3
-4 4 1 4 4 4 4 1 4 1 
-Attemping to shuffle deck for player 3...expecting success
-Current deck size 10...shuffle returned 0...TEST SUCCESSFUL
-Checking that returned deck is not in the same sequence...
-1 1 4 4 1 4 4 4 4 4 TEST SUCCESSFUL
-Checking that original and current deck size are the same...TEST SUCCESSFUL
-For player 3 drawing cards until deck count < 1
-Player 3 deck count 0, shuffling, TEST SUCCESSFUL
-Processing file 1 out of 1
-File 'dominion.c'
-Lines executed:17.94% of 574
-Branches executed:16.23% of 419
-Taken at least once:15.27% of 419
-Calls executed:6.86% of 102
-Creating 'dominion.c.gcov'
-
-******************************************
-******************************************
-This unit test, tests the endTurn()
-Initialized with 2 players
-It is player 0 turn...ending turn...now player's 1 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 1 turn...TEST SUCCESSFUL
-It is player 1 turn...ending turn...now player's 0 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 0 turn...TEST SUCCESSFUL
-It is player 0 turn...ending turn...now player's 1 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 4 treasure, game has 4...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 1 turn...TEST SUCCESSFUL
-Initialized with 3 players
-It is player 0 turn...ending turn...now player's 1 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 1 turn...TEST SUCCESSFUL
-It is player 1 turn...ending turn...now player's 2 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 2 turn...TEST SUCCESSFUL
-It is player 2 turn...ending turn...now player's 0 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 0 turn...TEST SUCCESSFUL
-It is player 0 turn...ending turn...now player's 1 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 4 treasure, game has 4...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 1 turn...TEST SUCCESSFUL
-Initialized with 4 players
-It is player 0 turn...ending turn...now player's 1 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 1 turn...TEST SUCCESSFUL
-It is player 1 turn...ending turn...now player's 2 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 2 turn...TEST SUCCESSFUL
-It is player 2 turn...ending turn...now player's 3 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 3 turn...TEST SUCCESSFUL
-It is player 3 turn...ending turn...now player's 0 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 3 treasure, game has 3...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 0 turn...TEST SUCCESSFUL
-It is player 0 turn...ending turn...now player's 1 turn...TEST SUCCESSFUL
-Validate endTurn returned 0...TEST SUCCESSFUL
-New player's hand count = 5?...TEST SUCCESSFUL
-Previous player's hand count = 0?... TEST SUCCESSFUL
-Validating new players coins...
-I count 4 treasure, game has 4...TEST SUCCESSFUL
-Validating corrected game state settings
-Outpost played = 0...TEST SUCCESSFUL
-Phase = 0...TEST SUCCESSFUL
-Number of Actions = 1...TEST SUCCESSFUL
-Buys = 1...TEST SUCCESSFUL
-Played cards = 0...TEST SUCCESSFUL
-Player 1 turn...TEST SUCCESSFUL
-Processing file 1 out of 1
-File 'dominion.c'
-Lines executed:21.78% of 574
-Branches executed:17.66% of 419
-Taken at least once:16.71% of 419
-Calls executed:9.80% of 102
-Creating 'dominion.c.gcov'
-
-******************************************
-******************************************
-This unit test, tests the isGameOver()
-Testing base game after initialization...game should not be over...TEST SUCCESSFUL
-Ending one turn... game should not be over...TEST SUCCESSFUL
-Testing first if provinces are all gone, game is over...TEST SUCCESSFUL
-Going through the supply pile and set 2 cards to 0 every other card
-Game should never be over, setting all supply piles to 5
-5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
-Set supply card Curse and Duchy to 0...TEST SUCCESSFUL
-Set supply card Estate and Province to 0...TEST SUCCESSFUL
-Set supply card Duchy and Copper to 0...TEST SUCCESSFUL
-Set supply card Province and Silver to 0...TEST SUCCESSFUL
-Set supply card Copper and Gold to 0...TEST SUCCESSFUL
-Set supply card Silver and Adventurer to 0...TEST SUCCESSFUL
-Set supply card Gold and Council Room to 0...TEST SUCCESSFUL
-Set supply card Adventurer and Feast to 0...TEST SUCCESSFUL
-Set supply card Council Room and Gardens to 0...TEST SUCCESSFUL
-Set supply card Feast and Mine to 0...TEST SUCCESSFUL
-Set supply card Gardens and Remodel to 0...TEST SUCCESSFUL
-Set supply card Mine and Smithy to 0...TEST SUCCESSFUL
-Set supply card Remodel and Village to 0...TEST SUCCESSFUL
-Set supply card Smithy and Baron to 0...TEST SUCCESSFUL
-Set supply card Village and Great Hall to 0...TEST SUCCESSFUL
-Set supply card Baron and Minion to 0...TEST SUCCESSFUL
-Set supply card Great Hall and Steward to 0...TEST SUCCESSFUL
-Set supply card Minion and Tribute to 0...TEST SUCCESSFUL
-Set supply card Steward and Ambassador to 0...TEST SUCCESSFUL
-Set supply card Tribute and Cutpurse to 0...TEST SUCCESSFUL
-Set supply card Ambassador and Embargo to 0...TEST SUCCESSFUL
-Set supply card Cutpurse and Outpost to 0...TEST SUCCESSFUL
-Set supply card Embargo and Salvager to 0...TEST SUCCESSFUL
-Set supply card Outpost and Sea Hag to 0...TEST SUCCESSFUL
-Now setting sets of 3 cards to 0, every other card
-Game should be over each time
-Set supply card Curse, Duchy and Copper to 0...TEST SUCCESSFUL
-Set supply card Estate, Province and Silver to 0...TEST SUCCESSFUL
-Set supply card Duchy, Copper and Gold to 0...TEST SUCCESSFUL
-Set supply card Province, Silver and Adventurer to 0...TEST SUCCESSFUL
-Set supply card Copper, Gold and Council Room to 0...TEST SUCCESSFUL
-Set supply card Silver, Adventurer and Feast to 0...TEST SUCCESSFUL
-Set supply card Gold, Council Room and Gardens to 0...TEST SUCCESSFUL
-Set supply card Adventurer, Feast and Mine to 0...TEST SUCCESSFUL
-Set supply card Council Room, Gardens and Remodel to 0...TEST SUCCESSFUL
-Set supply card Feast, Mine and Smithy to 0...TEST SUCCESSFUL
-Set supply card Gardens, Remodel and Village to 0...TEST SUCCESSFUL
-Set supply card Mine, Smithy and Baron to 0...TEST SUCCESSFUL
-Set supply card Remodel, Village and Great Hall to 0...TEST SUCCESSFUL
-Set supply card Smithy, Baron and Minion to 0...TEST SUCCESSFUL
-Set supply card Village, Great Hall and Steward to 0...TEST SUCCESSFUL
-Set supply card Baron, Minion and Tribute to 0...TEST SUCCESSFUL
-Set supply card Great Hall, Steward and Ambassador to 0...TEST SUCCESSFUL
-Set supply card Minion, Tribute and Cutpurse to 0...TEST SUCCESSFUL
-Set supply card Steward, Ambassador and Embargo to 0...TEST SUCCESSFUL
-Set supply card Tribute, Cutpurse and Outpost to 0...TEST SUCCESSFUL
-Set supply card Ambassador, Embargo and Salvager to 0...TEST SUCCESSFUL
-Set supply card Cutpurse, Outpost and Sea Hag to 0...TEST FAILED
-Now setting sets of 3 cards to -1, every other card
-Game should be over each time
-Set supply card Curse, Duchy and Copper to -1...TEST FAILED
-Set supply card Estate, Province and Silver to -1...TEST FAILED
-Set supply card Duchy, Copper and Gold to -1...TEST FAILED
-Set supply card Province, Silver and Adventurer to -1...TEST FAILED
-Set supply card Copper, Gold and Council Room to -1...TEST FAILED
-Set supply card Silver, Adventurer and Feast to -1...TEST FAILED
-Set supply card Gold, Council Room and Gardens to -1...TEST FAILED
-Set supply card Adventurer, Feast and Mine to -1...TEST FAILED
-Set supply card Council Room, Gardens and Remodel to -1...TEST FAILED
-Set supply card Feast, Mine and Smithy to -1...TEST FAILED
-Set supply card Gardens, Remodel and Village to -1...TEST FAILED
-Set supply card Mine, Smithy and Baron to -1...TEST FAILED
-Set supply card Remodel, Village and Great Hall to -1...TEST FAILED
-Set supply card Smithy, Baron and Minion to -1...TEST FAILED
-Set supply card Village, Great Hall and Steward to -1...TEST FAILED
-Set supply card Baron, Minion and Tribute to -1...TEST FAILED
-Set supply card Great Hall, Steward and Ambassador to -1...TEST FAILED
-Set supply card Minion, Tribute and Cutpurse to -1...TEST FAILED
-Set supply card Steward, Ambassador and Embargo to -1...TEST FAILED
-Set supply card Tribute, Cutpurse and Outpost to -1...TEST FAILED
-Set supply card Ambassador, Embargo and Salvager to -1...TEST FAILED
-Set supply card Cutpurse, Outpost and Sea Hag to -1...TEST FAILED
-Now setting sets of 3 cards to 1, every other card
-Game should not be over each time
-Set supply card Curse, Duchy and Copper to 1...TEST SUCCESSFUL
-Set supply card Estate, Province and Silver to 1...TEST SUCCESSFUL
-Set supply card Duchy, Copper and Gold to 1...TEST SUCCESSFUL
-Set supply card Province, Silver and Adventurer to 1...TEST SUCCESSFUL
-Set supply card Copper, Gold and Council Room to 1...TEST SUCCESSFUL
-Set supply card Silver, Adventurer and Feast to 1...TEST SUCCESSFUL
-Set supply card Gold, Council Room and Gardens to 1...TEST SUCCESSFUL
-Set supply card Adventurer, Feast and Mine to 1...TEST SUCCESSFUL
-Set supply card Council Room, Gardens and Remodel to 1...TEST SUCCESSFUL
-Set supply card Feast, Mine and Smithy to 1...TEST SUCCESSFUL
-Set supply card Gardens, Remodel and Village to 1...TEST SUCCESSFUL
-Set supply card Mine, Smithy and Baron to 1...TEST SUCCESSFUL
-Set supply card Remodel, Village and Great Hall to 1...TEST SUCCESSFUL
-Set supply card Smithy, Baron and Minion to 1...TEST SUCCESSFUL
-Set supply card Village, Great Hall and Steward to 1...TEST SUCCESSFUL
-Set supply card Baron, Minion and Tribute to 1...TEST SUCCESSFUL
-Set supply card Great Hall, Steward and Ambassador to 1...TEST SUCCESSFUL
-Set supply card Minion, Tribute and Cutpurse to 1...TEST SUCCESSFUL
-Set supply card Steward, Ambassador and Embargo to 1...TEST SUCCESSFUL
-Set supply card Tribute, Cutpurse and Outpost to 1...TEST SUCCESSFUL
-Set supply card Ambassador, Embargo and Salvager to 1...TEST SUCCESSFUL
-Set supply card Cutpurse, Outpost and Sea Hag to 1...TEST SUCCESSFUL
-Now setting sets of 4 cards to 0, every other card
-Game should be over each time
-Set supply card Curse, Duchy, Copper and Gold to 0...TEST SUCCESSFUL
-Set supply card Estate, Province, Silver and Adventurer to 0...TEST SUCCESSFUL
-Set supply card Duchy, Copper, Gold and Council Room to 0...TEST SUCCESSFUL
-Set supply card Province, Silver, Adventurer and Feast to 0...TEST SUCCESSFUL
-Set supply card Copper, Gold, Council Room and Gardens to 0...TEST SUCCESSFUL
-Set supply card Silver, Adventurer, Feast and Mine to 0...TEST SUCCESSFUL
-Set supply card Gold, Council Room, Gardens and Remodel to 0...TEST SUCCESSFUL
-Set supply card Adventurer, Feast, Mine and Smithy to 0...TEST SUCCESSFUL
-Set supply card Council Room, Gardens, Remodel and Village to 0...TEST SUCCESSFUL
-Set supply card Feast, Mine, Smithy and Baron to 0...TEST SUCCESSFUL
-Set supply card Gardens, Remodel, Village and Great Hall to 0...TEST SUCCESSFUL
-Set supply card Mine, Smithy, Baron and Minion to 0...TEST SUCCESSFUL
-Set supply card Remodel, Village, Great Hall and Steward to 0...TEST SUCCESSFUL
-Set supply card Smithy, Baron, Minion and Tribute to 0...TEST SUCCESSFUL
-Set supply card Village, Great Hall, Steward and Ambassador to 0...TEST SUCCESSFUL
-Set supply card Baron, Minion, Tribute and Cutpurse to 0...TEST SUCCESSFUL
-Set supply card Great Hall, Steward, Ambassador and Embargo to 0...TEST SUCCESSFUL
-Set supply card Minion, Tribute, Cutpurse and Outpost to 0...TEST SUCCESSFUL
-Set supply card Steward, Ambassador, Embargo and Salvager to 0...TEST SUCCESSFUL
-Set supply card Tribute, Cutpurse, Outpost and Sea Hag to 0...TEST SUCCESSFUL
-Processing file 1 out of 1
-File 'dominion.c'
-Lines executed:23.52% of 574
-Branches executed:19.57% of 419
-Taken at least once:18.62% of 419
-Calls executed:9.80% of 102
-Creating 'dominion.c.gcov'
-
-******************************************
-******************************************
-TEST SUCCESSFUL
-TEST SUCCESSFUL
-Unit test for the playSmithy function, with 2 players
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Player 0 current cards in deck 5
-Estate Estate Copper Copper Copper 
-First we'll give ourselves the smithy card
-Smithy added
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Smithy 
-Playing smithy, return = 0...TEST SUCCESSFUL
-Player 0, first 5 cards should still be the same? ...
-Card # 5 should be Estate and is Copper
-TEST FAILED
-Player 0 current cards in hand 8
-Copper Copper Copper Copper Copper Estate Copper Copper 
-Player 0 has 8 cards in hand and should have 8...TEST SUCCESSFUL
-Should only be 1 card in playedCard pile 'smithy'
-Played pile has 2...TEST FAILED
-Played pile contains: Smithy Estate 
-Player 0 deck count should be 2, deck count now 1...TEST FAILED
-Testing other players hands and handcounts.
-Player 1 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 1 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 1...TEST SUCCESSFUL
-Validating deck cards are the same for player 1...TEST SUCCESSFUL
-Player 1 discardCound was 0, now is 0...TEST SUCCESSFUL
-Played cards should be different between the two games...TEST SUCCESSFUL
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 1 was 1, mod:0..TEST SUCCESSFUL
-Coins is 4 was 4, mod:0...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-******************************************
-******************************************
-TEST SUCCESSFUL
-TEST SUCCESSFUL
-Unit test for the playSmithy function, with 3 players
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Player 0 current cards in deck 5
-Estate Estate Copper Copper Copper 
-First we'll give ourselves the smithy card
-Smithy added
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Smithy 
-Playing smithy, return = 0...TEST SUCCESSFUL
-Player 0, first 5 cards should still be the same? ...
-Card # 5 should be Estate and is Copper
-TEST FAILED
-Player 0 current cards in hand 8
-Copper Copper Copper Copper Copper Estate Copper Copper 
-Player 0 has 8 cards in hand and should have 8...TEST SUCCESSFUL
-Should only be 1 card in playedCard pile 'smithy'
-Played pile has 2...TEST FAILED
-Played pile contains: Smithy Estate 
-Player 0 deck count should be 2, deck count now 1...TEST FAILED
-Testing other players hands and handcounts.
-Player 1 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 1 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 1...TEST SUCCESSFUL
-Validating deck cards are the same for player 1...TEST SUCCESSFUL
-Player 1 discardCound was 0, now is 0...TEST SUCCESSFUL
-Player 2 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 2 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 2...TEST SUCCESSFUL
-Validating deck cards are the same for player 2...TEST SUCCESSFUL
-Player 2 discardCound was 0, now is 0...TEST SUCCESSFUL
-Played cards should be different between the two games...TEST SUCCESSFUL
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 1 was 1, mod:0..TEST SUCCESSFUL
-Coins is 4 was 4, mod:0...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-******************************************
-******************************************
-TEST SUCCESSFUL
-TEST SUCCESSFUL
-Unit test for the playSmithy function, with 4 players
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Player 0 current cards in deck 5
-Estate Estate Copper Copper Copper 
-First we'll give ourselves the smithy card
-Smithy added
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Smithy 
-Playing smithy, return = 0...TEST SUCCESSFUL
-Player 0, first 5 cards should still be the same? ...
-Card # 5 should be Estate and is Copper
-TEST FAILED
-Player 0 current cards in hand 8
-Copper Copper Copper Copper Copper Estate Copper Copper 
-Player 0 has 8 cards in hand and should have 8...TEST SUCCESSFUL
-Should only be 1 card in playedCard pile 'smithy'
-Played pile has 2...TEST FAILED
-Played pile contains: Smithy Estate 
-Player 0 deck count should be 2, deck count now 1...TEST FAILED
-Testing other players hands and handcounts.
-Player 1 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 1 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 1...TEST SUCCESSFUL
-Validating deck cards are the same for player 1...TEST SUCCESSFUL
-Player 1 discardCound was 0, now is 0...TEST SUCCESSFUL
-Player 2 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 2 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 2...TEST SUCCESSFUL
-Validating deck cards are the same for player 2...TEST SUCCESSFUL
-Player 2 discardCound was 0, now is 0...TEST SUCCESSFUL
-Player 3 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 3 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 3...TEST SUCCESSFUL
-Validating deck cards are the same for player 3...TEST SUCCESSFUL
-Player 3 discardCound was 0, now is 0...TEST SUCCESSFUL
-Played cards should be different between the two games...TEST SUCCESSFUL
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 1 was 1, mod:0..TEST SUCCESSFUL
-Coins is 4 was 4, mod:0...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-Processing file 1 out of 1
-File 'dominion.c'
-Lines executed:26.48% of 574
-Branches executed:21.48% of 419
-Taken at least once:19.81% of 419
-Calls executed:12.75% of 102
-Creating 'dominion.c.gcov'
-
-******************************************
-******************************************
-Unit test for the playAdventurer function
-
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Copper Copper Copper Copper Estate 
-Current treasure cards in player 0 hand 4
-Adventurer added
-Current cards in player 0 hand 6
-Copper Copper Copper Copper Estate Adventurer 
-Current treasure cards in player 0 hand 4
-Player 0 current deck count is 5 containing
-Estate Estate Copper Copper Copper 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Current cards in player 0 hand 9
-Copper Copper Copper Copper Estate Adventurer Copper Copper Curse 
-Current treasure cards in player 0 hand 6
-Should have +2 treasure cards
-Had 4 treasure cards, found 6 ....TEST SUCCESSFUL
-Had 6 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 3 containing
-Estate Estate Copper 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Copper Estate Estate Estate Copper 
-Current treasure cards in player 0 hand 2
-Adventurer added
-Current cards in player 0 hand 6
-Copper Estate Estate Estate Copper Adventurer 
-Current treasure cards in player 0 hand 2
-Player 0 current deck count is 7 containing
-Copper Copper Adventurer Copper Copper Copper Curse 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 4 containing
-Copper Copper Adventurer Copper 
-Current cards in player 0 hand 9
-Copper Estate Estate Estate Copper Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 4
-Should have +2 treasure cards
-Had 4 treasure cards, found 6 ....TEST SUCCESSFUL
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 4 containing
-Copper Copper Adventurer Copper 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Copper Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 3
-Adventurer added
-Current cards in player 0 hand 6
-Copper Adventurer Copper Copper (null) Adventurer 
-Current treasure cards in player 0 hand 3
-Player 0 current deck count is 9 containing
-Estate Adventurer Estate Estate Copper Curse Copper Copper Copper 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 7 containing
-Estate Adventurer Estate Estate Copper Curse Copper 
-Current cards in player 0 hand 9
-Copper Adventurer Copper Copper (null) Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 5
-Should have +2 treasure cards
-Had 5 treasure cards, found 6 ....TEST FAILED
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 7 containing
-Estate Adventurer Estate Estate Copper Curse Copper 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Copper Curse Copper Estate Estate 
-Current treasure cards in player 0 hand 2
-Adventurer added
-Current cards in player 0 hand 6
-Copper Curse Copper Estate Estate Adventurer 
-Current treasure cards in player 0 hand 2
-Player 0 current deck count is 2 containing
-Estate Adventurer 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 5 containing
-Adventurer (null) Copper Copper Copper 
-Current cards in player 0 hand 9
-Copper Curse Copper Estate Estate Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 4
-Should have +2 treasure cards
-Had 4 treasure cards, found 6 ....TEST SUCCESSFUL
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 5 containing
-Adventurer (null) Copper Copper Copper 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Copper Copper Copper (null) Adventurer 
-Current treasure cards in player 0 hand 3
-Adventurer added
-Current cards in player 0 hand 6
-Copper Copper Copper (null) Adventurer Adventurer 
-Current treasure cards in player 0 hand 3
-Player 0 current deck count is 0 containing
-
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 10 containing
-Adventurer Adventurer Copper (null) Copper Estate Estate (null) Curse Estate 
-Current cards in player 0 hand 9
-Copper Copper Copper (null) Adventurer Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 5
-Should have +2 treasure cards
-Had 5 treasure cards, found 6 ....TEST FAILED
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 10 containing
-Adventurer Adventurer Copper (null) Copper Estate Estate (null) Curse Estate 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Estate Curse (null) Estate Estate 
-Current treasure cards in player 0 hand 0
-Adventurer added
-Current cards in player 0 hand 6
-Estate Curse (null) Estate Estate Adventurer 
-Current treasure cards in player 0 hand 0
-Player 0 current deck count is 5 containing
-Adventurer Adventurer Copper (null) Copper 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 2 containing
-Adventurer Adventurer 
-Current cards in player 0 hand 9
-Estate Curse (null) Estate Estate Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 2
-Should have +2 treasure cards
-Had 2 treasure cards, found 6 ....TEST FAILED
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 2 containing
-Adventurer Adventurer 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Adventurer Adventurer Copper Adventurer Copper 
-Current treasure cards in player 0 hand 2
-Adventurer added
-Current cards in player 0 hand 6
-Adventurer Adventurer Copper Adventurer Copper Adventurer 
-Current treasure cards in player 0 hand 2
-Player 0 current deck count is 17 containing
-Adventurer (null) Adventurer Copper Copper Copper Copper (null) Curse Copper Estate Adventurer (null) (null) Estate Estate (null) 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 6 containing
-Adventurer (null) Adventurer Copper Copper Copper 
-Current cards in player 0 hand 9
-Adventurer Adventurer Copper Adventurer Copper Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 4
-Should have +2 treasure cards
-Had 4 treasure cards, found 6 ....TEST SUCCESSFUL
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 6 containing
-Adventurer (null) Adventurer Copper Copper Copper 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Copper Copper Copper Adventurer (null) 
-Current treasure cards in player 0 hand 3
-Adventurer added
-Current cards in player 0 hand 6
-Copper Copper Copper Adventurer (null) Adventurer 
-Current treasure cards in player 0 hand 3
-Player 0 current deck count is 1 containing
-Adventurer 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 11 containing
-(null) (null) Copper (null) Copper Curse Adventurer Estate Adventurer (null) Estate 
-Current cards in player 0 hand 9
-Copper Copper Copper Adventurer (null) Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 5
-Should have +2 treasure cards
-Had 5 treasure cards, found 6 ....TEST FAILED
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 11 containing
-(null) (null) Copper (null) Copper Curse Adventurer Estate Adventurer (null) Estate 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Estate (null) Adventurer Estate Adventurer 
-Current treasure cards in player 0 hand 0
-Adventurer added
-Current cards in player 0 hand 6
-Estate (null) Adventurer Estate Adventurer Adventurer 
-Current treasure cards in player 0 hand 0
-Player 0 current deck count is 6 containing
-(null) (null) Copper (null) Copper Curse 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 2 containing
-(null) (null) 
-Current cards in player 0 hand 9
-Estate (null) Adventurer Estate Adventurer Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 2
-Should have +2 treasure cards
-Had 2 treasure cards, found 6 ....TEST FAILED
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 2 containing
-(null) (null) 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-(null) (null) Copper Adventurer Estate 
-Current treasure cards in player 0 hand 1
-Adventurer added
-Current cards in player 0 hand 6
-(null) (null) Copper Adventurer Estate Adventurer 
-Current treasure cards in player 0 hand 1
-Player 0 current deck count is 23 containing
-Adventurer Copper (null) (null) Copper Adventurer Estate Copper Copper Adventurer Copper Adventurer Curse Adventurer Adventurer (null) Adventurer (null) Estate Copper (null) Adventurer (null) 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 10 containing
-Adventurer Copper (null) (null) Copper Adventurer Estate Copper Copper Adventurer 
-Current cards in player 0 hand 9
-(null) (null) Copper Adventurer Estate Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 3
-Should have +2 treasure cards
-Had 3 treasure cards, found 6 ....TEST FAILED
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 10 containing
-Adventurer Copper (null) (null) Copper Adventurer Estate Copper Copper Adventurer 
-
-Ending turn twice to get back to player 0.
-First we'll give ourselves the Adventurer card
-Current cards in player 0 hand 5
-Adventurer Copper Copper Estate Adventurer 
-Current treasure cards in player 0 hand 2
-Adventurer added
-Current cards in player 0 hand 6
-Adventurer Copper Copper Estate Adventurer Adventurer 
-Current treasure cards in player 0 hand 2
-Player 0 current deck count is 5 containing
-Adventurer Copper (null) (null) Copper 
-Playing adventurer, return = 0...TEST SUCCESSFUL
-Player 0 current deck count is 1 containing
-Adventurer 
-Current cards in player 0 hand 9
-Adventurer Copper Copper Estate Adventurer Adventurer Copper Copper (null) 
-Current treasure cards in player 0 hand 4
-Should have +2 treasure cards
-Had 4 treasure cards, found 6 ....TEST SUCCESSFUL
-Had 9 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
-TEST FAILED
-Player 0 current deck count is 1 containing
-Adventurer 
-Processing file 1 out of 1
-File 'dominion.c'
-Lines executed:31.88% of 574
-Branches executed:25.30% of 419
-Taken at least once:23.15% of 419
-Calls executed:15.69% of 102
-Creating 'dominion.c.gcov'
-
-******************************************
-******************************************
-Unit test for the playVillage function
-TEST SUCCESSFUL
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Player 0 current cards in deck 5
-Estate Estate Copper Copper Copper 
-First we'll give ourselves the Village card
-Curse added
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Playing village, return = 0...TEST SUCCESSFUL
-Should only be 1 card in playedCard pile 'village'
-Played pile has 1...TEST SUCCESSFUL
-Played pile contains: Copper 
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Copper 
-Player 0, first 5 cards should still be the same? ...TEST SUCCESSFUL
-Player 0 has 6 cards in hand and should have 5...TEST FAILED
-Player 0 deck count should be 4, deck count now 3...TEST FAILED
-Played count in current game should be 1, is 1...TEST SUCCESSFUL
-Testing other players hands and handcounts.
-Player 1 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 1 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 1...TEST SUCCESSFUL
-Validating deck cards are the same for player 1...TEST SUCCESSFUL
-Player 1 discardCound was 0, now is 0...TEST SUCCESSFUL
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 3 was 1, mod:2..TEST SUCCESSFUL
-Coins is 4 was 4, mod:0...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-******************************************
-******************************************
-Unit test for the playVillage function
-TEST SUCCESSFUL
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Player 0 current cards in deck 5
-Estate Estate Copper Copper Copper 
-First we'll give ourselves the Village card
-Curse added
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Playing village, return = 0...TEST SUCCESSFUL
-Should only be 1 card in playedCard pile 'village'
-Played pile has 1...TEST SUCCESSFUL
-Played pile contains: Copper 
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Copper 
-Player 0, first 5 cards should still be the same? ...TEST SUCCESSFUL
-Player 0 has 6 cards in hand and should have 5...TEST FAILED
-Player 0 deck count should be 4, deck count now 3...TEST FAILED
-Played count in current game should be 1, is 1...TEST SUCCESSFUL
-Testing other players hands and handcounts.
-Player 1 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 1 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 1...TEST SUCCESSFUL
-Validating deck cards are the same for player 1...TEST SUCCESSFUL
-Player 1 discardCound was 0, now is 0...TEST SUCCESSFUL
-Player 2 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 2 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 2...TEST SUCCESSFUL
-Validating deck cards are the same for player 2...TEST SUCCESSFUL
-Player 2 discardCound was 0, now is 0...TEST SUCCESSFUL
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 3 was 1, mod:2..TEST SUCCESSFUL
-Coins is 4 was 4, mod:0...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-******************************************
-******************************************
-Unit test for the playVillage function
-TEST SUCCESSFUL
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Player 0 current cards in deck 5
-Estate Estate Copper Copper Copper 
-First we'll give ourselves the Village card
-Curse added
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-Playing village, return = 0...TEST SUCCESSFUL
-Should only be 1 card in playedCard pile 'village'
-Played pile has 1...TEST SUCCESSFUL
-Played pile contains: Copper 
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Copper 
-Player 0, first 5 cards should still be the same? ...TEST SUCCESSFUL
-Player 0 has 6 cards in hand and should have 5...TEST FAILED
-Player 0 deck count should be 4, deck count now 3...TEST FAILED
-Played count in current game should be 1, is 1...TEST SUCCESSFUL
-Testing other players hands and handcounts.
-Player 1 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 1 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 1...TEST SUCCESSFUL
-Validating deck cards are the same for player 1...TEST SUCCESSFUL
-Player 1 discardCound was 0, now is 0...TEST SUCCESSFUL
-Player 2 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 2 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 2...TEST SUCCESSFUL
-Validating deck cards are the same for player 2...TEST SUCCESSFUL
-Player 2 discardCound was 0, now is 0...TEST SUCCESSFUL
-Player 3 handCount was 0, now is 0...TEST SUCCESSFUL
-Player 3 deckCount was 10, now is 10...TEST SUCCESSFUL
-Validating hands cards are the same for player 3...TEST SUCCESSFUL
-Validating deck cards are the same for player 3...TEST SUCCESSFUL
-Player 3 discardCound was 0, now is 0...TEST SUCCESSFUL
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 3 was 1, mod:2..TEST SUCCESSFUL
-Coins is 4 was 4, mod:0...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-Processing file 1 out of 1
-File 'dominion.c'
-Lines executed:32.93% of 574
-Branches executed:25.30% of 419
-Taken at least once:23.15% of 419
-Calls executed:18.63% of 102
-Creating 'dominion.c.gcov'
-
-******************************************
-******************************************
-Unit test for the playMinion function
-We have multiple ways to play Minion
-Minion gives us 2 choices so we have 0,0;1,0;0,1;1,1
-TEST SUCCESSFUL
-TEST SUCCESSFUL
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-First we'll give ourselves the Minion card
-Minion added
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Minion 
-We're also going to give the other players some cards
-Player 1 current cards in hand 4
-Silver Silver Silver Silver 
-Player 2 current cards in hand 5
-Gold Gold Gold Gold Gold 
-Playing minion, choice1 = 0, choice2 = 0, return = 0...TEST SUCCESSFUL
-Played count in current game should be 1, is 1...TEST SUCCESSFUL
-Played pile contains: Minion 
-Check that we received +1 action,
-Check number of bonus coins received
-Choice1 = 0 bonus coins = 0 expected = 0.
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 2 was 1, mod:1..TEST SUCCESSFUL
-Coins is 4 was 4, mod:0...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Player 0 had 5 cards, now has 5 cards, expect 5...TEST SUCCESSFUL
-Check if hand is different than before, expect same hand...TEST SUCCESSFUL
-Player 0 deck count should be 5, deck count now 5...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 0 found, player 0 has new hand 0...TEST SUCCESSFUL
-Player 1 had 4 cards, now has 4 cards, expect 4...TEST SUCCESSFUL
-Check if hand is different than before, expect same hand...TEST SUCCESSFUL
-Player 1 deck count should be 10, deck count now 10...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 0 found, player 1 has new hand 0...TEST SUCCESSFUL
-Player 2 had 5 cards, now has 5 cards, expect 5...TEST SUCCESSFUL
-Check if hand is different than before, expect same hand...TEST SUCCESSFUL
-Player 2 deck count should be 10, deck count now 10...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 0 found, player 2 has new hand 0...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-******************************************
-******************************************
-Unit test for the playMinion function
-We have multiple ways to play Minion
-Minion gives us 2 choices so we have 0,0;1,0;0,1;1,1
-TEST SUCCESSFUL
-TEST SUCCESSFUL
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-First we'll give ourselves the Minion card
-Minion added
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Minion 
-We're also going to give the other players some cards
-Player 1 current cards in hand 4
-Silver Silver Silver Silver 
-Player 2 current cards in hand 5
-Gold Gold Gold Gold Gold 
-Playing minion, choice1 = 1, choice2 = 0, return = 0...TEST SUCCESSFUL
-Played count in current game should be 1, is 1...TEST SUCCESSFUL
-Played pile contains: Minion 
-Check that we received +1 action,
-Check number of bonus coins received
-Choice1 = 1 bonus coins = 2 expected = 2.
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 2 was 1, mod:1..TEST SUCCESSFUL
-Coins is 6 was 4, mod:2...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Player 0 had 5 cards, now has 5 cards, expect 5...TEST SUCCESSFUL
-Check if hand is different than before, expect same hand...TEST SUCCESSFUL
-Player 0 deck count should be 5, deck count now 5...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 2 found, player 0 has new hand 0...TEST SUCCESSFUL
-Player 1 had 4 cards, now has 4 cards, expect 4...TEST SUCCESSFUL
-Check if hand is different than before, expect same hand...TEST SUCCESSFUL
-Player 1 deck count should be 10, deck count now 10...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 2 found, player 1 has new hand 0...TEST SUCCESSFUL
-Player 2 had 5 cards, now has 5 cards, expect 5...TEST SUCCESSFUL
-Check if hand is different than before, expect same hand...TEST SUCCESSFUL
-Player 2 deck count should be 10, deck count now 10...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 2 found, player 2 has new hand 0...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-******************************************
-******************************************
-Unit test for the playMinion function
-We have multiple ways to play Minion
-Minion gives us 2 choices so we have 0,0;1,0;0,1;1,1
-TEST SUCCESSFUL
-TEST SUCCESSFUL
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-First we'll give ourselves the Minion card
-Minion added
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Minion 
-We're also going to give the other players some cards
-Player 1 current cards in hand 4
-Silver Silver Silver Silver 
-Player 2 current cards in hand 5
-Gold Gold Gold Gold Gold 
-Playing minion, choice1 = 0, choice2 = 1, return = 0...TEST SUCCESSFUL
-Played count in current game should be 1, is 11...TEST FAILED
-Played pile contains: Minion (null) Estate Copper Copper Copper Curse Gold Gold Gold Gold 
-Check that we received +1 action,
-Check number of bonus coins received
-Choice1 = 0 bonus coins = 0 expected = 0.
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 2 was 1, mod:1..TEST SUCCESSFUL
-Coins is 4 was 4, mod:0...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Player 0 had 5 cards, now has 4 cards, expect 4...TEST SUCCESSFUL
-Check if hand is different than before, expect different hand...TEST SUCCESSFUL
-Player 0 deck count should be 1, deck count now 1...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 0 found, player 0 has new hand 1...TEST SUCCESSFUL
-Player 1 had 4 cards, now has 4 cards, expect 4...TEST SUCCESSFUL
-Check if hand is different than before, expect same hand...TEST SUCCESSFUL
-Player 1 deck count should be 10, deck count now 10...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 0 found, player 1 has new hand 0...TEST SUCCESSFUL
-Player 2 had 5 cards, now has 4 cards, expect 4...TEST SUCCESSFUL
-Check if hand is different than before, expect different hand...TEST SUCCESSFUL
-Player 2 deck count should be 6, deck count now 6...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 0 found, player 2 has new hand 1...TEST SUCCESSFUL
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-******************************************
-******************************************
-Unit test for the playMinion function
-We have multiple ways to play Minion
-Minion gives us 2 choices so we have 0,0;1,0;0,1;1,1
-TEST SUCCESSFUL
-TEST SUCCESSFUL
-Player 0 current cards in hand 5
-Copper Copper Copper Copper Estate 
-First we'll give ourselves the Minion card
-Minion added
-Player 0 current cards in hand 6
-Copper Copper Copper Copper Estate Minion 
-We're also going to give the other players some cards
-Player 1 current cards in hand 4
-Silver Silver Silver Silver 
-Player 2 current cards in hand 5
-Gold Gold Gold Gold Gold 
-Playing minion, choice1 = 1, choice2 = 1, return = 0...TEST SUCCESSFUL
-Played count in current game should be 1, is 11...TEST FAILED
-Played pile contains: Minion (null) Estate Copper Copper Copper (null) Gold Gold Gold Gold 
-Check that we received +1 action,
-Check number of bonus coins received
-Choice1 = 1 bonus coins = 2 expected = 2.
-Outposts is 0, was 0, mod:0... TEST SUCCESSFUL
-Outpost Turn is 0 was 0, mod:0...TEST SUCCESSFUL
-Turn is 0 was 0, mod:0..TEST SUCCESSFUL
-Phase is 0 was 0, mod:0...TEST SUCCESSFUL
-NumActions is 2 was 1, mod:1..TEST SUCCESSFUL
-Coins is 6 was 4, mod:2...TEST SUCCESSFUL
-Numbuys is 1 was 1, mod0...TEST SUCCESSFUL
-Player 0 had 5 cards, now has 4 cards, expect 4...TEST SUCCESSFUL
-Check if hand is different than before, expect different hand...TEST SUCCESSFUL
-Player 0 deck count should be 1, deck count now 1...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 2 found, player 0 has new hand 1...TEST FAILED
-Player 1 had 4 cards, now has 4 cards, expect 4...TEST SUCCESSFUL
-Check if hand is different than before, expect same hand...TEST SUCCESSFUL
-Player 1 deck count should be 10, deck count now 10...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 2 found, player 1 has new hand 0...TEST SUCCESSFUL
-Player 2 had 5 cards, now has 4 cards, expect 4...TEST SUCCESSFUL
-Check if hand is different than before, expect different hand...TEST SUCCESSFUL
-Player 2 deck count should be 6, deck count now 6...TEST SUCCESSFUL
-If we have bonus coins other players should not have new hands
-Coin bonus 2 found, player 2 has new hand 1...TEST FAILED
-Validating treasure map has not changed...TEST SUCCESSFUL
-Validating embargo tokens has not changed...TEST SUCCESSFUL
-Processing file 1 out of 1
-File 'dominion.c'
-Lines executed:36.76% of 574
+Lines executed:36.93% of 574
 Branches executed:29.59% of 419
-Taken at least once:27.92% of 419
+Taken at least once:28.64% of 419
 Calls executed:25.49% of 102
 Creating 'dominion.c.gcov'
 
         -:    0:Source:dominion.c
         -:    0:Graph:dominion.gcno
         -:    0:Data:dominion.gcda
-        -:    0:Runs:8
-        -:    0:Programs:8
+        -:    0:Runs:10
+        -:    0:Programs:10
         -:    1:/****************************************
         -:    2: * Filename: dominion.c
         -:    3: * Student: Johannes Pikel
@@ -1332,16 +2029,16 @@ Creating 'dominion.c.gcov'
         -:   14:#include <math.h>
         -:   15:#include <stdlib.h>
         -:   16:
-function compare called 2008 returned 100% blocks executed 100%
-     2008:   17:int compare(const void* a, const void* b) {
-     2008:   18:    if (*(int*)a > *(int*)b)
-branch  0 taken 10% (fallthrough)
-branch  1 taken 90%
-      195:   19:        return 1;
-     1813:   20:    if (*(int*)a < *(int*)b)
-branch  0 taken 26% (fallthrough)
-branch  1 taken 74%
-      467:   21:        return -1;
+function compare called 23447 returned 100% blocks executed 100%
+    23447:   17:int compare(const void* a, const void* b) {
+    23447:   18:    if (*(int*)a > *(int*)b)
+branch  0 taken 48% (fallthrough)
+branch  1 taken 52%
+    11188:   19:        return 1;
+    12259:   20:    if (*(int*)a < *(int*)b)
+branch  0 taken 89% (fallthrough)
+branch  1 taken 11%
+    10913:   21:        return -1;
      1346:   22:    return 0;
         -:   23:}
         -:   24:
@@ -1584,45 +2281,45 @@ call    0 returned 100%
        34:  207:    return 0;
         -:  208:}
         -:  209:
-function shuffle called 132 returned 100% blocks executed 100%
-      132:  210:int shuffle(int player, struct gameState *state) {
+function shuffle called 241 returned 100% blocks executed 100%
+      241:  210:int shuffle(int player, struct gameState *state) {
         -:  211:
         -:  212:
         -:  213:    int newDeck[MAX_DECK];
-      132:  214:    int newDeckPos = 0;
+      241:  214:    int newDeckPos = 0;
         -:  215:    int card;
         -:  216:    int i;
         -:  217:
-      132:  218:    if (state->deckCount[player] < 1)
-branch  0 taken 9% (fallthrough)
-branch  1 taken 91%
-       12:  219:        return -1;
-      120:  220:    qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+      241:  218:    if (state->deckCount[player] < 1)
+branch  0 taken 30% (fallthrough)
+branch  1 taken 70%
+       72:  219:        return -1;
+      169:  220:    qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
 call    0 returned 100%
         -:  221:    /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
         -:  222:
-     1460:  223:    while (state->deckCount[player] > 0) {
-branch  0 taken 91%
-branch  1 taken 9% (fallthrough)
-     1220:  224:        card = floor(Random() * state->deckCount[player]);
+     5442:  223:    while (state->deckCount[player] > 0) {
+branch  0 taken 97%
+branch  1 taken 3% (fallthrough)
+     5104:  224:        card = floor(Random() * state->deckCount[player]);
 call    0 returned 100%
-     1220:  225:        newDeck[newDeckPos] = state->deck[player][card];
-     1220:  226:        newDeckPos++;
-     4064:  227:        for (i = card; i < state->deckCount[player]-1; i++) {
-branch  0 taken 70%
-branch  1 taken 30% (fallthrough)
-     2844:  228:            state->deck[player][i] = state->deck[player][i+1];
+     5104:  225:        newDeck[newDeckPos] = state->deck[player][card];
+     5104:  226:        newDeckPos++;
+   140234:  227:        for (i = card; i < state->deckCount[player]-1; i++) {
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+   135130:  228:            state->deck[player][i] = state->deck[player][i+1];
         -:  229:        }
-     1220:  230:        state->deckCount[player]--;
+     5104:  230:        state->deckCount[player]--;
         -:  231:    }
-     1340:  232:    for (i = 0; i < newDeckPos; i++) {
-branch  0 taken 91%
-branch  1 taken 9% (fallthrough)
-     1220:  233:        state->deck[player][i] = newDeck[i];
-     1220:  234:        state->deckCount[player]++;
+     5273:  232:    for (i = 0; i < newDeckPos; i++) {
+branch  0 taken 97%
+branch  1 taken 3% (fallthrough)
+     5104:  233:        state->deck[player][i] = newDeck[i];
+     5104:  234:        state->deckCount[player]++;
         -:  235:    }
         -:  236:
-      120:  237:    return 0;
+      169:  237:    return 0;
         -:  238:}
         -:  239:
 function playCard called 0 returned 0% blocks executed 0%
@@ -2053,70 +2750,70 @@ branch  1 never executed
     #####:  531:    return 0;
         -:  532:}
         -:  533:
-function drawCard called 428 returned 100% blocks executed 92%
-      428:  534:int drawCard(int player, struct gameState *state)
+function drawCard called 69317 returned 100% blocks executed 100%
+    69317:  534:int drawCard(int player, struct gameState *state)
         -:  535:{	int count;
         -:  536:    int deckCounter;
-      428:  537:    if (state->deckCount[player] <= 0){//Deck is empty
-branch  0 taken 3% (fallthrough)
-branch  1 taken 97%
+    69317:  537:    if (state->deckCount[player] <= 0){//Deck is empty
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
         -:  538:
         -:  539:        //Step 1 Shuffle the discard pile back into a deck
         -:  540:        int i;
         -:  541:        //Move discard to deck
-      156:  542:        for (i = 0; i < state->discardCount[player];i++){
-branch  0 taken 93%
-branch  1 taken 7% (fallthrough)
-      145:  543:            state->deck[player][i] = state->discard[player][i];
-      145:  544:            state->discard[player][i] = -1;
+     4097:  542:        for (i = 0; i < state->discardCount[player];i++){
+branch  0 taken 98%
+branch  1 taken 2% (fallthrough)
+     4029:  543:            state->deck[player][i] = state->discard[player][i];
+     4029:  544:            state->discard[player][i] = -1;
         -:  545:        }
         -:  546:
-       11:  547:        state->deckCount[player] = state->discardCount[player];
-       11:  548:        state->discardCount[player] = 0;//Reset discard
+       68:  547:        state->deckCount[player] = state->discardCount[player];
+       68:  548:        state->discardCount[player] = 0;//Reset discard
         -:  549:
         -:  550:        //Shufffle the deck
-       11:  551:        shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+       68:  551:        shuffle(player, state);//Shuffle the deck up and make it so that we can draw
 call    0 returned 100%
         -:  552:
         -:  553:        if (DEBUG){//Debug statements
         -:  554:            printf("Deck count now: %d\n", state->deckCount[player]);
         -:  555:        }
         -:  556:
-       11:  557:        state->discardCount[player] = 0;
+       68:  557:        state->discardCount[player] = 0;
         -:  558:
         -:  559:        //Step 2 Draw Card
-       11:  560:        count = state->handCount[player];//Get current player's hand count
+       68:  560:        count = state->handCount[player];//Get current player's hand count
         -:  561:
         -:  562:        if (DEBUG){//Debug statements
         -:  563:            printf("Current hand count: %d\n", count);
         -:  564:        }
         -:  565:
-       11:  566:        deckCounter = state->deckCount[player];//Create a holder for the deck count
+       68:  566:        deckCounter = state->deckCount[player];//Create a holder for the deck count
         -:  567:
-       11:  568:        if (deckCounter == 0)
-branch  0 taken 0% (fallthrough)
-branch  1 taken 100%
-    #####:  569:            return -1;
+       68:  568:        if (deckCounter == 0)
+branch  0 taken 12% (fallthrough)
+branch  1 taken 88%
+        8:  569:            return -1;
         -:  570:
-       11:  571:        state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
-       11:  572:        state->deckCount[player]--;
-       11:  573:        state->handCount[player]++;//Increment hand count
+       60:  571:        state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+       60:  572:        state->deckCount[player]--;
+       60:  573:        state->handCount[player]++;//Increment hand count
         -:  574:    }
         -:  575:
         -:  576:    else{
-      417:  577:        int count = state->handCount[player];//Get current hand count for player
+    69249:  577:        int count = state->handCount[player];//Get current hand count for player
         -:  578:        int deckCounter;
         -:  579:        if (DEBUG){//Debug statements
         -:  580:            printf("Current hand count: %d\n", count);
         -:  581:        }
         -:  582:
-      417:  583:        deckCounter = state->deckCount[player];//Create holder for the deck count
-      417:  584:        state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
-      417:  585:        state->deckCount[player]--;
-      417:  586:        state->handCount[player]++;//Increment hand count
+    69249:  583:        deckCounter = state->deckCount[player];//Create holder for the deck count
+    69249:  584:        state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+    69249:  585:        state->deckCount[player]--;
+    69249:  586:        state->handCount[player]++;//Increment hand count
         -:  587:    }
         -:  588:
-      428:  589:    return 0;
+    69309:  589:    return 0;
         -:  590:}
         -:  591:
 function getCost called 0 returned 0% blocks executed 0%
@@ -2803,34 +3500,34 @@ call    0 never executed
     #####: 1046:    return -1;
         -: 1047:}
         -: 1048:
-function discardCard called 33 returned 100% blocks executed 100%
-       33: 1049:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+function discardCard called 2033 returned 100% blocks executed 100%
+     2033: 1049:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
         -: 1050:{
         -: 1051:
         -: 1052:    //if card is not trashed, added to Played pile 
-       33: 1053:    if (trashFlag < 1)
+     2033: 1053:    if (trashFlag < 1)
 branch  0 taken 100% (fallthrough)
 branch  1 taken 0%
         -: 1054:    {
         -: 1055:        //add card to played pile
-       33: 1056:        state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
-       33: 1057:        state->playedCardCount++;
+     2033: 1056:        state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+     2033: 1057:        state->playedCardCount++;
         -: 1058:    }
         -: 1059:
         -: 1060:    //set played card to -1
-       33: 1061:    state->hand[currentPlayer][handPos] = -1;
+     2033: 1061:    state->hand[currentPlayer][handPos] = -1;
         -: 1062:
         -: 1063:    //remove card from player's hand
-       33: 1064:    if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
-branch  0 taken 12% (fallthrough)
-branch  1 taken 88%
+     2033: 1064:    if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
         -: 1065:    {
         -: 1066:        //reduce number of cards in hand
-        4: 1067:        state->handCount[currentPlayer]--;
+        5: 1067:        state->handCount[currentPlayer]--;
         -: 1068:    }
-       29: 1069:    else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
-branch  0 taken 14% (fallthrough)
-branch  1 taken 86%
+     2028: 1069:    else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
         -: 1070:    {
         -: 1071:        //reduce number of cards in hand
         4: 1072:        state->handCount[currentPlayer]--;
@@ -2838,14 +3535,14 @@ branch  1 taken 86%
         -: 1074:    else 	
         -: 1075:    {
         -: 1076:        //replace discarded card with last card in hand
-       25: 1077:        state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+     2024: 1077:        state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
         -: 1078:        //set last card to -1
-       25: 1079:        state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+     2024: 1079:        state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
         -: 1080:        //reduce number of cards in hand
-       25: 1081:        state->handCount[currentPlayer]--;
+     2024: 1081:        state->handCount[currentPlayer]--;
         -: 1082:    }
         -: 1083:
-       33: 1084:    return 0;
+     2033: 1084:    return 0;
         -: 1085:}
         -: 1086:
 function gainCard called 0 returned 0% blocks executed 0%
@@ -2946,54 +3643,54 @@ branch  1 taken 100%
         -: 1165: * Postcondition: 2 treasure added to current player's hand, all other cards
         -: 1166: * drawn from deck discarded into played pile
         -: 1167: *  ************************************/
-function playAdventurer called 11 returned 100% blocks executed 100%
-       11: 1168:int playAdventurer(int currentPlayer, struct gameState *state, int handPos){
+function playAdventurer called 2011 returned 100% blocks executed 100%
+     2011: 1168:int playAdventurer(int currentPlayer, struct gameState *state, int handPos){
         -: 1169:    int cardDrawn,
-       11: 1170:        z=0,
-       11: 1171:        drawntreasure=0;
+     2011: 1170:        z=0,
+     2011: 1171:        drawntreasure=0;
         -: 1172:
         -: 1173:    int temphand[MAX_HAND];
         -: 1174:
-       81: 1175:    while(drawntreasure<2){
-branch  0 taken 84%
-branch  1 taken 16% (fallthrough)
+    68970: 1175:    while(drawntreasure<2){
+branch  0 taken 97%
+branch  1 taken 3% (fallthrough)
         -: 1176:        //if the deck is empty we need to shuffle discard and add to deck
-       59: 1177:        if (state->deckCount[currentPlayer] <1){
-branch  0 taken 5% (fallthrough)
-branch  1 taken 95%
-        3: 1178:            shuffle(currentPlayer, state);
+    64948: 1177:        if (state->deckCount[currentPlayer] <1){
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+       55: 1178:            shuffle(currentPlayer, state);
 call    0 returned 100%
         -: 1179:        }
-       59: 1180:        drawCard(currentPlayer, state);
+    64948: 1180:        drawCard(currentPlayer, state);
 call    0 returned 100%
         -: 1181:        //top card of hand is most recently drawn card.
-       59: 1182:        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];
-       59: 1183:        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
-branch  0 taken 63% (fallthrough)
-branch  1 taken 37%
-branch  2 taken 100% (fallthrough)
-branch  3 taken 0%
-branch  4 taken 0% (fallthrough)
-branch  5 taken 100%
-       22: 1184:            drawntreasure++;
+    64948: 1182:        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];
+    64948: 1183:        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+branch  0 taken 98% (fallthrough)
+branch  1 taken 2%
+branch  2 taken 98% (fallthrough)
+branch  3 taken 2%
+branch  4 taken 2% (fallthrough)
+branch  5 taken 98%
+     4022: 1184:            drawntreasure++;
         -: 1185:        else{
-       37: 1186:            temphand[z]=cardDrawn;
+    60926: 1186:            temphand[z]=cardDrawn;
         -: 1187:
         -: 1188:            //this should just remove the top card (the most recently drawn one).
-       37: 1189:            state->handCount[currentPlayer]--;
-       37: 1190:            z++;
+    60926: 1189:            state->handCount[currentPlayer]--;
+    60926: 1190:            z++;
         -: 1191:        }
         -: 1192:    }
         -: 1193:    /*$$*/
-       11: 1194:    state->handCount[currentPlayer]++;
-       59: 1195:    while(z-1>=0){
-branch  0 taken 77%
-branch  1 taken 23% (fallthrough)
-       37: 1196:        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
-       37: 1197:        z=z-1;
+     2011: 1194:    state->handCount[currentPlayer]++;
+    64948: 1195:    while(z-1>=0){
+branch  0 taken 97%
+branch  1 taken 3% (fallthrough)
+    60926: 1196:        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+    60926: 1197:        z=z-1;
         -: 1198:    }
         -: 1199:
-       11: 1200:    return 0;
+     2011: 1200:    return 0;
         -: 1201:}
         -: 1202:
         -: 1203:/****************************************
@@ -3207,22 +3904,22 @@ call    0 never executed
         -: 1371: * position of village card
         -: 1372: * Postconditions: player has +1 card and +2 actions
         -: 1373: * *************************************/
-function playVillage called 3 returned 100% blocks executed 100%
-        3: 1374:int playVillage(int currentPlayer, struct gameState *state, int handPos){
+function playVillage called 2003 returned 100% blocks executed 100%
+     2003: 1374:int playVillage(int currentPlayer, struct gameState *state, int handPos){
         -: 1375:    //+1 Card
-        3: 1376:    drawCard(currentPlayer, state);
+     2003: 1376:    drawCard(currentPlayer, state);
 call    0 returned 100%
         -: 1377:    /*$$*/
-        3: 1378:   drawCard(currentPlayer, state);
+     2003: 1378:   drawCard(currentPlayer, state);
 call    0 returned 100%
         -: 1379:
         -: 1380:    //+2 Actions
-        3: 1381:    state->numActions = state->numActions + 2;
+     2003: 1381:    state->numActions = state->numActions + 2;
         -: 1382:
         -: 1383:    //discard played card from hand
-        3: 1384:    discardCard(handPos, currentPlayer, state, 0);
+     2003: 1384:    discardCard(handPos, currentPlayer, state, 0);
 call    0 returned 100%
-        3: 1385:    return 0;
+     2003: 1385:    return 0;
         -: 1386:}
         -: 1387:
         -: 1388:/****************************************

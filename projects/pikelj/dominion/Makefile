@@ -59,7 +59,7 @@ cardtest3: testhelper.o
 cardtest4: testhelper.o
 	gcc -o cardtest4 cardtest4.c -g dominion.o rngs.o testhelper.o $(CFLAGS)
 
-rununittests: clean	unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4
+rununittests: unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 cardtest3 cardtest4
 	./unittest1 &> unittestresults.out
 	gcov -d -b dominion.c >> unittestresults.out
 	./unittest2 >> unittestresults.out
@@ -78,8 +78,32 @@ rununittests: clean	unittest1 unittest2 unittest3 unittest4 cardtest1 cardtest2 
 	gcov -d -b dominion.c >> unittestresults.out
 	cat dominion.c.gcov >> unittestresults.out
 
+randtesthelper.o: dominion.o
+	gcc -c randtesthelper.c -g $(CFLAGS)
+
+randomtestadventurer: dominion.o rngs.o randomtestadventurer.c
+	gcc -o randomtestadventurer randomtestadventurer.c -g dominion.o rngs.o $(CFLAGS)
+	./randomtestadventurer &> randomtestadventurer.out
+	gcov -d -b dominion.c >> randomtestadventurer.out
+	cat dominion.c.gcov >> randomtestadventurer.out
+
+
+randomtestcard1: dominion.o rngs.o
+	gcc -o randtestcard1 randomtestcard1.c -g dominion.o rngs.o $(CFLAGS)
+	./randtestcard1 &> randomtestcard1.out
+	gcov -d -b dominion.c >> randomtestcard1.out
+	cat dominion.c.gcov >> randomtestcard1.out
+
+randomtestcard2: dominion.o rngs.o
+	gcc -o randtestcard2 randomtestcard2.c -g dominion.o rngs.o $(CFLAGS)
+	./randtestcard2 &> randomtestcard2.out
+	gcov -d -b dominion.c >> randomtestcard2.out
+	cat dominion.c.gcov >> randomtestcard2.out
+
+runrandomtests: randomtestadventurer randomtestcard1 randomtestcard2
+	
 all: playdom player testDrawCard testBuyCard badTestDrawCard
 
 
 clean:
-	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe badTestDrawCard badTestDrawCard.exe 
+	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe badTestDrawCard badTestDrawCard.exe randomtestadventurer randtestcard1 randtestcard2 unittest1 unittest2 unittest3 unittest4 runPlaydom cardtest1 cardtest2 cardtest3 cardtest4
