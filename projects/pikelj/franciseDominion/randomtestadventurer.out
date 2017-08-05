@@ -1,0 +1,4049 @@
+Testing Adventurer randomly
+Iteration:0 memcmp failed.
+Iteration:1 memcmp failed.
+Iteration:2 memcmp failed.
+Iteration:3 memcmp failed.
+Iteration:4 memcmp failed.
+Iteration:5 memcmp failed.
+Iteration:6 memcmp failed.
+Iteration:7 memcmp failed.
+Iteration:8 memcmp failed.
+Iteration:9 memcmp failed.
+Iteration:10 memcmp failed.
+Iteration:11 memcmp failed.
+Iteration:12 memcmp failed.
+Iteration:13 memcmp failed.
+Iteration:14 memcmp failed.
+Iteration:15 memcmp failed.
+Iteration:16 memcmp failed.
+Iteration:17 memcmp failed.
+Iteration:18 memcmp failed.
+Iteration:19 memcmp failed.
+Iteration:20 memcmp failed.
+Iteration:21 memcmp failed.
+Iteration:22 memcmp failed.
+Iteration:23 memcmp failed.
+Iteration:24 memcmp failed.
+Iteration:25 memcmp failed.
+Iteration:26 memcmp failed.
+Iteration:27 memcmp failed.
+Iteration:28 memcmp failed.
+Iteration:29 memcmp failed.
+Iteration:30 memcmp failed.
+Iteration:31 memcmp failed.
+Iteration:32 memcmp failed.
+Iteration:33 memcmp failed.
+Iteration:34 memcmp failed.
+Iteration:35 memcmp failed.
+Iteration:36 memcmp failed.
+Iteration:37 memcmp failed.
+Iteration:38 memcmp failed.
+Iteration:39 memcmp failed.
+Iteration:40 memcmp failed.
+Iteration:41 memcmp failed.
+Iteration:42 memcmp failed.
+Iteration:43 memcmp failed.
+Iteration:44 memcmp failed.
+Iteration:45 memcmp failed.
+Iteration:46 memcmp failed.
+Iteration:47 memcmp failed.
+Iteration:48 memcmp failed.
+Iteration:49 memcmp failed.
+Iteration:50 memcmp failed.
+Iteration:51 memcmp failed.
+Iteration:52 memcmp failed.
+Iteration:53 memcmp failed.
+Iteration:54 memcmp failed.
+Iteration:55 memcmp failed.
+Iteration:56 memcmp failed.
+Iteration:57 memcmp failed.
+Iteration:58 memcmp failed.
+Iteration:59 memcmp failed.
+Iteration:60 memcmp failed.
+Iteration:61 memcmp failed.
+Iteration:62 memcmp failed.
+Iteration:63 memcmp failed.
+Iteration:64 memcmp failed.
+Iteration:65 memcmp failed.
+Iteration:66 memcmp failed.
+Iteration:67 memcmp failed.
+Iteration:68 memcmp failed.
+Iteration:69 memcmp failed.
+Iteration:70 memcmp failed.
+Iteration:71 memcmp failed.
+Iteration:72 memcmp failed.
+Iteration:73 memcmp failed.
+Iteration:74 memcmp failed.
+Iteration:75 memcmp failed.
+Iteration:76 memcmp failed.
+Iteration:77 memcmp failed.
+Iteration:78 memcmp failed.
+Iteration:79 memcmp failed.
+Iteration:80 memcmp failed.
+Iteration:81 memcmp failed.
+Iteration:82 memcmp failed.
+Iteration:83 memcmp failed.
+Iteration:84 memcmp failed.
+Iteration:85 memcmp failed.
+Iteration:86 memcmp failed.
+Iteration:87 memcmp failed.
+Iteration:88 memcmp failed.
+Iteration:89 memcmp failed.
+Iteration:90 memcmp failed.
+Iteration:91 memcmp failed.
+Iteration:92 memcmp failed.
+Iteration:93 memcmp failed.
+Iteration:94 memcmp failed.
+Iteration:95 memcmp failed.
+Iteration:96 memcmp failed.
+Iteration:97 memcmp failed.
+Iteration:98 memcmp failed.
+Iteration:99 memcmp failed.
+Iteration:100 memcmp failed.
+Iteration:101 memcmp failed.
+Iteration:102 memcmp failed.
+Iteration:103 memcmp failed.
+Iteration:104 memcmp failed.
+Iteration:105 memcmp failed.
+Iteration:106 memcmp failed.
+Iteration:107 memcmp failed.
+Iteration:108 memcmp failed.
+Iteration:109 memcmp failed.
+Iteration:110 memcmp failed.
+Iteration:111 memcmp failed.
+Iteration:112 memcmp failed.
+Iteration:113 memcmp failed.
+Iteration:114 memcmp failed.
+Iteration:115 memcmp failed.
+Iteration:116 memcmp failed.
+Iteration:117 memcmp failed.
+Iteration:118 memcmp failed.
+Iteration:119 memcmp failed.
+Iteration:120 memcmp failed.
+Iteration:121 memcmp failed.
+Iteration:122 memcmp failed.
+Iteration:123 memcmp failed.
+Iteration:124 memcmp failed.
+Iteration:125 memcmp failed.
+Iteration:126 memcmp failed.
+Iteration:127 memcmp failed.
+Iteration:128 memcmp failed.
+Iteration:129 memcmp failed.
+Iteration:130 memcmp failed.
+Iteration:131 memcmp failed.
+Iteration:132 memcmp failed.
+Iteration:133 memcmp failed.
+Iteration:134 memcmp failed.
+Iteration:135 memcmp failed.
+Iteration:136 memcmp failed.
+Iteration:137 memcmp failed.
+Iteration:138 memcmp failed.
+Iteration:139 memcmp failed.
+Iteration:140 memcmp failed.
+Iteration:141 memcmp failed.
+Iteration:142 memcmp failed.
+Iteration:143 memcmp failed.
+Iteration:144 memcmp failed.
+Iteration:145 memcmp failed.
+Iteration:146 memcmp failed.
+Iteration:147 memcmp failed.
+Iteration:148 memcmp failed.
+Iteration:149 memcmp failed.
+Iteration:150 memcmp failed.
+Iteration:151 memcmp failed.
+Iteration:152 memcmp failed.
+Iteration:153 memcmp failed.
+Iteration:154 memcmp failed.
+Iteration:155 memcmp failed.
+Iteration:156 memcmp failed.
+Iteration:157 memcmp failed.
+Iteration:158 memcmp failed.
+Iteration:159 memcmp failed.
+Iteration:160 memcmp failed.
+Iteration:161 memcmp failed.
+Iteration:162 memcmp failed.
+Iteration:163 memcmp failed.
+Iteration:164 memcmp failed.
+Iteration:165 memcmp failed.
+Iteration:166 memcmp failed.
+Iteration:167 memcmp failed.
+Iteration:168 memcmp failed.
+Iteration:169 memcmp failed.
+Iteration:170 memcmp failed.
+Iteration:171 memcmp failed.
+Iteration:172 memcmp failed.
+Iteration:173 memcmp failed.
+Iteration:174 memcmp failed.
+Iteration:175 memcmp failed.
+Iteration:176 memcmp failed.
+Iteration:177 memcmp failed.
+Iteration:178 memcmp failed.
+Iteration:179 memcmp failed.
+Iteration:180 memcmp failed.
+Iteration:181 memcmp failed.
+Iteration:182 memcmp failed.
+Iteration:183 memcmp failed.
+Iteration:184 memcmp failed.
+Iteration:185 memcmp failed.
+Iteration:186 memcmp failed.
+Iteration:187 memcmp failed.
+Iteration:188 memcmp failed.
+Iteration:189 memcmp failed.
+Iteration:190 memcmp failed.
+Iteration:191 memcmp failed.
+Iteration:192 memcmp failed.
+Iteration:193 memcmp failed.
+Iteration:194 memcmp failed.
+Iteration:195 memcmp failed.
+Iteration:196 memcmp failed.
+Iteration:197 memcmp failed.
+Iteration:198 memcmp failed.
+Iteration:199 memcmp failed.
+Iteration:200 memcmp failed.
+Iteration:201 memcmp failed.
+Iteration:202 memcmp failed.
+Iteration:203 memcmp failed.
+Iteration:204 memcmp failed.
+Iteration:205 memcmp failed.
+Iteration:206 memcmp failed.
+Iteration:207 memcmp failed.
+Iteration:208 memcmp failed.
+Iteration:209 memcmp failed.
+Iteration:210 memcmp failed.
+Iteration:211 memcmp failed.
+Iteration:212 memcmp failed.
+Iteration:213 memcmp failed.
+Iteration:214 memcmp failed.
+Iteration:215 memcmp failed.
+Iteration:216 memcmp failed.
+Iteration:217 memcmp failed.
+Iteration:218 memcmp failed.
+Iteration:219 memcmp failed.
+Iteration:220 memcmp failed.
+Iteration:221 memcmp failed.
+Iteration:222 memcmp failed.
+Iteration:223 memcmp failed.
+Iteration:224 memcmp failed.
+Iteration:225 memcmp failed.
+Iteration:226 memcmp failed.
+Iteration:227 memcmp failed.
+Iteration:228 memcmp failed.
+Iteration:229 memcmp failed.
+Iteration:230 memcmp failed.
+Iteration:231 memcmp failed.
+Iteration:232 memcmp failed.
+Iteration:233 memcmp failed.
+Iteration:234 memcmp failed.
+Iteration:235 memcmp failed.
+Iteration:236 memcmp failed.
+Iteration:237 memcmp failed.
+Iteration:238 memcmp failed.
+Iteration:239 memcmp failed.
+Iteration:240 memcmp failed.
+Iteration:241 memcmp failed.
+Iteration:242 memcmp failed.
+Iteration:243 memcmp failed.
+Iteration:244 memcmp failed.
+Iteration:245 memcmp failed.
+Iteration:246 memcmp failed.
+Iteration:247 memcmp failed.
+Iteration:248 memcmp failed.
+Iteration:249 memcmp failed.
+Iteration:250 memcmp failed.
+Iteration:251 memcmp failed.
+Iteration:252 memcmp failed.
+Iteration:253 memcmp failed.
+Iteration:254 memcmp failed.
+Iteration:255 memcmp failed.
+Iteration:256 memcmp failed.
+Iteration:257 memcmp failed.
+Iteration:258 memcmp failed.
+Iteration:259 memcmp failed.
+Iteration:260 memcmp failed.
+Iteration:261 memcmp failed.
+Iteration:262 memcmp failed.
+Iteration:263 memcmp failed.
+Iteration:264 memcmp failed.
+Iteration:265 memcmp failed.
+Iteration:266 memcmp failed.
+Iteration:267 memcmp failed.
+Iteration:268 memcmp failed.
+Iteration:269 memcmp failed.
+Iteration:270 memcmp failed.
+Iteration:271 memcmp failed.
+Iteration:272 memcmp failed.
+Iteration:273 memcmp failed.
+Iteration:274 memcmp failed.
+Iteration:275 memcmp failed.
+Iteration:276 memcmp failed.
+Iteration:277 memcmp failed.
+Iteration:278 memcmp failed.
+Iteration:279 memcmp failed.
+Iteration:280 memcmp failed.
+Iteration:281 memcmp failed.
+Iteration:282 memcmp failed.
+Iteration:283 memcmp failed.
+Iteration:284 memcmp failed.
+Iteration:285 memcmp failed.
+Iteration:286 memcmp failed.
+Iteration:287 memcmp failed.
+Iteration:288 memcmp failed.
+Iteration:289 memcmp failed.
+Iteration:290 memcmp failed.
+Iteration:291 memcmp failed.
+Iteration:292 memcmp failed.
+Iteration:293 memcmp failed.
+Iteration:294 memcmp failed.
+Iteration:295 memcmp failed.
+Iteration:296 memcmp failed.
+Iteration:297 memcmp failed.
+Iteration:298 memcmp failed.
+Iteration:299 memcmp failed.
+Iteration:300 memcmp failed.
+Iteration:301 memcmp failed.
+Iteration:302 memcmp failed.
+Iteration:303 memcmp failed.
+Iteration:304 memcmp failed.
+Iteration:305 memcmp failed.
+Iteration:306 memcmp failed.
+Iteration:307 memcmp failed.
+Iteration:308 memcmp failed.
+Iteration:309 memcmp failed.
+Iteration:310 memcmp failed.
+Iteration:311 memcmp failed.
+Iteration:312 memcmp failed.
+Iteration:313 memcmp failed.
+Iteration:314 memcmp failed.
+Iteration:315 memcmp failed.
+Iteration:316 memcmp failed.
+Iteration:317 memcmp failed.
+Iteration:318 memcmp failed.
+Iteration:319 memcmp failed.
+Iteration:320 memcmp failed.
+Iteration:321 memcmp failed.
+Iteration:322 memcmp failed.
+Iteration:323 memcmp failed.
+Iteration:324 memcmp failed.
+Iteration:325 memcmp failed.
+Iteration:326 memcmp failed.
+Iteration:327 memcmp failed.
+Iteration:328 memcmp failed.
+Iteration:329 memcmp failed.
+Iteration:330 memcmp failed.
+Iteration:331 memcmp failed.
+Iteration:332 memcmp failed.
+Iteration:333 memcmp failed.
+Iteration:334 memcmp failed.
+Iteration:335 memcmp failed.
+Iteration:336 memcmp failed.
+Iteration:337 memcmp failed.
+Iteration:338 memcmp failed.
+Iteration:339 memcmp failed.
+Iteration:340 memcmp failed.
+Iteration:341 memcmp failed.
+Iteration:342 memcmp failed.
+Iteration:343 memcmp failed.
+Iteration:344 memcmp failed.
+Iteration:345 memcmp failed.
+Iteration:346 memcmp failed.
+Iteration:347 memcmp failed.
+Iteration:348 memcmp failed.
+Iteration:349 memcmp failed.
+Iteration:350 memcmp failed.
+Iteration:351 memcmp failed.
+Iteration:352 memcmp failed.
+Iteration:353 memcmp failed.
+Iteration:354 memcmp failed.
+Iteration:355 memcmp failed.
+Iteration:356 memcmp failed.
+Iteration:357 memcmp failed.
+Iteration:358 memcmp failed.
+Iteration:359 memcmp failed.
+Iteration:360 memcmp failed.
+Iteration:361 memcmp failed.
+Iteration:362 memcmp failed.
+Iteration:363 memcmp failed.
+Iteration:364 memcmp failed.
+Iteration:365 memcmp failed.
+Iteration:366 memcmp failed.
+Iteration:367 memcmp failed.
+Iteration:368 memcmp failed.
+Iteration:369 memcmp failed.
+Iteration:370 memcmp failed.
+Iteration:371 memcmp failed.
+Iteration:372 memcmp failed.
+Iteration:373 memcmp failed.
+Iteration:374 memcmp failed.
+Iteration:375 memcmp failed.
+Iteration:376 memcmp failed.
+Iteration:377 memcmp failed.
+Iteration:378 memcmp failed.
+Iteration:379 memcmp failed.
+Iteration:380 memcmp failed.
+Iteration:381 memcmp failed.
+Iteration:382 memcmp failed.
+Iteration:383 memcmp failed.
+Iteration:384 memcmp failed.
+Iteration:385 memcmp failed.
+Iteration:386 memcmp failed.
+Iteration:387 memcmp failed.
+Iteration:388 memcmp failed.
+Iteration:389 memcmp failed.
+Iteration:390 memcmp failed.
+Iteration:391 memcmp failed.
+Iteration:392 memcmp failed.
+Iteration:393 memcmp failed.
+Iteration:394 memcmp failed.
+Iteration:395 memcmp failed.
+Iteration:396 memcmp failed.
+Iteration:397 memcmp failed.
+Iteration:398 memcmp failed.
+Iteration:399 memcmp failed.
+Iteration:400 memcmp failed.
+Iteration:401 memcmp failed.
+Iteration:402 memcmp failed.
+Iteration:403 memcmp failed.
+Iteration:404 memcmp failed.
+Iteration:405 memcmp failed.
+Iteration:406 memcmp failed.
+Iteration:407 memcmp failed.
+Iteration:408 memcmp failed.
+Iteration:409 memcmp failed.
+Iteration:410 memcmp failed.
+Iteration:411 memcmp failed.
+Iteration:412 memcmp failed.
+Iteration:413 memcmp failed.
+Iteration:414 memcmp failed.
+Iteration:415 memcmp failed.
+Iteration:416 memcmp failed.
+Iteration:417 memcmp failed.
+Iteration:418 memcmp failed.
+Iteration:419 memcmp failed.
+Iteration:420 memcmp failed.
+Iteration:421 memcmp failed.
+Iteration:422 memcmp failed.
+Iteration:423 memcmp failed.
+Iteration:424 memcmp failed.
+Iteration:425 memcmp failed.
+Iteration:426 memcmp failed.
+Iteration:427 memcmp failed.
+Iteration:428 memcmp failed.
+Iteration:429 memcmp failed.
+Iteration:430 memcmp failed.
+Iteration:431 memcmp failed.
+Iteration:432 memcmp failed.
+Iteration:433 memcmp failed.
+Iteration:434 memcmp failed.
+Iteration:435 memcmp failed.
+Iteration:436 memcmp failed.
+Iteration:437 memcmp failed.
+Iteration:438 memcmp failed.
+Iteration:439 memcmp failed.
+Iteration:440 memcmp failed.
+Iteration:441 memcmp failed.
+Iteration:442 memcmp failed.
+Iteration:443 memcmp failed.
+Iteration:444 memcmp failed.
+Iteration:445 memcmp failed.
+Iteration:446 memcmp failed.
+Iteration:447 memcmp failed.
+Iteration:448 memcmp failed.
+Iteration:449 memcmp failed.
+Iteration:450 memcmp failed.
+Iteration:451 memcmp failed.
+Iteration:452 memcmp failed.
+Iteration:453 memcmp failed.
+Iteration:454 memcmp failed.
+Iteration:455 memcmp failed.
+Iteration:456 memcmp failed.
+Iteration:457 memcmp failed.
+Iteration:458 memcmp failed.
+Iteration:459 memcmp failed.
+Iteration:460 memcmp failed.
+Iteration:461 memcmp failed.
+Iteration:462 memcmp failed.
+Iteration:463 memcmp failed.
+Iteration:464 memcmp failed.
+Iteration:465 memcmp failed.
+Iteration:466 memcmp failed.
+Iteration:467 memcmp failed.
+Iteration:468 memcmp failed.
+Iteration:469 memcmp failed.
+Iteration:470 memcmp failed.
+Iteration:471 memcmp failed.
+Iteration:472 memcmp failed.
+Iteration:473 memcmp failed.
+Iteration:474 memcmp failed.
+Iteration:475 memcmp failed.
+Iteration:476 memcmp failed.
+Iteration:477 memcmp failed.
+Iteration:478 memcmp failed.
+Iteration:479 memcmp failed.
+Iteration:480 memcmp failed.
+Iteration:481 memcmp failed.
+Iteration:482 memcmp failed.
+Iteration:483 memcmp failed.
+Iteration:484 memcmp failed.
+Iteration:485 memcmp failed.
+Iteration:486 memcmp failed.
+Iteration:487 memcmp failed.
+Iteration:488 memcmp failed.
+Iteration:489 memcmp failed.
+Iteration:490 memcmp failed.
+Iteration:491 memcmp failed.
+Iteration:492 memcmp failed.
+Iteration:493 memcmp failed.
+Iteration:494 memcmp failed.
+Iteration:495 memcmp failed.
+Iteration:496 memcmp failed.
+Iteration:497 memcmp failed.
+Iteration:498 memcmp failed.
+Iteration:499 memcmp failed.
+Iteration:500 memcmp failed.
+Iteration:501 memcmp failed.
+Iteration:502 memcmp failed.
+Iteration:503 memcmp failed.
+Iteration:504 memcmp failed.
+Iteration:505 memcmp failed.
+Iteration:506 memcmp failed.
+Iteration:507 memcmp failed.
+Iteration:508 memcmp failed.
+Iteration:509 memcmp failed.
+Iteration:510 memcmp failed.
+Iteration:511 memcmp failed.
+Iteration:512 memcmp failed.
+Iteration:513 memcmp failed.
+Iteration:514 memcmp failed.
+Iteration:515 memcmp failed.
+Iteration:516 memcmp failed.
+Iteration:517 memcmp failed.
+Iteration:518 memcmp failed.
+Iteration:519 memcmp failed.
+Iteration:520 memcmp failed.
+Iteration:521 memcmp failed.
+Iteration:522 memcmp failed.
+Iteration:523 memcmp failed.
+Iteration:524 memcmp failed.
+Iteration:525 memcmp failed.
+Iteration:526 memcmp failed.
+Iteration:527 memcmp failed.
+Iteration:528 memcmp failed.
+Iteration:529 memcmp failed.
+Iteration:530 memcmp failed.
+Iteration:531 memcmp failed.
+Iteration:532 memcmp failed.
+Iteration:533 memcmp failed.
+Iteration:534 memcmp failed.
+Iteration:535 memcmp failed.
+Iteration:536 memcmp failed.
+Iteration:537 memcmp failed.
+Iteration:538 memcmp failed.
+Iteration:539 memcmp failed.
+Iteration:540 memcmp failed.
+Iteration:541 memcmp failed.
+Iteration:542 memcmp failed.
+Iteration:543 memcmp failed.
+Iteration:544 memcmp failed.
+Iteration:545 memcmp failed.
+Iteration:546 memcmp failed.
+Iteration:547 memcmp failed.
+Iteration:548 memcmp failed.
+Iteration:549 memcmp failed.
+Iteration:550 memcmp failed.
+Iteration:551 memcmp failed.
+Iteration:552 memcmp failed.
+Iteration:553 memcmp failed.
+Iteration:554 memcmp failed.
+Iteration:555 memcmp failed.
+Iteration:556 memcmp failed.
+Iteration:557 memcmp failed.
+Iteration:558 memcmp failed.
+Iteration:559 memcmp failed.
+Iteration:560 memcmp failed.
+Iteration:561 memcmp failed.
+Iteration:562 memcmp failed.
+Iteration:563 memcmp failed.
+Iteration:564 memcmp failed.
+Iteration:565 memcmp failed.
+Iteration:566 memcmp failed.
+Iteration:567 memcmp failed.
+Iteration:568 memcmp failed.
+Iteration:569 memcmp failed.
+Iteration:570 memcmp failed.
+Iteration:571 memcmp failed.
+Iteration:572 memcmp failed.
+Iteration:573 memcmp failed.
+Iteration:574 memcmp failed.
+Iteration:575 memcmp failed.
+Iteration:576 memcmp failed.
+Iteration:577 memcmp failed.
+Iteration:578 memcmp failed.
+Iteration:579 memcmp failed.
+Iteration:580 memcmp failed.
+Iteration:581 memcmp failed.
+Iteration:582 memcmp failed.
+Iteration:583 memcmp failed.
+Iteration:584 memcmp failed.
+Iteration:585 memcmp failed.
+Iteration:586 memcmp failed.
+Iteration:587 memcmp failed.
+Iteration:588 memcmp failed.
+Iteration:589 memcmp failed.
+Iteration:590 memcmp failed.
+Iteration:591 memcmp failed.
+Iteration:592 memcmp failed.
+Iteration:593 memcmp failed.
+Iteration:594 memcmp failed.
+Iteration:595 memcmp failed.
+Iteration:596 memcmp failed.
+Iteration:597 memcmp failed.
+Iteration:598 memcmp failed.
+Iteration:599 memcmp failed.
+Iteration:600 memcmp failed.
+Iteration:601 memcmp failed.
+Iteration:602 memcmp failed.
+Iteration:603 memcmp failed.
+Iteration:604 memcmp failed.
+Iteration:605 memcmp failed.
+Iteration:606 memcmp failed.
+Iteration:607 memcmp failed.
+Iteration:608 memcmp failed.
+Iteration:609 memcmp failed.
+Iteration:610 memcmp failed.
+Iteration:611 memcmp failed.
+Iteration:612 memcmp failed.
+Iteration:613 memcmp failed.
+Iteration:614 memcmp failed.
+Iteration:615 memcmp failed.
+Iteration:616 memcmp failed.
+Iteration:617 memcmp failed.
+Iteration:618 memcmp failed.
+Iteration:619 memcmp failed.
+Iteration:620 memcmp failed.
+Iteration:621 memcmp failed.
+Iteration:622 memcmp failed.
+Iteration:623 memcmp failed.
+Iteration:624 memcmp failed.
+Iteration:625 memcmp failed.
+Iteration:626 memcmp failed.
+Iteration:627 memcmp failed.
+Iteration:628 memcmp failed.
+Iteration:629 memcmp failed.
+Iteration:630 memcmp failed.
+Iteration:631 memcmp failed.
+Iteration:632 memcmp failed.
+Iteration:633 memcmp failed.
+Iteration:634 memcmp failed.
+Iteration:635 memcmp failed.
+Iteration:636 memcmp failed.
+Iteration:637 memcmp failed.
+Iteration:638 memcmp failed.
+Iteration:639 memcmp failed.
+Iteration:640 memcmp failed.
+Iteration:641 memcmp failed.
+Iteration:642 memcmp failed.
+Iteration:643 memcmp failed.
+Iteration:644 memcmp failed.
+Iteration:645 memcmp failed.
+Iteration:646 memcmp failed.
+Iteration:647 memcmp failed.
+Iteration:648 memcmp failed.
+Iteration:649 memcmp failed.
+Iteration:650 memcmp failed.
+Iteration:651 memcmp failed.
+Iteration:652 memcmp failed.
+Iteration:653 memcmp failed.
+Iteration:654 memcmp failed.
+Iteration:655 memcmp failed.
+Iteration:656 memcmp failed.
+Iteration:657 memcmp failed.
+Iteration:658 memcmp failed.
+Iteration:659 memcmp failed.
+Iteration:660 memcmp failed.
+Iteration:661 memcmp failed.
+Iteration:662 memcmp failed.
+Iteration:663 memcmp failed.
+Iteration:664 memcmp failed.
+Iteration:665 memcmp failed.
+Iteration:666 memcmp failed.
+Iteration:667 memcmp failed.
+Iteration:668 memcmp failed.
+Iteration:669 memcmp failed.
+Iteration:670 memcmp failed.
+Iteration:671 memcmp failed.
+Iteration:672 memcmp failed.
+Iteration:673 memcmp failed.
+Iteration:674 memcmp failed.
+Iteration:675 memcmp failed.
+Iteration:676 memcmp failed.
+Iteration:677 memcmp failed.
+Iteration:678 memcmp failed.
+Iteration:679 memcmp failed.
+Iteration:680 memcmp failed.
+Iteration:681 memcmp failed.
+Iteration:682 memcmp failed.
+Iteration:683 memcmp failed.
+Iteration:684 memcmp failed.
+Iteration:685 memcmp failed.
+Iteration:686 memcmp failed.
+Iteration:687 memcmp failed.
+Iteration:688 memcmp failed.
+Iteration:689 memcmp failed.
+Iteration:690 memcmp failed.
+Iteration:691 memcmp failed.
+Iteration:692 memcmp failed.
+Iteration:693 memcmp failed.
+Iteration:694 memcmp failed.
+Iteration:695 memcmp failed.
+Iteration:696 memcmp failed.
+Iteration:697 memcmp failed.
+Iteration:698 memcmp failed.
+Iteration:699 memcmp failed.
+Iteration:700 memcmp failed.
+Iteration:701 memcmp failed.
+Iteration:702 memcmp failed.
+Iteration:703 memcmp failed.
+Iteration:704 memcmp failed.
+Iteration:705 memcmp failed.
+Iteration:706 memcmp failed.
+Iteration:707 memcmp failed.
+Iteration:708 memcmp failed.
+Iteration:709 memcmp failed.
+Iteration:710 memcmp failed.
+Iteration:711 memcmp failed.
+Iteration:712 memcmp failed.
+Iteration:713 memcmp failed.
+Iteration:714 memcmp failed.
+Iteration:715 memcmp failed.
+Iteration:716 memcmp failed.
+Iteration:717 memcmp failed.
+Iteration:718 memcmp failed.
+Iteration:719 memcmp failed.
+Iteration:720 memcmp failed.
+Iteration:721 memcmp failed.
+Iteration:722 memcmp failed.
+Iteration:723 memcmp failed.
+Iteration:724 memcmp failed.
+Iteration:725 memcmp failed.
+Iteration:726 memcmp failed.
+Iteration:727 memcmp failed.
+Iteration:728 memcmp failed.
+Iteration:729 memcmp failed.
+Iteration:730 memcmp failed.
+Iteration:731 memcmp failed.
+Iteration:732 memcmp failed.
+Iteration:733 memcmp failed.
+Iteration:734 memcmp failed.
+Iteration:735 memcmp failed.
+Iteration:736 memcmp failed.
+Iteration:737 memcmp failed.
+Iteration:738 memcmp failed.
+Iteration:739 memcmp failed.
+Iteration:740 memcmp failed.
+Iteration:741 memcmp failed.
+Iteration:742 memcmp failed.
+Iteration:743 memcmp failed.
+Iteration:744 memcmp failed.
+Iteration:745 memcmp failed.
+Iteration:746 memcmp failed.
+Iteration:747 memcmp failed.
+Iteration:748 memcmp failed.
+Iteration:749 memcmp failed.
+Iteration:750 memcmp failed.
+Iteration:751 memcmp failed.
+Iteration:752 memcmp failed.
+Iteration:753 memcmp failed.
+Iteration:754 memcmp failed.
+Iteration:755 memcmp failed.
+Iteration:756 memcmp failed.
+Iteration:757 memcmp failed.
+Iteration:758 memcmp failed.
+Iteration:759 memcmp failed.
+Iteration:760 memcmp failed.
+Iteration:761 memcmp failed.
+Iteration:762 memcmp failed.
+Iteration:763 memcmp failed.
+Iteration:764 memcmp failed.
+Iteration:765 memcmp failed.
+Iteration:766 memcmp failed.
+Iteration:767 memcmp failed.
+Iteration:768 memcmp failed.
+Iteration:769 memcmp failed.
+Iteration:770 memcmp failed.
+Iteration:771 memcmp failed.
+Iteration:772 memcmp failed.
+Iteration:773 memcmp failed.
+Iteration:774 memcmp failed.
+Iteration:775 memcmp failed.
+Iteration:776 memcmp failed.
+Iteration:777 memcmp failed.
+Iteration:778 memcmp failed.
+Iteration:779 memcmp failed.
+Iteration:780 memcmp failed.
+Iteration:781 memcmp failed.
+Iteration:782 memcmp failed.
+Iteration:783 memcmp failed.
+Iteration:784 memcmp failed.
+Iteration:785 memcmp failed.
+Iteration:786 memcmp failed.
+Iteration:787 memcmp failed.
+Iteration:788 memcmp failed.
+Iteration:789 memcmp failed.
+Iteration:790 memcmp failed.
+Iteration:791 memcmp failed.
+Iteration:792 memcmp failed.
+Iteration:793 memcmp failed.
+Iteration:794 memcmp failed.
+Iteration:795 memcmp failed.
+Iteration:796 memcmp failed.
+Iteration:797 memcmp failed.
+Iteration:798 memcmp failed.
+Iteration:799 memcmp failed.
+Iteration:800 memcmp failed.
+Iteration:801 memcmp failed.
+Iteration:802 memcmp failed.
+Iteration:803 memcmp failed.
+Iteration:804 memcmp failed.
+Iteration:805 memcmp failed.
+Iteration:806 memcmp failed.
+Iteration:807 memcmp failed.
+Iteration:808 memcmp failed.
+Iteration:809 memcmp failed.
+Iteration:810 memcmp failed.
+Iteration:811 memcmp failed.
+Iteration:812 memcmp failed.
+Iteration:813 memcmp failed.
+Iteration:814 memcmp failed.
+Iteration:815 memcmp failed.
+Iteration:816 memcmp failed.
+Iteration:817 memcmp failed.
+Iteration:818 memcmp failed.
+Iteration:819 memcmp failed.
+Iteration:820 memcmp failed.
+Iteration:821 memcmp failed.
+Iteration:822 memcmp failed.
+Iteration:823 memcmp failed.
+Iteration:824 memcmp failed.
+Iteration:825 memcmp failed.
+Iteration:826 memcmp failed.
+Iteration:827 memcmp failed.
+Iteration:828 memcmp failed.
+Iteration:829 memcmp failed.
+Iteration:830 memcmp failed.
+Iteration:831 memcmp failed.
+Iteration:832 memcmp failed.
+Iteration:833 memcmp failed.
+Iteration:834 memcmp failed.
+Iteration:835 memcmp failed.
+Iteration:836 memcmp failed.
+Iteration:837 memcmp failed.
+Iteration:838 memcmp failed.
+Iteration:839 memcmp failed.
+Iteration:840 memcmp failed.
+Iteration:841 memcmp failed.
+Iteration:842 memcmp failed.
+Iteration:843 memcmp failed.
+Iteration:844 memcmp failed.
+Iteration:845 memcmp failed.
+Iteration:846 memcmp failed.
+Iteration:847 memcmp failed.
+Iteration:848 memcmp failed.
+Iteration:849 memcmp failed.
+Iteration:850 memcmp failed.
+Iteration:851 memcmp failed.
+Iteration:852 memcmp failed.
+Iteration:853 memcmp failed.
+Iteration:854 memcmp failed.
+Iteration:855 memcmp failed.
+Iteration:856 memcmp failed.
+Iteration:857 memcmp failed.
+Iteration:858 memcmp failed.
+Iteration:859 memcmp failed.
+Iteration:860 memcmp failed.
+Iteration:861 memcmp failed.
+Iteration:862 memcmp failed.
+Iteration:863 memcmp failed.
+Iteration:864 memcmp failed.
+Iteration:865 memcmp failed.
+Iteration:866 memcmp failed.
+Iteration:867 memcmp failed.
+Iteration:868 memcmp failed.
+Iteration:869 memcmp failed.
+Iteration:870 memcmp failed.
+Iteration:871 memcmp failed.
+Iteration:872 memcmp failed.
+Iteration:873 memcmp failed.
+Iteration:874 memcmp failed.
+Iteration:875 memcmp failed.
+Iteration:876 memcmp failed.
+Iteration:877 memcmp failed.
+Iteration:878 memcmp failed.
+Iteration:879 memcmp failed.
+Iteration:880 memcmp failed.
+Iteration:881 memcmp failed.
+Iteration:882 memcmp failed.
+Iteration:883 memcmp failed.
+Iteration:884 memcmp failed.
+Iteration:885 memcmp failed.
+Iteration:886 memcmp failed.
+Iteration:887 memcmp failed.
+Iteration:888 memcmp failed.
+Iteration:889 memcmp failed.
+Iteration:890 memcmp failed.
+Iteration:891 memcmp failed.
+Iteration:892 memcmp failed.
+Iteration:893 memcmp failed.
+Iteration:894 memcmp failed.
+Iteration:895 memcmp failed.
+Iteration:896 memcmp failed.
+Iteration:897 memcmp failed.
+Iteration:898 memcmp failed.
+Iteration:899 memcmp failed.
+Iteration:900 memcmp failed.
+Iteration:901 memcmp failed.
+Iteration:902 memcmp failed.
+Iteration:903 memcmp failed.
+Iteration:904 memcmp failed.
+Iteration:905 memcmp failed.
+Iteration:906 memcmp failed.
+Iteration:907 memcmp failed.
+Iteration:908 memcmp failed.
+Iteration:909 memcmp failed.
+Iteration:910 memcmp failed.
+Iteration:911 memcmp failed.
+Iteration:912 memcmp failed.
+Iteration:913 memcmp failed.
+Iteration:914 memcmp failed.
+Iteration:915 memcmp failed.
+Iteration:916 memcmp failed.
+Iteration:917 memcmp failed.
+Iteration:918 memcmp failed.
+Iteration:919 memcmp failed.
+Iteration:920 memcmp failed.
+Iteration:921 memcmp failed.
+Iteration:922 memcmp failed.
+Iteration:923 memcmp failed.
+Iteration:924 memcmp failed.
+Iteration:925 memcmp failed.
+Iteration:926 memcmp failed.
+Iteration:927 memcmp failed.
+Iteration:928 memcmp failed.
+Iteration:929 memcmp failed.
+Iteration:930 memcmp failed.
+Iteration:931 memcmp failed.
+Iteration:932 memcmp failed.
+Iteration:933 memcmp failed.
+Iteration:934 memcmp failed.
+Iteration:935 memcmp failed.
+Iteration:936 memcmp failed.
+Iteration:937 memcmp failed.
+Iteration:938 memcmp failed.
+Iteration:939 memcmp failed.
+Iteration:940 memcmp failed.
+Iteration:941 memcmp failed.
+Iteration:942 memcmp failed.
+Iteration:943 memcmp failed.
+Iteration:944 memcmp failed.
+Iteration:945 memcmp failed.
+Iteration:946 memcmp failed.
+Iteration:947 memcmp failed.
+Iteration:948 memcmp failed.
+Iteration:949 memcmp failed.
+Iteration:950 memcmp failed.
+Iteration:951 memcmp failed.
+Iteration:952 memcmp failed.
+Iteration:953 memcmp failed.
+Iteration:954 memcmp failed.
+Iteration:955 memcmp failed.
+Iteration:956 memcmp failed.
+Iteration:957 memcmp failed.
+Iteration:958 memcmp failed.
+Iteration:959 memcmp failed.
+Iteration:960 memcmp failed.
+Iteration:961 memcmp failed.
+Iteration:962 memcmp failed.
+Iteration:963 memcmp failed.
+Iteration:964 memcmp failed.
+Iteration:965 memcmp failed.
+Iteration:966 memcmp failed.
+Iteration:967 memcmp failed.
+Iteration:968 memcmp failed.
+Iteration:969 memcmp failed.
+Iteration:970 memcmp failed.
+Iteration:971 memcmp failed.
+Iteration:972 memcmp failed.
+Iteration:973 memcmp failed.
+Iteration:974 memcmp failed.
+Iteration:975 memcmp failed.
+Iteration:976 memcmp failed.
+Iteration:977 memcmp failed.
+Iteration:978 memcmp failed.
+Iteration:979 memcmp failed.
+Iteration:980 memcmp failed.
+Iteration:981 memcmp failed.
+Iteration:982 memcmp failed.
+Iteration:983 memcmp failed.
+Iteration:984 memcmp failed.
+Iteration:985 memcmp failed.
+Iteration:986 memcmp failed.
+Iteration:987 memcmp failed.
+Iteration:988 memcmp failed.
+Iteration:989 memcmp failed.
+Iteration:990 memcmp failed.
+Iteration:991 memcmp failed.
+Iteration:992 memcmp failed.
+Iteration:993 memcmp failed.
+Iteration:994 memcmp failed.
+Iteration:995 memcmp failed.
+Iteration:996 memcmp failed.
+Iteration:997 memcmp failed.
+Iteration:998 memcmp failed.
+Iteration:999 memcmp failed.
+Iteration:1000 memcmp failed.
+Iteration:1001 memcmp failed.
+Iteration:1002 memcmp failed.
+Iteration:1003 memcmp failed.
+Iteration:1004 memcmp failed.
+Iteration:1005 memcmp failed.
+Iteration:1006 memcmp failed.
+Iteration:1007 memcmp failed.
+Iteration:1008 memcmp failed.
+Iteration:1009 memcmp failed.
+Iteration:1010 memcmp failed.
+Iteration:1011 memcmp failed.
+Iteration:1012 memcmp failed.
+Iteration:1013 memcmp failed.
+Iteration:1014 memcmp failed.
+Iteration:1015 memcmp failed.
+Iteration:1016 memcmp failed.
+Iteration:1017 memcmp failed.
+Iteration:1018 memcmp failed.
+Iteration:1019 memcmp failed.
+Iteration:1020 memcmp failed.
+Iteration:1021 memcmp failed.
+Iteration:1022 memcmp failed.
+Iteration:1023 memcmp failed.
+Iteration:1024 memcmp failed.
+Iteration:1025 memcmp failed.
+Iteration:1026 memcmp failed.
+Iteration:1027 memcmp failed.
+Iteration:1028 memcmp failed.
+Iteration:1029 memcmp failed.
+Iteration:1030 memcmp failed.
+Iteration:1031 memcmp failed.
+Iteration:1032 memcmp failed.
+Iteration:1033 memcmp failed.
+Iteration:1034 memcmp failed.
+Iteration:1035 memcmp failed.
+Iteration:1036 memcmp failed.
+Iteration:1037 memcmp failed.
+Iteration:1038 memcmp failed.
+Iteration:1039 memcmp failed.
+Iteration:1040 memcmp failed.
+Iteration:1041 memcmp failed.
+Iteration:1042 memcmp failed.
+Iteration:1043 memcmp failed.
+Iteration:1044 memcmp failed.
+Iteration:1045 memcmp failed.
+Iteration:1046 memcmp failed.
+Iteration:1047 memcmp failed.
+Iteration:1048 memcmp failed.
+Iteration:1049 memcmp failed.
+Iteration:1050 memcmp failed.
+Iteration:1051 memcmp failed.
+Iteration:1052 memcmp failed.
+Iteration:1053 memcmp failed.
+Iteration:1054 memcmp failed.
+Iteration:1055 memcmp failed.
+Iteration:1056 memcmp failed.
+Iteration:1057 memcmp failed.
+Iteration:1058 memcmp failed.
+Iteration:1059 memcmp failed.
+Iteration:1060 memcmp failed.
+Iteration:1061 memcmp failed.
+Iteration:1062 memcmp failed.
+Iteration:1063 memcmp failed.
+Iteration:1064 memcmp failed.
+Iteration:1065 memcmp failed.
+Iteration:1066 memcmp failed.
+Iteration:1067 memcmp failed.
+Iteration:1068 memcmp failed.
+Iteration:1069 memcmp failed.
+Iteration:1070 memcmp failed.
+Iteration:1071 memcmp failed.
+Iteration:1072 memcmp failed.
+Iteration:1073 memcmp failed.
+Iteration:1074 memcmp failed.
+Iteration:1075 memcmp failed.
+Iteration:1076 memcmp failed.
+Iteration:1077 memcmp failed.
+Iteration:1078 memcmp failed.
+Iteration:1079 memcmp failed.
+Iteration:1080 memcmp failed.
+Iteration:1081 memcmp failed.
+Iteration:1082 memcmp failed.
+Iteration:1083 memcmp failed.
+Iteration:1084 memcmp failed.
+Iteration:1085 memcmp failed.
+Iteration:1086 memcmp failed.
+Iteration:1087 memcmp failed.
+Iteration:1088 memcmp failed.
+Iteration:1089 memcmp failed.
+Iteration:1090 memcmp failed.
+Iteration:1091 memcmp failed.
+Iteration:1092 memcmp failed.
+Iteration:1093 memcmp failed.
+Iteration:1094 memcmp failed.
+Iteration:1095 memcmp failed.
+Iteration:1096 memcmp failed.
+Iteration:1097 memcmp failed.
+Iteration:1098 memcmp failed.
+Iteration:1099 memcmp failed.
+Iteration:1100 memcmp failed.
+Iteration:1101 memcmp failed.
+Iteration:1102 memcmp failed.
+Iteration:1103 memcmp failed.
+Iteration:1104 memcmp failed.
+Iteration:1105 memcmp failed.
+Iteration:1106 memcmp failed.
+Iteration:1107 memcmp failed.
+Iteration:1108 memcmp failed.
+Iteration:1109 memcmp failed.
+Iteration:1110 memcmp failed.
+Iteration:1111 memcmp failed.
+Iteration:1112 memcmp failed.
+Iteration:1113 memcmp failed.
+Iteration:1114 memcmp failed.
+Iteration:1115 memcmp failed.
+Iteration:1116 memcmp failed.
+Iteration:1117 memcmp failed.
+Iteration:1118 memcmp failed.
+Iteration:1119 memcmp failed.
+Iteration:1120 memcmp failed.
+Iteration:1121 memcmp failed.
+Iteration:1122 memcmp failed.
+Iteration:1123 memcmp failed.
+Iteration:1124 memcmp failed.
+Iteration:1125 memcmp failed.
+Iteration:1126 memcmp failed.
+Iteration:1127 memcmp failed.
+Iteration:1128 memcmp failed.
+Iteration:1129 memcmp failed.
+Iteration:1130 memcmp failed.
+Iteration:1131 memcmp failed.
+Iteration:1132 memcmp failed.
+Iteration:1133 memcmp failed.
+Iteration:1134 memcmp failed.
+Iteration:1135 memcmp failed.
+Iteration:1136 memcmp failed.
+Iteration:1137 memcmp failed.
+Iteration:1138 memcmp failed.
+Iteration:1139 memcmp failed.
+Iteration:1140 memcmp failed.
+Iteration:1141 memcmp failed.
+Iteration:1142 memcmp failed.
+Iteration:1143 memcmp failed.
+Iteration:1144 memcmp failed.
+Iteration:1145 memcmp failed.
+Iteration:1146 memcmp failed.
+Iteration:1147 memcmp failed.
+Iteration:1148 memcmp failed.
+Iteration:1149 memcmp failed.
+Iteration:1150 memcmp failed.
+Iteration:1151 memcmp failed.
+Iteration:1152 memcmp failed.
+Iteration:1153 memcmp failed.
+Iteration:1154 memcmp failed.
+Iteration:1155 memcmp failed.
+Iteration:1156 memcmp failed.
+Iteration:1157 memcmp failed.
+Iteration:1158 memcmp failed.
+Iteration:1159 memcmp failed.
+Iteration:1160 memcmp failed.
+Iteration:1161 memcmp failed.
+Iteration:1162 memcmp failed.
+Iteration:1163 memcmp failed.
+Iteration:1164 memcmp failed.
+Iteration:1165 memcmp failed.
+Iteration:1166 memcmp failed.
+Iteration:1167 memcmp failed.
+Iteration:1168 memcmp failed.
+Iteration:1169 memcmp failed.
+Iteration:1170 memcmp failed.
+Iteration:1171 memcmp failed.
+Iteration:1172 memcmp failed.
+Iteration:1173 memcmp failed.
+Iteration:1174 memcmp failed.
+Iteration:1175 memcmp failed.
+Iteration:1176 memcmp failed.
+Iteration:1177 memcmp failed.
+Iteration:1178 memcmp failed.
+Iteration:1179 memcmp failed.
+Iteration:1180 memcmp failed.
+Iteration:1181 memcmp failed.
+Iteration:1182 memcmp failed.
+Iteration:1183 memcmp failed.
+Iteration:1184 memcmp failed.
+Iteration:1185 memcmp failed.
+Iteration:1186 memcmp failed.
+Iteration:1187 memcmp failed.
+Iteration:1188 memcmp failed.
+Iteration:1189 memcmp failed.
+Iteration:1190 memcmp failed.
+Iteration:1191 memcmp failed.
+Iteration:1192 memcmp failed.
+Iteration:1193 memcmp failed.
+Iteration:1194 memcmp failed.
+Iteration:1195 memcmp failed.
+Iteration:1196 memcmp failed.
+Iteration:1197 memcmp failed.
+Iteration:1198 memcmp failed.
+Iteration:1199 memcmp failed.
+Iteration:1200 memcmp failed.
+Iteration:1201 memcmp failed.
+Iteration:1202 memcmp failed.
+Iteration:1203 memcmp failed.
+Iteration:1204 memcmp failed.
+Iteration:1205 memcmp failed.
+Iteration:1206 memcmp failed.
+Iteration:1207 memcmp failed.
+Iteration:1208 memcmp failed.
+Iteration:1209 memcmp failed.
+Iteration:1210 memcmp failed.
+Iteration:1211 memcmp failed.
+Iteration:1212 memcmp failed.
+Iteration:1213 memcmp failed.
+Iteration:1214 memcmp failed.
+Iteration:1215 memcmp failed.
+Iteration:1216 memcmp failed.
+Iteration:1217 memcmp failed.
+Iteration:1218 memcmp failed.
+Iteration:1219 memcmp failed.
+Iteration:1220 memcmp failed.
+Iteration:1221 memcmp failed.
+Iteration:1222 memcmp failed.
+Iteration:1223 memcmp failed.
+Iteration:1224 memcmp failed.
+Iteration:1225 memcmp failed.
+Iteration:1226 memcmp failed.
+Iteration:1227 memcmp failed.
+Iteration:1228 memcmp failed.
+Iteration:1229 memcmp failed.
+Iteration:1230 memcmp failed.
+Iteration:1231 memcmp failed.
+Iteration:1232 memcmp failed.
+Iteration:1233 memcmp failed.
+Iteration:1234 memcmp failed.
+Iteration:1235 memcmp failed.
+Iteration:1236 memcmp failed.
+Iteration:1237 memcmp failed.
+Iteration:1238 memcmp failed.
+Iteration:1239 memcmp failed.
+Iteration:1240 memcmp failed.
+Iteration:1241 memcmp failed.
+Iteration:1242 memcmp failed.
+Iteration:1243 memcmp failed.
+Iteration:1244 memcmp failed.
+Iteration:1245 memcmp failed.
+Iteration:1246 memcmp failed.
+Iteration:1247 memcmp failed.
+Iteration:1248 memcmp failed.
+Iteration:1249 memcmp failed.
+Iteration:1250 memcmp failed.
+Iteration:1251 memcmp failed.
+Iteration:1252 memcmp failed.
+Iteration:1253 memcmp failed.
+Iteration:1254 memcmp failed.
+Iteration:1255 memcmp failed.
+Iteration:1256 memcmp failed.
+Iteration:1257 memcmp failed.
+Iteration:1258 memcmp failed.
+Iteration:1259 memcmp failed.
+Iteration:1260 memcmp failed.
+Iteration:1261 memcmp failed.
+Iteration:1262 memcmp failed.
+Iteration:1263 memcmp failed.
+Iteration:1264 memcmp failed.
+Iteration:1265 memcmp failed.
+Iteration:1266 memcmp failed.
+Iteration:1267 memcmp failed.
+Iteration:1268 memcmp failed.
+Iteration:1269 memcmp failed.
+Iteration:1270 memcmp failed.
+Iteration:1271 memcmp failed.
+Iteration:1272 memcmp failed.
+Iteration:1273 memcmp failed.
+Iteration:1274 memcmp failed.
+Iteration:1275 memcmp failed.
+Iteration:1276 memcmp failed.
+Iteration:1277 memcmp failed.
+Iteration:1278 memcmp failed.
+Iteration:1279 memcmp failed.
+Iteration:1280 memcmp failed.
+Iteration:1281 memcmp failed.
+Iteration:1282 memcmp failed.
+Iteration:1283 memcmp failed.
+Iteration:1284 memcmp failed.
+Iteration:1285 memcmp failed.
+Iteration:1286 memcmp failed.
+Iteration:1287 memcmp failed.
+Iteration:1288 memcmp failed.
+Iteration:1289 memcmp failed.
+Iteration:1290 memcmp failed.
+Iteration:1291 memcmp failed.
+Iteration:1292 memcmp failed.
+Iteration:1293 memcmp failed.
+Iteration:1294 memcmp failed.
+Iteration:1295 memcmp failed.
+Iteration:1296 memcmp failed.
+Iteration:1297 memcmp failed.
+Iteration:1298 memcmp failed.
+Iteration:1299 memcmp failed.
+Iteration:1300 memcmp failed.
+Iteration:1301 memcmp failed.
+Iteration:1302 memcmp failed.
+Iteration:1303 memcmp failed.
+Iteration:1304 memcmp failed.
+Iteration:1305 memcmp failed.
+Iteration:1306 memcmp failed.
+Iteration:1307 memcmp failed.
+Iteration:1308 memcmp failed.
+Iteration:1309 memcmp failed.
+Iteration:1310 memcmp failed.
+Iteration:1311 memcmp failed.
+Iteration:1312 memcmp failed.
+Iteration:1313 memcmp failed.
+Iteration:1314 memcmp failed.
+Iteration:1315 memcmp failed.
+Iteration:1316 memcmp failed.
+Iteration:1317 memcmp failed.
+Iteration:1318 memcmp failed.
+Iteration:1319 memcmp failed.
+Iteration:1320 memcmp failed.
+Iteration:1321 memcmp failed.
+Iteration:1322 memcmp failed.
+Iteration:1323 memcmp failed.
+Iteration:1324 memcmp failed.
+Iteration:1325 memcmp failed.
+Iteration:1326 memcmp failed.
+Iteration:1327 memcmp failed.
+Iteration:1328 memcmp failed.
+Iteration:1329 memcmp failed.
+Iteration:1330 memcmp failed.
+Iteration:1331 memcmp failed.
+Iteration:1332 memcmp failed.
+Iteration:1333 memcmp failed.
+Iteration:1334 memcmp failed.
+Iteration:1335 memcmp failed.
+Iteration:1336 memcmp failed.
+Iteration:1337 memcmp failed.
+Iteration:1338 memcmp failed.
+Iteration:1339 memcmp failed.
+Iteration:1340 memcmp failed.
+Iteration:1341 memcmp failed.
+Iteration:1342 memcmp failed.
+Iteration:1343 memcmp failed.
+Iteration:1344 memcmp failed.
+Iteration:1345 memcmp failed.
+Iteration:1346 memcmp failed.
+Iteration:1347 memcmp failed.
+Iteration:1348 memcmp failed.
+Iteration:1349 memcmp failed.
+Iteration:1350 memcmp failed.
+Iteration:1351 memcmp failed.
+Iteration:1352 memcmp failed.
+Iteration:1353 memcmp failed.
+Iteration:1354 memcmp failed.
+Iteration:1355 memcmp failed.
+Iteration:1356 memcmp failed.
+Iteration:1357 memcmp failed.
+Iteration:1358 memcmp failed.
+Iteration:1359 memcmp failed.
+Iteration:1360 memcmp failed.
+Iteration:1361 memcmp failed.
+Iteration:1362 memcmp failed.
+Iteration:1363 memcmp failed.
+Iteration:1364 memcmp failed.
+Iteration:1365 memcmp failed.
+Iteration:1366 memcmp failed.
+Iteration:1367 memcmp failed.
+Iteration:1368 memcmp failed.
+Iteration:1369 memcmp failed.
+Iteration:1370 memcmp failed.
+Iteration:1371 memcmp failed.
+Iteration:1372 memcmp failed.
+Iteration:1373 memcmp failed.
+Iteration:1374 memcmp failed.
+Iteration:1375 memcmp failed.
+Iteration:1376 memcmp failed.
+Iteration:1377 memcmp failed.
+Iteration:1378 memcmp failed.
+Iteration:1379 memcmp failed.
+Iteration:1380 memcmp failed.
+Iteration:1381 memcmp failed.
+Iteration:1382 memcmp failed.
+Iteration:1383 memcmp failed.
+Iteration:1384 memcmp failed.
+Iteration:1385 memcmp failed.
+Iteration:1386 memcmp failed.
+Iteration:1387 memcmp failed.
+Iteration:1388 memcmp failed.
+Iteration:1389 memcmp failed.
+Iteration:1390 memcmp failed.
+Iteration:1391 memcmp failed.
+Iteration:1392 memcmp failed.
+Iteration:1393 memcmp failed.
+Iteration:1394 memcmp failed.
+Iteration:1395 memcmp failed.
+Iteration:1396 memcmp failed.
+Iteration:1397 memcmp failed.
+Iteration:1398 memcmp failed.
+Iteration:1399 memcmp failed.
+Iteration:1400 memcmp failed.
+Iteration:1401 memcmp failed.
+Iteration:1402 memcmp failed.
+Iteration:1403 memcmp failed.
+Iteration:1404 memcmp failed.
+Iteration:1405 memcmp failed.
+Iteration:1406 memcmp failed.
+Iteration:1407 memcmp failed.
+Iteration:1408 memcmp failed.
+Iteration:1409 memcmp failed.
+Iteration:1410 memcmp failed.
+Iteration:1411 memcmp failed.
+Iteration:1412 memcmp failed.
+Iteration:1413 memcmp failed.
+Iteration:1414 memcmp failed.
+Iteration:1415 memcmp failed.
+Iteration:1416 memcmp failed.
+Iteration:1417 memcmp failed.
+Iteration:1418 memcmp failed.
+Iteration:1419 memcmp failed.
+Iteration:1420 memcmp failed.
+Iteration:1421 memcmp failed.
+Iteration:1422 memcmp failed.
+Iteration:1423 memcmp failed.
+Iteration:1424 memcmp failed.
+Iteration:1425 memcmp failed.
+Iteration:1426 memcmp failed.
+Iteration:1427 memcmp failed.
+Iteration:1428 memcmp failed.
+Iteration:1429 memcmp failed.
+Iteration:1430 memcmp failed.
+Iteration:1431 memcmp failed.
+Iteration:1432 memcmp failed.
+Iteration:1433 memcmp failed.
+Iteration:1434 memcmp failed.
+Iteration:1435 memcmp failed.
+Iteration:1436 memcmp failed.
+Iteration:1437 memcmp failed.
+Iteration:1438 memcmp failed.
+Iteration:1439 memcmp failed.
+Iteration:1440 memcmp failed.
+Iteration:1441 memcmp failed.
+Iteration:1442 memcmp failed.
+Iteration:1443 memcmp failed.
+Iteration:1444 memcmp failed.
+Iteration:1445 memcmp failed.
+Iteration:1446 memcmp failed.
+Iteration:1447 memcmp failed.
+Iteration:1448 memcmp failed.
+Iteration:1449 memcmp failed.
+Iteration:1450 memcmp failed.
+Iteration:1451 memcmp failed.
+Iteration:1452 memcmp failed.
+Iteration:1453 memcmp failed.
+Iteration:1454 memcmp failed.
+Iteration:1455 memcmp failed.
+Iteration:1456 memcmp failed.
+Iteration:1457 memcmp failed.
+Iteration:1458 memcmp failed.
+Iteration:1459 memcmp failed.
+Iteration:1460 memcmp failed.
+Iteration:1461 memcmp failed.
+Iteration:1462 memcmp failed.
+Iteration:1463 memcmp failed.
+Iteration:1464 memcmp failed.
+Iteration:1465 memcmp failed.
+Iteration:1466 memcmp failed.
+Iteration:1467 memcmp failed.
+Iteration:1468 memcmp failed.
+Iteration:1469 memcmp failed.
+Iteration:1470 memcmp failed.
+Iteration:1471 memcmp failed.
+Iteration:1472 memcmp failed.
+Iteration:1473 memcmp failed.
+Iteration:1474 memcmp failed.
+Iteration:1475 memcmp failed.
+Iteration:1476 memcmp failed.
+Iteration:1477 memcmp failed.
+Iteration:1478 memcmp failed.
+Iteration:1479 memcmp failed.
+Iteration:1480 memcmp failed.
+Iteration:1481 memcmp failed.
+Iteration:1482 memcmp failed.
+Iteration:1483 memcmp failed.
+Iteration:1484 memcmp failed.
+Iteration:1485 memcmp failed.
+Iteration:1486 memcmp failed.
+Iteration:1487 memcmp failed.
+Iteration:1488 memcmp failed.
+Iteration:1489 memcmp failed.
+Iteration:1490 memcmp failed.
+Iteration:1491 memcmp failed.
+Iteration:1492 memcmp failed.
+Iteration:1493 memcmp failed.
+Iteration:1494 memcmp failed.
+Iteration:1495 memcmp failed.
+Iteration:1496 memcmp failed.
+Iteration:1497 memcmp failed.
+Iteration:1498 memcmp failed.
+Iteration:1499 memcmp failed.
+Iteration:1500 memcmp failed.
+Iteration:1501 memcmp failed.
+Iteration:1502 memcmp failed.
+Iteration:1503 memcmp failed.
+Iteration:1504 memcmp failed.
+Iteration:1505 memcmp failed.
+Iteration:1506 memcmp failed.
+Iteration:1507 memcmp failed.
+Iteration:1508 memcmp failed.
+Iteration:1509 memcmp failed.
+Iteration:1510 memcmp failed.
+Iteration:1511 memcmp failed.
+Iteration:1512 memcmp failed.
+Iteration:1513 memcmp failed.
+Iteration:1514 memcmp failed.
+Iteration:1515 memcmp failed.
+Iteration:1516 memcmp failed.
+Iteration:1517 memcmp failed.
+Iteration:1518 memcmp failed.
+Iteration:1519 memcmp failed.
+Iteration:1520 memcmp failed.
+Iteration:1521 memcmp failed.
+Iteration:1522 memcmp failed.
+Iteration:1523 memcmp failed.
+Iteration:1524 memcmp failed.
+Iteration:1525 memcmp failed.
+Iteration:1526 memcmp failed.
+Iteration:1527 memcmp failed.
+Iteration:1528 memcmp failed.
+Iteration:1529 memcmp failed.
+Iteration:1530 memcmp failed.
+Iteration:1531 memcmp failed.
+Iteration:1532 memcmp failed.
+Iteration:1533 memcmp failed.
+Iteration:1534 memcmp failed.
+Iteration:1535 memcmp failed.
+Iteration:1537 memcmp failed.
+Iteration:1538 memcmp failed.
+Iteration:1539 memcmp failed.
+Iteration:1540 memcmp failed.
+Iteration:1541 memcmp failed.
+Iteration:1542 memcmp failed.
+Iteration:1543 memcmp failed.
+Iteration:1544 memcmp failed.
+Iteration:1545 memcmp failed.
+Iteration:1546 memcmp failed.
+Iteration:1547 memcmp failed.
+Iteration:1548 memcmp failed.
+Iteration:1549 memcmp failed.
+Iteration:1550 memcmp failed.
+Iteration:1551 memcmp failed.
+Iteration:1552 memcmp failed.
+Iteration:1553 memcmp failed.
+Iteration:1554 memcmp failed.
+Iteration:1555 memcmp failed.
+Iteration:1556 memcmp failed.
+Iteration:1557 memcmp failed.
+Iteration:1558 memcmp failed.
+Iteration:1559 memcmp failed.
+Iteration:1560 memcmp failed.
+Iteration:1561 memcmp failed.
+Iteration:1562 memcmp failed.
+Iteration:1563 memcmp failed.
+Iteration:1564 memcmp failed.
+Iteration:1565 memcmp failed.
+Iteration:1566 memcmp failed.
+Iteration:1567 memcmp failed.
+Iteration:1568 memcmp failed.
+Iteration:1569 memcmp failed.
+Iteration:1570 memcmp failed.
+Iteration:1571 memcmp failed.
+Iteration:1572 memcmp failed.
+Iteration:1573 memcmp failed.
+Iteration:1574 memcmp failed.
+Iteration:1575 memcmp failed.
+Iteration:1576 memcmp failed.
+Iteration:1577 memcmp failed.
+Iteration:1578 memcmp failed.
+Iteration:1579 memcmp failed.
+Iteration:1580 memcmp failed.
+Iteration:1581 memcmp failed.
+Iteration:1582 memcmp failed.
+Iteration:1583 memcmp failed.
+Iteration:1584 memcmp failed.
+Iteration:1585 memcmp failed.
+Iteration:1586 memcmp failed.
+Iteration:1587 memcmp failed.
+Iteration:1588 memcmp failed.
+Iteration:1589 memcmp failed.
+Iteration:1590 memcmp failed.
+Iteration:1591 memcmp failed.
+Iteration:1592 memcmp failed.
+Iteration:1593 memcmp failed.
+Iteration:1594 memcmp failed.
+Iteration:1595 memcmp failed.
+Iteration:1596 memcmp failed.
+Iteration:1597 memcmp failed.
+Iteration:1598 memcmp failed.
+Iteration:1599 memcmp failed.
+Iteration:1600 memcmp failed.
+Iteration:1601 memcmp failed.
+Iteration:1602 memcmp failed.
+Iteration:1603 memcmp failed.
+Iteration:1604 memcmp failed.
+Iteration:1605 memcmp failed.
+Iteration:1606 memcmp failed.
+Iteration:1607 memcmp failed.
+Iteration:1608 memcmp failed.
+Iteration:1609 memcmp failed.
+Iteration:1610 memcmp failed.
+Iteration:1611 memcmp failed.
+Iteration:1612 memcmp failed.
+Iteration:1613 memcmp failed.
+Iteration:1614 memcmp failed.
+Iteration:1615 memcmp failed.
+Iteration:1616 memcmp failed.
+Iteration:1617 memcmp failed.
+Iteration:1618 memcmp failed.
+Iteration:1619 memcmp failed.
+Iteration:1620 memcmp failed.
+Iteration:1621 memcmp failed.
+Iteration:1622 memcmp failed.
+Iteration:1623 memcmp failed.
+Iteration:1624 memcmp failed.
+Iteration:1625 memcmp failed.
+Iteration:1626 memcmp failed.
+Iteration:1627 memcmp failed.
+Iteration:1628 memcmp failed.
+Iteration:1629 memcmp failed.
+Iteration:1630 memcmp failed.
+Iteration:1631 memcmp failed.
+Iteration:1632 memcmp failed.
+Iteration:1633 memcmp failed.
+Iteration:1634 memcmp failed.
+Iteration:1635 memcmp failed.
+Iteration:1636 memcmp failed.
+Iteration:1637 memcmp failed.
+Iteration:1638 memcmp failed.
+Iteration:1639 memcmp failed.
+Iteration:1640 memcmp failed.
+Iteration:1641 memcmp failed.
+Iteration:1642 memcmp failed.
+Iteration:1643 memcmp failed.
+Iteration:1644 memcmp failed.
+Iteration:1645 memcmp failed.
+Iteration:1646 memcmp failed.
+Iteration:1647 memcmp failed.
+Iteration:1648 memcmp failed.
+Iteration:1649 memcmp failed.
+Iteration:1650 memcmp failed.
+Iteration:1651 memcmp failed.
+Iteration:1652 memcmp failed.
+Iteration:1653 memcmp failed.
+Iteration:1654 memcmp failed.
+Iteration:1655 memcmp failed.
+Iteration:1656 memcmp failed.
+Iteration:1657 memcmp failed.
+Iteration:1658 memcmp failed.
+Iteration:1659 memcmp failed.
+Iteration:1660 memcmp failed.
+Iteration:1661 memcmp failed.
+Iteration:1662 memcmp failed.
+Iteration:1663 memcmp failed.
+Iteration:1664 memcmp failed.
+Iteration:1665 memcmp failed.
+Iteration:1666 memcmp failed.
+Iteration:1667 memcmp failed.
+Iteration:1668 memcmp failed.
+Iteration:1669 memcmp failed.
+Iteration:1670 memcmp failed.
+Iteration:1671 memcmp failed.
+Iteration:1672 memcmp failed.
+Iteration:1673 memcmp failed.
+Iteration:1674 memcmp failed.
+Iteration:1675 memcmp failed.
+Iteration:1676 memcmp failed.
+Iteration:1677 memcmp failed.
+Iteration:1678 memcmp failed.
+Iteration:1679 memcmp failed.
+Iteration:1680 memcmp failed.
+Iteration:1681 memcmp failed.
+Iteration:1682 memcmp failed.
+Iteration:1683 memcmp failed.
+Iteration:1684 memcmp failed.
+Iteration:1685 memcmp failed.
+Iteration:1686 memcmp failed.
+Iteration:1687 memcmp failed.
+Iteration:1688 memcmp failed.
+Iteration:1689 memcmp failed.
+Iteration:1690 memcmp failed.
+Iteration:1691 memcmp failed.
+Iteration:1692 memcmp failed.
+Iteration:1693 memcmp failed.
+Iteration:1694 memcmp failed.
+Iteration:1695 memcmp failed.
+Iteration:1696 memcmp failed.
+Iteration:1697 memcmp failed.
+Iteration:1698 memcmp failed.
+Iteration:1699 memcmp failed.
+Iteration:1700 memcmp failed.
+Iteration:1701 memcmp failed.
+Iteration:1702 memcmp failed.
+Iteration:1703 memcmp failed.
+Iteration:1704 memcmp failed.
+Iteration:1705 memcmp failed.
+Iteration:1706 memcmp failed.
+Iteration:1707 memcmp failed.
+Iteration:1708 memcmp failed.
+Iteration:1709 memcmp failed.
+Iteration:1710 memcmp failed.
+Iteration:1711 memcmp failed.
+Iteration:1712 memcmp failed.
+Iteration:1713 memcmp failed.
+Iteration:1714 memcmp failed.
+Iteration:1715 memcmp failed.
+Iteration:1716 memcmp failed.
+Iteration:1717 memcmp failed.
+Iteration:1718 memcmp failed.
+Iteration:1719 memcmp failed.
+Iteration:1720 memcmp failed.
+Iteration:1721 memcmp failed.
+Iteration:1722 memcmp failed.
+Iteration:1723 memcmp failed.
+Iteration:1724 memcmp failed.
+Iteration:1725 memcmp failed.
+Iteration:1726 memcmp failed.
+Iteration:1727 memcmp failed.
+Iteration:1728 memcmp failed.
+Iteration:1729 memcmp failed.
+Iteration:1730 memcmp failed.
+Iteration:1731 memcmp failed.
+Iteration:1732 memcmp failed.
+Iteration:1733 memcmp failed.
+Iteration:1734 memcmp failed.
+Iteration:1735 memcmp failed.
+Iteration:1736 memcmp failed.
+Iteration:1737 memcmp failed.
+Iteration:1738 memcmp failed.
+Iteration:1739 memcmp failed.
+Iteration:1740 memcmp failed.
+Iteration:1741 memcmp failed.
+Iteration:1742 memcmp failed.
+Iteration:1743 memcmp failed.
+Iteration:1744 memcmp failed.
+Iteration:1745 memcmp failed.
+Iteration:1746 memcmp failed.
+Iteration:1747 memcmp failed.
+Iteration:1748 memcmp failed.
+Iteration:1749 memcmp failed.
+Iteration:1750 memcmp failed.
+Iteration:1751 memcmp failed.
+Iteration:1752 memcmp failed.
+Iteration:1753 memcmp failed.
+Iteration:1754 memcmp failed.
+Iteration:1755 memcmp failed.
+Iteration:1756 memcmp failed.
+Iteration:1757 memcmp failed.
+Iteration:1758 memcmp failed.
+Iteration:1759 memcmp failed.
+Iteration:1760 memcmp failed.
+Iteration:1761 memcmp failed.
+Iteration:1762 memcmp failed.
+Iteration:1763 memcmp failed.
+Iteration:1764 memcmp failed.
+Iteration:1765 memcmp failed.
+Iteration:1766 memcmp failed.
+Iteration:1767 memcmp failed.
+Iteration:1768 memcmp failed.
+Iteration:1769 memcmp failed.
+Iteration:1770 memcmp failed.
+Iteration:1771 memcmp failed.
+Iteration:1772 memcmp failed.
+Iteration:1773 memcmp failed.
+Iteration:1774 memcmp failed.
+Iteration:1775 memcmp failed.
+Iteration:1776 memcmp failed.
+Iteration:1777 memcmp failed.
+Iteration:1778 memcmp failed.
+Iteration:1779 memcmp failed.
+Iteration:1780 memcmp failed.
+Iteration:1781 memcmp failed.
+Iteration:1782 memcmp failed.
+Iteration:1783 memcmp failed.
+Iteration:1784 memcmp failed.
+Iteration:1785 memcmp failed.
+Iteration:1786 memcmp failed.
+Iteration:1787 memcmp failed.
+Iteration:1788 memcmp failed.
+Iteration:1789 memcmp failed.
+Iteration:1790 memcmp failed.
+Iteration:1791 memcmp failed.
+Iteration:1792 memcmp failed.
+Iteration:1793 memcmp failed.
+Iteration:1794 memcmp failed.
+Iteration:1795 memcmp failed.
+Iteration:1796 memcmp failed.
+Iteration:1797 memcmp failed.
+Iteration:1798 memcmp failed.
+Iteration:1799 memcmp failed.
+Iteration:1800 memcmp failed.
+Iteration:1801 memcmp failed.
+Iteration:1802 memcmp failed.
+Iteration:1803 memcmp failed.
+Iteration:1804 memcmp failed.
+Iteration:1805 memcmp failed.
+Iteration:1806 memcmp failed.
+Iteration:1807 memcmp failed.
+Iteration:1808 memcmp failed.
+Iteration:1809 memcmp failed.
+Iteration:1810 memcmp failed.
+Iteration:1811 memcmp failed.
+Iteration:1812 memcmp failed.
+Iteration:1813 memcmp failed.
+Iteration:1814 memcmp failed.
+Iteration:1815 memcmp failed.
+Iteration:1816 memcmp failed.
+Iteration:1817 memcmp failed.
+Iteration:1818 memcmp failed.
+Iteration:1819 memcmp failed.
+Iteration:1820 memcmp failed.
+Iteration:1821 memcmp failed.
+Iteration:1822 memcmp failed.
+Iteration:1823 memcmp failed.
+Iteration:1824 memcmp failed.
+Iteration:1825 memcmp failed.
+Iteration:1826 memcmp failed.
+Iteration:1827 memcmp failed.
+Iteration:1828 memcmp failed.
+Iteration:1829 memcmp failed.
+Iteration:1830 memcmp failed.
+Iteration:1831 memcmp failed.
+Iteration:1832 memcmp failed.
+Iteration:1833 memcmp failed.
+Iteration:1834 memcmp failed.
+Iteration:1835 memcmp failed.
+Iteration:1836 memcmp failed.
+Iteration:1837 memcmp failed.
+Iteration:1838 memcmp failed.
+Iteration:1839 memcmp failed.
+Iteration:1840 memcmp failed.
+Iteration:1841 memcmp failed.
+Iteration:1842 memcmp failed.
+Iteration:1843 memcmp failed.
+Iteration:1844 memcmp failed.
+Iteration:1845 memcmp failed.
+Iteration:1846 memcmp failed.
+Iteration:1847 memcmp failed.
+Iteration:1848 memcmp failed.
+Iteration:1849 memcmp failed.
+Iteration:1850 memcmp failed.
+Iteration:1851 memcmp failed.
+Iteration:1852 memcmp failed.
+Iteration:1853 memcmp failed.
+Iteration:1854 memcmp failed.
+Iteration:1855 memcmp failed.
+Iteration:1856 memcmp failed.
+Iteration:1857 memcmp failed.
+Iteration:1858 memcmp failed.
+Iteration:1859 memcmp failed.
+Iteration:1860 memcmp failed.
+Iteration:1861 memcmp failed.
+Iteration:1862 memcmp failed.
+Iteration:1863 memcmp failed.
+Iteration:1864 memcmp failed.
+Iteration:1865 memcmp failed.
+Iteration:1866 memcmp failed.
+Iteration:1867 memcmp failed.
+Iteration:1868 memcmp failed.
+Iteration:1869 memcmp failed.
+Iteration:1870 memcmp failed.
+Iteration:1871 memcmp failed.
+Iteration:1872 memcmp failed.
+Iteration:1873 memcmp failed.
+Iteration:1874 memcmp failed.
+Iteration:1875 memcmp failed.
+Iteration:1876 memcmp failed.
+Iteration:1877 memcmp failed.
+Iteration:1878 memcmp failed.
+Iteration:1879 memcmp failed.
+Iteration:1880 memcmp failed.
+Iteration:1881 memcmp failed.
+Iteration:1882 memcmp failed.
+Iteration:1883 memcmp failed.
+Iteration:1884 memcmp failed.
+Iteration:1885 memcmp failed.
+Iteration:1886 memcmp failed.
+Iteration:1887 memcmp failed.
+Iteration:1888 memcmp failed.
+Iteration:1889 memcmp failed.
+Iteration:1890 memcmp failed.
+Iteration:1891 memcmp failed.
+Iteration:1892 memcmp failed.
+Iteration:1893 memcmp failed.
+Iteration:1894 memcmp failed.
+Iteration:1895 memcmp failed.
+Iteration:1896 memcmp failed.
+Iteration:1897 memcmp failed.
+Iteration:1898 memcmp failed.
+Iteration:1899 memcmp failed.
+Iteration:1900 memcmp failed.
+Iteration:1901 memcmp failed.
+Iteration:1902 memcmp failed.
+Iteration:1903 memcmp failed.
+Iteration:1904 memcmp failed.
+Iteration:1905 memcmp failed.
+Iteration:1906 memcmp failed.
+Iteration:1907 memcmp failed.
+Iteration:1908 memcmp failed.
+Iteration:1909 memcmp failed.
+Iteration:1910 memcmp failed.
+Iteration:1911 memcmp failed.
+Iteration:1912 memcmp failed.
+Iteration:1913 memcmp failed.
+Iteration:1914 memcmp failed.
+Iteration:1915 memcmp failed.
+Iteration:1916 memcmp failed.
+Iteration:1917 memcmp failed.
+Iteration:1918 memcmp failed.
+Iteration:1919 memcmp failed.
+Iteration:1920 memcmp failed.
+Iteration:1921 memcmp failed.
+Iteration:1922 memcmp failed.
+Iteration:1923 memcmp failed.
+Iteration:1924 memcmp failed.
+Iteration:1925 memcmp failed.
+Iteration:1926 memcmp failed.
+Iteration:1927 memcmp failed.
+Iteration:1928 memcmp failed.
+Iteration:1929 memcmp failed.
+Iteration:1930 memcmp failed.
+Iteration:1931 memcmp failed.
+Iteration:1932 memcmp failed.
+Iteration:1933 memcmp failed.
+Iteration:1934 memcmp failed.
+Iteration:1935 memcmp failed.
+Iteration:1936 memcmp failed.
+Iteration:1937 memcmp failed.
+Iteration:1938 memcmp failed.
+Iteration:1939 memcmp failed.
+Iteration:1940 memcmp failed.
+Iteration:1941 memcmp failed.
+Iteration:1942 memcmp failed.
+Iteration:1943 memcmp failed.
+Iteration:1944 memcmp failed.
+Iteration:1945 memcmp failed.
+Iteration:1946 memcmp failed.
+Iteration:1947 memcmp failed.
+Iteration:1948 memcmp failed.
+Iteration:1949 memcmp failed.
+Iteration:1950 memcmp failed.
+Iteration:1951 memcmp failed.
+Iteration:1952 memcmp failed.
+Iteration:1953 memcmp failed.
+Iteration:1954 memcmp failed.
+Iteration:1955 memcmp failed.
+Iteration:1956 memcmp failed.
+Iteration:1957 memcmp failed.
+Iteration:1958 memcmp failed.
+Iteration:1959 memcmp failed.
+Iteration:1960 memcmp failed.
+Iteration:1961 memcmp failed.
+Iteration:1962 memcmp failed.
+Iteration:1963 memcmp failed.
+Iteration:1964 memcmp failed.
+Iteration:1965 memcmp failed.
+Iteration:1966 memcmp failed.
+Iteration:1967 memcmp failed.
+Iteration:1968 memcmp failed.
+Iteration:1969 memcmp failed.
+Iteration:1970 memcmp failed.
+Iteration:1971 memcmp failed.
+Iteration:1972 memcmp failed.
+Iteration:1973 memcmp failed.
+Iteration:1974 memcmp failed.
+Iteration:1975 memcmp failed.
+Iteration:1976 memcmp failed.
+Iteration:1977 memcmp failed.
+Iteration:1978 memcmp failed.
+Iteration:1979 memcmp failed.
+Iteration:1980 memcmp failed.
+Iteration:1981 memcmp failed.
+Iteration:1982 memcmp failed.
+Iteration:1983 memcmp failed.
+Iteration:1984 memcmp failed.
+Iteration:1985 memcmp failed.
+Iteration:1986 memcmp failed.
+Iteration:1987 memcmp failed.
+Iteration:1988 memcmp failed.
+Iteration:1989 memcmp failed.
+Iteration:1990 memcmp failed.
+Iteration:1991 memcmp failed.
+Iteration:1992 memcmp failed.
+Iteration:1993 memcmp failed.
+Iteration:1994 memcmp failed.
+Iteration:1995 memcmp failed.
+Iteration:1996 memcmp failed.
+Iteration:1997 memcmp failed.
+Iteration:1998 memcmp failed.
+Iteration:1999 memcmp failed.
+Finished all tests.
+Processing file 1 out of 1
+File 'dominion.c'
+Lines executed:38.39% of 560
+Branches executed:35.25% of 417
+Taken at least once:29.26% of 417
+Calls executed:26.04% of 96
+Creating 'dominion.c.gcov'
+
+        -:    0:Source:dominion.c
+        -:    0:Graph:dominion.gcno
+        -:    0:Data:dominion.gcda
+        -:    0:Runs:20
+        -:    0:Programs:12
+        -:    1:#include "dominion.h"
+        -:    2:#include "dominion_helpers.h"
+        -:    3:#include "rngs.h"
+        -:    4:#include <stdio.h>
+        -:    5:#include <math.h>
+        -:    6:#include <stdlib.h>
+        -:    7:
+        -:    8:
+function compare called 1288314 returned 100% blocks executed 100%
+  1288314:    9:int compare(const void* a, const void* b) {
+  1288314:   10:  if (*(int*)a > *(int*)b)
+branch  0 taken 52% (fallthrough)
+branch  1 taken 48%
+   663955:   11:    return 1;
+   624359:   12:  if (*(int*)a < *(int*)b)
+branch  0 taken 99% (fallthrough)
+branch  1 taken 1%
+   621615:   13:    return -1;
+     2744:   14:  return 0;
+        -:   15:}
+        -:   16:
+function newGame called 70 returned 100% blocks executed 100%
+       70:   17:struct gameState* newGame() {
+       70:   18:  struct gameState* g = malloc(sizeof(struct gameState));
+       70:   19:  return g;
+        -:   20:}
+        -:   21:
+function kingdomCards called 0 returned 0% blocks executed 0%
+    #####:   22:int* kingdomCards(int k1, int k2, int k3, int k4, int k5, int k6, int k7,
+        -:   23:		  int k8, int k9, int k10) {
+    #####:   24:  int* k = malloc(10 * sizeof(int));
+    #####:   25:  k[0] = k1;
+    #####:   26:  k[1] = k2;
+    #####:   27:  k[2] = k3;
+    #####:   28:  k[3] = k4;
+    #####:   29:  k[4] = k5;
+    #####:   30:  k[5] = k6;
+    #####:   31:  k[6] = k7;
+    #####:   32:  k[7] = k8;
+    #####:   33:  k[8] = k9;
+    #####:   34:  k[9] = k10;
+    #####:   35:  return k;
+        -:   36:}
+        -:   37:
+function initializeGame called 96 returned 100% blocks executed 98%
+       96:   38:int initializeGame(int numPlayers, int kingdomCards[10], int randomSeed,
+        -:   39:		   struct gameState *state) {
+        -:   40:
+        -:   41:  int i;
+        -:   42:  int j;
+        -:   43:  int it;			
+        -:   44:  //set up random number generator
+       96:   45:  SelectStream(1);
+call    0 returned 100%
+       96:   46:  PutSeed((long)randomSeed);
+call    0 returned 100%
+        -:   47:  
+        -:   48:  //check number of players
+       96:   49:  if (numPlayers > MAX_PLAYERS || numPlayers < 2)
+branch  0 taken 96% (fallthrough)
+branch  1 taken 4%
+branch  2 taken 7% (fallthrough)
+branch  3 taken 93%
+        -:   50:    {
+       10:   51:      return -1;
+        -:   52:    }
+        -:   53:
+        -:   54:  //set number of players
+       86:   55:  state->numPlayers = numPlayers;
+        -:   56:
+        -:   57:  //check selected kingdom cards are different
+      838:   58:  for (i = 0; i < 10; i++)
+branch  0 taken 92%
+branch  1 taken 8% (fallthrough)
+        -:   59:    {
+     8380:   60:      for (j = 0; j < 10; j++)
+branch  0 taken 91%
+branch  1 taken 9% (fallthrough)
+        -:   61:        {
+     7628:   62:	  if (j != i && kingdomCards[j] == kingdomCards[i])
+branch  0 taken 90% (fallthrough)
+branch  1 taken 10%
+branch  2 taken 1% (fallthrough)
+branch  3 taken 99%
+        -:   63:	    {
+       18:   64:	      return -1;
+        -:   65:	    }
+        -:   66:        }
+        -:   67:    }
+        -:   68:
+        -:   69:
+        -:   70:  //initialize supply
+        -:   71:  ///////////////////////////////
+        -:   72:
+        -:   73:  //set number of Curse cards
+       68:   74:  if (numPlayers == 2)
+branch  0 taken 29% (fallthrough)
+branch  1 taken 71%
+        -:   75:    {
+       20:   76:      state->supplyCount[curse] = 10;
+        -:   77:    }
+       48:   78:  else if (numPlayers == 3)
+branch  0 taken 67% (fallthrough)
+branch  1 taken 33%
+        -:   79:    {
+       32:   80:      state->supplyCount[curse] = 20;
+        -:   81:    }
+        -:   82:  else
+        -:   83:    {
+       16:   84:      state->supplyCount[curse] = 30;
+        -:   85:    }
+        -:   86:
+        -:   87:  //set number of Victory cards
+       68:   88:  if (numPlayers == 2)
+branch  0 taken 29% (fallthrough)
+branch  1 taken 71%
+        -:   89:    {
+       20:   90:      state->supplyCount[estate] = 8;
+       20:   91:      state->supplyCount[duchy] = 8;
+       20:   92:      state->supplyCount[province] = 8;
+        -:   93:    }
+        -:   94:  else
+        -:   95:    {
+       48:   96:      state->supplyCount[estate] = 12;
+       48:   97:      state->supplyCount[duchy] = 12;
+       48:   98:      state->supplyCount[province] = 12;
+        -:   99:    }
+        -:  100:
+        -:  101:  //set number of Treasure cards
+       68:  102:  state->supplyCount[copper] = 60 - (7 * numPlayers);
+       68:  103:  state->supplyCount[silver] = 40;
+       68:  104:  state->supplyCount[gold] = 30;
+        -:  105:
+        -:  106:  //set number of Kingdom cards
+     1428:  107:  for (i = adventurer; i <= treasure_map; i++)       	//loop all cards
+branch  0 taken 95%
+branch  1 taken 5% (fallthrough)
+        -:  108:    {
+    11220:  109:      for (j = 0; j < 10; j++)           		//loop chosen cards
+branch  0 taken 94%
+branch  1 taken 6% (fallthrough)
+        -:  110:	{
+    10540:  111:	  if (kingdomCards[j] == i)
+branch  0 taken 6% (fallthrough)
+branch  1 taken 94%
+        -:  112:	    {
+        -:  113:	      //check if card is a 'Victory' Kingdom card
+      680:  114:	      if (kingdomCards[j] == great_hall || kingdomCards[j] == gardens)
+branch  0 taken 96% (fallthrough)
+branch  1 taken 4%
+branch  2 taken 10% (fallthrough)
+branch  3 taken 90%
+        -:  115:		{
+      188:  116:		  if (numPlayers == 2){ 
+branch  0 taken 32% (fallthrough)
+branch  1 taken 68%
+       30:  117:		    state->supplyCount[i] = 8; 
+        -:  118:		  }
+       64:  119:		  else{ state->supplyCount[i] = 12; }
+        -:  120:		}
+        -:  121:	      else
+        -:  122:		{
+      586:  123:		  state->supplyCount[i] = 10;
+        -:  124:		}
+      680:  125:	      break;
+        -:  126:	    }
+        -:  127:	  else    //card is not in the set choosen for the game
+        -:  128:	    {
+     9860:  129:	      state->supplyCount[i] = -1;
+        -:  130:	    }
+        -:  131:	}
+        -:  132:
+        -:  133:    }
+        -:  134:
+        -:  135:  ////////////////////////
+        -:  136:  //supply intilization complete
+        -:  137:
+        -:  138:  //set player decks
+      268:  139:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 75%
+branch  1 taken 25% (fallthrough)
+        -:  140:    {
+      200:  141:      state->deckCount[i] = 0;
+      800:  142:      for (j = 0; j < 3; j++)
+branch  0 taken 75%
+branch  1 taken 25% (fallthrough)
+        -:  143:	{
+      600:  144:	  state->deck[i][j] = estate;
+      600:  145:	  state->deckCount[i]++;
+        -:  146:	}
+     1600:  147:      for (j = 3; j < 10; j++)
+branch  0 taken 88%
+branch  1 taken 13% (fallthrough)
+        -:  148:	{
+     1400:  149:	  state->deck[i][j] = copper;
+     1400:  150:	  state->deckCount[i]++;		
+        -:  151:	}
+        -:  152:    }
+        -:  153:
+        -:  154:  //shuffle player decks
+      268:  155:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 75%
+branch  1 taken 25% (fallthrough)
+        -:  156:    {
+      200:  157:      if ( shuffle(i, state) < 0 )
+call    0 returned 100%
+branch  1 taken 0% (fallthrough)
+branch  2 taken 100%
+        -:  158:	{
+    #####:  159:	  return -1;
+        -:  160:	}
+        -:  161:    }
+        -:  162:
+        -:  163:  //draw player hands
+      268:  164:  for (i = 0; i < numPlayers; i++)
+branch  0 taken 75%
+branch  1 taken 25% (fallthrough)
+        -:  165:    {  
+        -:  166:      //initialize hand size to zero
+      200:  167:      state->handCount[i] = 0;
+      200:  168:      state->discardCount[i] = 0;
+        -:  169:      //draw 5 cards
+        -:  170:      // for (j = 0; j < 5; j++)
+        -:  171:      //	{
+        -:  172:      //	  drawCard(i, state);
+        -:  173:      //	}
+        -:  174:    }
+        -:  175:  
+        -:  176:  //set embargo tokens to 0 for all supply piles
+     1904:  177:  for (i = 0; i <= treasure_map; i++)
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+        -:  178:    {
+     1836:  179:      state->embargoTokens[i] = 0;
+        -:  180:    }
+        -:  181:
+        -:  182:  //initialize first player's turn
+       68:  183:  state->outpostPlayed = 0;
+       68:  184:  state->phase = 0;
+       68:  185:  state->numActions = 1;
+       68:  186:  state->numBuys = 1;
+       68:  187:  state->playedCardCount = 0;
+       68:  188:  state->whoseTurn = 0;
+       68:  189:  state->handCount[state->whoseTurn] = 0;
+        -:  190:  //int it; move to top
+        -:  191:
+        -:  192:  //Moved draw cards to here, only drawing at the start of a turn
+      408:  193:  for (it = 0; it < 5; it++){
+branch  0 taken 83%
+branch  1 taken 17% (fallthrough)
+      340:  194:    drawCard(state->whoseTurn, state);
+call    0 returned 100%
+        -:  195:  }
+        -:  196:
+       68:  197:  updateCoins(state->whoseTurn, state, 0);
+call    0 returned 100%
+        -:  198:
+       68:  199:  return 0;
+        -:  200:}
+        -:  201:
+function shuffle called 16902 returned 100% blocks executed 100%
+    16902:  202:int shuffle(int player, struct gameState *state) {
+        -:  203: 
+        -:  204:
+        -:  205:  int newDeck[MAX_DECK];
+    16902:  206:  int newDeckPos = 0;
+        -:  207:  int card;
+        -:  208:  int i;
+        -:  209:
+    16902:  210:  if (state->deckCount[player] < 1)
+branch  0 taken 75% (fallthrough)
+branch  1 taken 25%
+    12670:  211:    return -1;
+     4232:  212:  qsort ((void*)(state->deck[player]), state->deckCount[player], sizeof(int), compare); 
+call    0 returned 100%
+        -:  213:  /* SORT CARDS IN DECK TO ENSURE DETERMINISM! */
+        -:  214:
+   264586:  215:  while (state->deckCount[player] > 0) {
+branch  0 taken 98%
+branch  1 taken 2% (fallthrough)
+   256122:  216:    card = floor(Random() * state->deckCount[player]);
+call    0 returned 100%
+   256122:  217:    newDeck[newDeckPos] = state->deck[player][card];
+   256122:  218:    newDeckPos++;
+  5730009:  219:    for (i = card; i < state->deckCount[player]-1; i++) {
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+  5473887:  220:      state->deck[player][i] = state->deck[player][i+1];
+        -:  221:    }
+   256122:  222:    state->deckCount[player]--;
+        -:  223:  }
+   260354:  224:  for (i = 0; i < newDeckPos; i++) {
+branch  0 taken 98%
+branch  1 taken 2% (fallthrough)
+   256122:  225:    state->deck[player][i] = newDeck[i];
+   256122:  226:    state->deckCount[player]++;
+        -:  227:  }
+        -:  228:
+     4232:  229:  return 0;
+        -:  230:}
+        -:  231:
+function playCard called 0 returned 0% blocks executed 0%
+    #####:  232:int playCard(int handPos, int choice1, int choice2, int choice3, struct gameState *state) 
+        -:  233:{	
+        -:  234:  int card;
+    #####:  235:  int coin_bonus = 0; 		//tracks coins gain from actions
+        -:  236:
+        -:  237:  //check if it is the right phase
+    #####:  238:  if (state->phase != 0)
+branch  0 never executed
+branch  1 never executed
+        -:  239:    {
+    #####:  240:      return -1;
+        -:  241:    }
+        -:  242:	
+        -:  243:  //check if player has enough actions
+    #####:  244:  if ( state->numActions < 1 )
+branch  0 never executed
+branch  1 never executed
+        -:  245:    {
+    #####:  246:      return -1;
+        -:  247:    }
+        -:  248:	
+        -:  249:  //get card played
+    #####:  250:  card = handCard(handPos, state);
+call    0 never executed
+        -:  251:	
+        -:  252:  //check if selected card is an action
+    #####:  253:  if ( card < adventurer || card > treasure_map )
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  254:    {
+    #####:  255:      return -1;
+        -:  256:    }
+        -:  257:	
+        -:  258:  //play card
+    #####:  259:  if ( cardEffect(card, choice1, choice2, choice3, state, handPos, &coin_bonus) < 0 )
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  260:    {
+    #####:  261:      return -1;
+        -:  262:    }
+        -:  263:	
+        -:  264:  //reduce number of actions
+    #####:  265:  state->numActions--;
+        -:  266:
+        -:  267:  //update coins (Treasure cards may be added with card draws)
+    #####:  268:  updateCoins(state->whoseTurn, state, coin_bonus);
+call    0 never executed
+        -:  269:	
+    #####:  270:  return 0;
+        -:  271:}
+        -:  272:
+function buyCard called 0 returned 0% blocks executed 0%
+    #####:  273:int buyCard(int supplyPos, struct gameState *state) {
+        -:  274:  int who;
+        -:  275:  if (DEBUG){
+        -:  276:    printf("Entering buyCard...\n");
+        -:  277:  }
+        -:  278:
+        -:  279:  // I don't know what to do about the phase thing.
+        -:  280:
+    #####:  281:  who = state->whoseTurn;
+        -:  282:
+    #####:  283:  if (state->numBuys < 1){
+branch  0 never executed
+branch  1 never executed
+        -:  284:    if (DEBUG)
+        -:  285:      printf("You do not have any buys left\n");
+    #####:  286:    return -1;
+    #####:  287:  } else if (supplyCount(supplyPos, state) <1){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  288:    if (DEBUG)
+        -:  289:      printf("There are not any of that type of card left\n");
+    #####:  290:    return -1;
+    #####:  291:  } else if (state->coins < getCost(supplyPos)){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  292:    if (DEBUG) 
+        -:  293:      printf("You do not have enough money to buy that. You have %d coins.\n", state->coins);
+    #####:  294:    return -1;
+        -:  295:  } else {
+    #####:  296:    state->phase=1;
+        -:  297:    //state->supplyCount[supplyPos]--;
+    #####:  298:    gainCard(supplyPos, state, 0, who); //card goes in discard, this might be wrong.. (2 means goes into hand, 0 goes into discard)
+call    0 never executed
+        -:  299:  
+    #####:  300:    state->coins = (state->coins) - (getCost(supplyPos));
+call    0 never executed
+    #####:  301:    state->numBuys--;
+        -:  302:    if (DEBUG)
+        -:  303:      printf("You bought card number %d for %d coins. You now have %d buys and %d coins.\n", supplyPos, getCost(supplyPos), state->numBuys, state->coins);
+        -:  304:  }
+        -:  305:
+        -:  306:  //state->discard[who][state->discardCount[who]] = supplyPos;
+        -:  307:  //state->discardCount[who]++;
+        -:  308:    
+    #####:  309:  return 0;
+        -:  310:}
+        -:  311:
+function numHandCards called 12 returned 100% blocks executed 100%
+       12:  312:int numHandCards(struct gameState *state) {
+       12:  313:  return state->handCount[ whoseTurn(state) ];
+call    0 returned 100%
+        -:  314:}
+        -:  315:
+function handCard called 0 returned 0% blocks executed 0%
+    #####:  316:int handCard(int handPos, struct gameState *state) {
+    #####:  317:  int currentPlayer = whoseTurn(state);
+call    0 never executed
+    #####:  318:  return state->hand[currentPlayer][handPos];
+        -:  319:}
+        -:  320:
+function supplyCount called 0 returned 0% blocks executed 0%
+    #####:  321:int supplyCount(int card, struct gameState *state) {
+    #####:  322:  return state->supplyCount[card];
+        -:  323:}
+        -:  324:
+function fullDeckCount called 0 returned 0% blocks executed 0%
+    #####:  325:int fullDeckCount(int player, int card, struct gameState *state) {
+        -:  326:  int i;
+    #####:  327:  int count = 0;
+        -:  328:
+    #####:  329:  for (i = 0; i < state->deckCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  330:    {
+    #####:  331:      if (state->deck[player][i] == card) count++;
+branch  0 never executed
+branch  1 never executed
+        -:  332:    }
+        -:  333:
+    #####:  334:  for (i = 0; i < state->handCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  335:    {
+    #####:  336:      if (state->hand[player][i] == card) count++;
+branch  0 never executed
+branch  1 never executed
+        -:  337:    }
+        -:  338:
+    #####:  339:  for (i = 0; i < state->discardCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  340:    {
+    #####:  341:      if (state->discard[player][i] == card) count++;
+branch  0 never executed
+branch  1 never executed
+        -:  342:    }
+        -:  343:
+    #####:  344:  return count;
+        -:  345:}
+        -:  346:
+function whoseTurn called 86 returned 100% blocks executed 100%
+       86:  347:int whoseTurn(struct gameState *state) {
+       86:  348:  return state->whoseTurn;
+        -:  349:}
+        -:  350:
+function endTurn called 66 returned 100% blocks executed 100%
+       66:  351:int endTurn(struct gameState *state) {
+        -:  352:  int k;
+        -:  353:  int i;
+       66:  354:  int currentPlayer = whoseTurn(state);
+call    0 returned 100%
+        -:  355:  
+        -:  356:  //Discard hand
+      494:  357:  for (i = 0; i < state->handCount[currentPlayer]; i++){
+branch  0 taken 87%
+branch  1 taken 13% (fallthrough)
+      428:  358:    state->discard[currentPlayer][state->discardCount[currentPlayer]++] = state->hand[currentPlayer][i];//Discard
+      428:  359:    state->hand[currentPlayer][i] = -1;//Set card to -1
+        -:  360:  }
+       66:  361:  state->handCount[currentPlayer] = 0;//Reset hand count
+        -:  362:    
+        -:  363:  //Code for determining the player
+       66:  364:  if (currentPlayer < (state->numPlayers - 1)){ 
+branch  0 taken 61% (fallthrough)
+branch  1 taken 39%
+       40:  365:    state->whoseTurn = currentPlayer + 1;//Still safe to increment
+        -:  366:  }
+        -:  367:  else{
+       26:  368:    state->whoseTurn = 0;//Max player has been reached, loop back around to player 1
+        -:  369:  }
+        -:  370:
+       66:  371:  state->outpostPlayed = 0;
+       66:  372:  state->phase = 0;
+       66:  373:  state->numActions = 1;
+       66:  374:  state->coins = 0;
+       66:  375:  state->numBuys = 1;
+       66:  376:  state->playedCardCount = 0;
+       66:  377:  state->handCount[state->whoseTurn] = 0;
+        -:  378:
+        -:  379:  //int k; move to top
+        -:  380:  //Next player draws hand
+      396:  381:  for (k = 0; k < 5; k++){
+branch  0 taken 83%
+branch  1 taken 17% (fallthrough)
+      330:  382:    drawCard(state->whoseTurn, state);//Draw a card
+call    0 returned 100%
+        -:  383:  }
+        -:  384:
+        -:  385:  //Update money
+       66:  386:  updateCoins(state->whoseTurn, state , 0);
+call    0 returned 100%
+        -:  387:
+       66:  388:  return 0;
+        -:  389:}
+        -:  390:
+function isGameOver called 226 returned 100% blocks executed 100%
+      226:  391:int isGameOver(struct gameState *state) {
+        -:  392:  int i;
+        -:  393:  int j;
+        -:  394:	
+        -:  395:  //if stack of Province cards is empty, the game ends
+      226:  396:  if (state->supplyCount[province] == 0)
+branch  0 taken 6% (fallthrough)
+branch  1 taken 94%
+        -:  397:    {
+       14:  398:      return 1;
+        -:  399:    }
+        -:  400:
+        -:  401:  //if three supply pile are at 0, the game ends
+      212:  402:  j = 0;
+     5512:  403:  for (i = 0; i < 25; i++)
+branch  0 taken 96%
+branch  1 taken 4% (fallthrough)
+        -:  404:    {
+     5300:  405:      if (state->supplyCount[i] == 0)
+branch  0 taken 7% (fallthrough)
+branch  1 taken 93%
+        -:  406:	{
+      346:  407:	  j++;
+        -:  408:	}
+        -:  409:    }
+      212:  410:  if ( j >= 3)
+branch  0 taken 35% (fallthrough)
+branch  1 taken 65%
+        -:  411:    {
+       74:  412:      return 1;
+        -:  413:    }
+        -:  414:
+      138:  415:  return 0;
+        -:  416:}
+        -:  417:
+function scoreFor called 0 returned 0% blocks executed 0%
+    #####:  418:int scoreFor (int player, struct gameState *state) {
+        -:  419:
+        -:  420:  int i;
+    #####:  421:  int score = 0;
+        -:  422:  //score from hand
+    #####:  423:  for (i = 0; i < state->handCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  424:    {
+    #####:  425:      if (state->hand[player][i] == curse) { score = score - 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  426:      if (state->hand[player][i] == estate) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  427:      if (state->hand[player][i] == duchy) { score = score + 3; };
+branch  0 never executed
+branch  1 never executed
+    #####:  428:      if (state->hand[player][i] == province) { score = score + 6; };
+branch  0 never executed
+branch  1 never executed
+    #####:  429:      if (state->hand[player][i] == great_hall) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  430:      if (state->hand[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+branch  0 never executed
+branch  1 never executed
+call    2 never executed
+        -:  431:    }
+        -:  432:
+        -:  433:  //score from discard
+    #####:  434:  for (i = 0; i < state->discardCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  435:    {
+    #####:  436:      if (state->discard[player][i] == curse) { score = score - 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  437:      if (state->discard[player][i] == estate) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  438:      if (state->discard[player][i] == duchy) { score = score + 3; };
+branch  0 never executed
+branch  1 never executed
+    #####:  439:      if (state->discard[player][i] == province) { score = score + 6; };
+branch  0 never executed
+branch  1 never executed
+    #####:  440:      if (state->discard[player][i] == great_hall) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  441:      if (state->discard[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+branch  0 never executed
+branch  1 never executed
+call    2 never executed
+        -:  442:    }
+        -:  443:
+        -:  444:  //score from deck
+    #####:  445:  for (i = 0; i < state->discardCount[player]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  446:    {
+    #####:  447:      if (state->deck[player][i] == curse) { score = score - 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  448:      if (state->deck[player][i] == estate) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  449:      if (state->deck[player][i] == duchy) { score = score + 3; };
+branch  0 never executed
+branch  1 never executed
+    #####:  450:      if (state->deck[player][i] == province) { score = score + 6; };
+branch  0 never executed
+branch  1 never executed
+    #####:  451:      if (state->deck[player][i] == great_hall) { score = score + 1; };
+branch  0 never executed
+branch  1 never executed
+    #####:  452:      if (state->deck[player][i] == gardens) { score = score + ( fullDeckCount(player, 0, state) / 10 ); };
+branch  0 never executed
+branch  1 never executed
+call    2 never executed
+        -:  453:    }
+        -:  454:
+    #####:  455:  return score;
+        -:  456:}
+        -:  457:
+function getWinners called 0 returned 0% blocks executed 0%
+    #####:  458:int getWinners(int players[MAX_PLAYERS], struct gameState *state) {
+        -:  459:  int i;	
+        -:  460:  int j;
+        -:  461:  int highScore;
+        -:  462:  int currentPlayer;
+        -:  463:
+        -:  464:  //get score for each player
+    #####:  465:  for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  466:    {
+        -:  467:      //set unused player scores to -9999
+    #####:  468:      if (i >= state->numPlayers)
+branch  0 never executed
+branch  1 never executed
+        -:  469:	{
+    #####:  470:	  players[i] = -9999;
+        -:  471:	}
+        -:  472:      else
+        -:  473:	{
+    #####:  474:	  players[i] = scoreFor (i, state);
+call    0 never executed
+        -:  475:	}
+        -:  476:    }
+        -:  477:
+        -:  478:  //find highest score
+    #####:  479:  j = 0;
+    #####:  480:  for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  481:    {
+    #####:  482:      if (players[i] > players[j])
+branch  0 never executed
+branch  1 never executed
+        -:  483:	{
+    #####:  484:	  j = i;
+        -:  485:	}
+        -:  486:    }
+    #####:  487:  highScore = players[j];
+        -:  488:
+        -:  489:  //add 1 to players who had less turns
+    #####:  490:  currentPlayer = whoseTurn(state);
+call    0 never executed
+    #####:  491:  for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  492:    {
+    #####:  493:      if ( players[i] == highScore && i > currentPlayer )
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  494:	{
+    #####:  495:	  players[i]++;
+        -:  496:	}
+        -:  497:    }
+        -:  498:
+        -:  499:  //find new highest score
+    #####:  500:  j = 0;
+    #####:  501:  for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  502:    {
+    #####:  503:      if ( players[i] > players[j] )
+branch  0 never executed
+branch  1 never executed
+        -:  504:	{
+    #####:  505:	  j = i;
+        -:  506:	}
+        -:  507:    }
+    #####:  508:  highScore = players[j];
+        -:  509:
+        -:  510:  //set winners in array to 1 and rest to 0
+    #####:  511:  for (i = 0; i < MAX_PLAYERS; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  512:    {
+    #####:  513:      if ( players[i] == highScore )
+branch  0 never executed
+branch  1 never executed
+        -:  514:	{
+    #####:  515:	  players[i] = 1;
+        -:  516:	}
+        -:  517:      else
+        -:  518:	{
+    #####:  519:	  players[i] = 0;
+        -:  520:	}
+        -:  521:    }
+        -:  522:
+    #####:  523:  return 0;
+        -:  524:}
+        -:  525:
+function drawCard called 511218 returned 100% blocks executed 100%
+   511218:  526:int drawCard(int player, struct gameState *state)
+        -:  527:{	int count;
+        -:  528:  int deckCounter;
+   511218:  529:  if (state->deckCount[player] <= 0){//Deck is empty
+branch  0 taken 2% (fallthrough)
+branch  1 taken 98%
+        -:  530:    
+        -:  531:    //Step 1 Shuffle the discard pile back into a deck
+        -:  532:    int i;
+        -:  533:    //Move discard to deck
+   262326:  534:    for (i = 0; i < state->discardCount[player];i++){
+branch  0 taken 97%
+branch  1 taken 3% (fallthrough)
+   253972:  535:      state->deck[player][i] = state->discard[player][i];
+   253972:  536:      state->discard[player][i] = -1;
+        -:  537:    }
+        -:  538:
+     8354:  539:    state->deckCount[player] = state->discardCount[player];
+     8354:  540:    state->discardCount[player] = 0;//Reset discard
+        -:  541:
+        -:  542:    //Shufffle the deck
+     8354:  543:    shuffle(player, state);//Shuffle the deck up and make it so that we can draw
+call    0 returned 100%
+        -:  544:   
+        -:  545:    if (DEBUG){//Debug statements
+        -:  546:      printf("Deck count now: %d\n", state->deckCount[player]);
+        -:  547:    }
+        -:  548:    
+     8354:  549:    state->discardCount[player] = 0;
+        -:  550:
+        -:  551:    //Step 2 Draw Card
+     8354:  552:    count = state->handCount[player];//Get current player's hand count
+        -:  553:    
+        -:  554:    if (DEBUG){//Debug statements
+        -:  555:      printf("Current hand count: %d\n", count);
+        -:  556:    }
+        -:  557:    
+     8354:  558:    deckCounter = state->deckCount[player];//Create a holder for the deck count
+        -:  559:
+     8354:  560:    if (deckCounter == 0)
+branch  0 taken 52% (fallthrough)
+branch  1 taken 48%
+     4340:  561:      return -1;
+        -:  562:
+     4014:  563:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to hand
+     4014:  564:    state->deckCount[player]--;
+     4014:  565:    state->handCount[player]++;//Increment hand count
+        -:  566:  }
+        -:  567:
+        -:  568:  else{
+   502864:  569:    int count = state->handCount[player];//Get current hand count for player
+        -:  570:    int deckCounter;
+        -:  571:    if (DEBUG){//Debug statements
+        -:  572:      printf("Current hand count: %d\n", count);
+        -:  573:    }
+        -:  574:
+   502864:  575:    deckCounter = state->deckCount[player];//Create holder for the deck count
+   502864:  576:    state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
+   502864:  577:    state->deckCount[player]--;
+   502864:  578:    state->handCount[player]++;//Increment hand count
+        -:  579:  }
+        -:  580:
+   506878:  581:  return 0;
+        -:  582:}
+        -:  583:
+function getCost called 0 returned 0% blocks executed 0%
+    #####:  584:int getCost(int cardNumber)
+        -:  585:{
+    #####:  586:  switch( cardNumber ) 
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+branch  7 never executed
+branch  8 never executed
+branch  9 never executed
+branch 10 never executed
+branch 11 never executed
+branch 12 never executed
+branch 13 never executed
+branch 14 never executed
+branch 15 never executed
+branch 16 never executed
+branch 17 never executed
+branch 18 never executed
+branch 19 never executed
+branch 20 never executed
+branch 21 never executed
+branch 22 never executed
+branch 23 never executed
+branch 24 never executed
+branch 25 never executed
+branch 26 never executed
+branch 27 never executed
+        -:  587:    {
+        -:  588:    case curse:
+    #####:  589:      return 0;
+        -:  590:    case estate:
+    #####:  591:      return 2;
+        -:  592:    case duchy:
+    #####:  593:      return 5;
+        -:  594:    case province:
+    #####:  595:      return 8;
+        -:  596:    case copper:
+    #####:  597:      return 0;
+        -:  598:    case silver:
+    #####:  599:      return 3;
+        -:  600:    case gold:
+    #####:  601:      return 6;
+        -:  602:    case adventurer:
+    #####:  603:      return 6;
+        -:  604:    case council_room:
+    #####:  605:      return 5;
+        -:  606:    case feast:
+    #####:  607:      return 4;
+        -:  608:    case gardens:
+    #####:  609:      return 4;
+        -:  610:    case mine:
+    #####:  611:      return 5;
+        -:  612:    case remodel:
+    #####:  613:      return 4;
+        -:  614:    case smithy:
+    #####:  615:      return 4;
+        -:  616:    case village:
+    #####:  617:      return 3;
+        -:  618:    case baron:
+    #####:  619:      return 4;
+        -:  620:    case great_hall:
+    #####:  621:      return 3;
+        -:  622:    case minion:
+    #####:  623:      return 5;
+        -:  624:    case steward:
+    #####:  625:      return 3;
+        -:  626:    case tribute:
+    #####:  627:      return 5;
+        -:  628:    case ambassador:
+    #####:  629:      return 3;
+        -:  630:    case cutpurse:
+    #####:  631:      return 4;
+        -:  632:    case embargo: 
+    #####:  633:      return 2;
+        -:  634:    case outpost:
+    #####:  635:      return 5;
+        -:  636:    case salvager:
+    #####:  637:      return 4;
+        -:  638:    case sea_hag:
+    #####:  639:      return 4;
+        -:  640:    case treasure_map:
+    #####:  641:      return 4;
+        -:  642:    }
+        -:  643:	
+    #####:  644:  return -1;
+        -:  645:}
+        -:  646:
+function cardEffect called 8 returned 100% blocks executed 14%
+        8:  647:int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
+        -:  648:{
+        -:  649:  int i;
+        -:  650:  int j;
+        -:  651:  int k;
+        -:  652:  int x;
+        -:  653:  int index;
+        8:  654:  int currentPlayer = whoseTurn(state);
+call    0 returned 100%
+        8:  655:  int nextPlayer = currentPlayer + 1;
+        -:  656:
+        8:  657:  int tributeRevealedCards[2] = {-1, -1};
+        -:  658:  int temphand[MAX_HAND];// moved above the if statement
+        8:  659:  int drawntreasure=0;
+        8:  660:  int cardDrawn = 0;
+        8:  661:  int z = 0;// this is the counter for the temp hand
+        8:  662:  if (nextPlayer > (state->numPlayers - 1)){
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+    #####:  663:    nextPlayer = 0;
+        -:  664:  }
+        -:  665:  
+        -:  666:	
+        -:  667:  //uses switch to select card and perform actions
+        8:  668:  switch( card ) 
+branch  0 taken 0%
+branch  1 taken 0%
+branch  2 taken 0%
+branch  3 taken 0%
+branch  4 taken 0%
+branch  5 taken 0%
+branch  6 taken 0%
+branch  7 taken 0%
+branch  8 taken 0%
+branch  9 taken 0%
+branch 10 taken 100%
+branch 11 taken 0%
+branch 12 taken 0%
+branch 13 taken 0%
+branch 14 taken 0%
+branch 15 taken 0%
+branch 16 taken 0%
+branch 17 taken 0%
+branch 18 taken 0%
+branch 19 taken 0%
+branch 20 taken 0%
+        -:  669:    {
+        -:  670:    case adventurer:
+    #####:  671:     	return adventurer_effect(drawntreasure, currentPlayer, cardDrawn, z, temphand, state, handPos);
+call    0 never executed
+        -:  672:            
+        -:  673:    case council_room:
+    #####:  674:            return council_room_effect(currentPlayer, state, handPos);
+call    0 never executed
+        -:  675:            
+        -:  676:    case feast:
+        -:  677:      //gain card with cost up to 5
+        -:  678:      //Backup hand
+    #####:  679:      for (i = 0; i <= state->handCount[currentPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####:  680:	temphand[i] = state->hand[currentPlayer][i];//Backup card
+    #####:  681:	state->hand[currentPlayer][i] = -1;//Set to nothing
+        -:  682:      }
+        -:  683:      //Backup hand
+        -:  684:
+        -:  685:      //Update Coins for Buy
+    #####:  686:      updateCoins(currentPlayer, state, 5);
+call    0 never executed
+    #####:  687:      x = 1;//Condition to loop on
+    #####:  688:      while( x == 1) {//Buy one card
+branch  0 never executed
+branch  1 never executed
+    #####:  689:	if (supplyCount(choice1, state) <= 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  690:	  if (DEBUG)
+        -:  691:	    printf("None of that card left, sorry!\n");
+        -:  692:
+        -:  693:	  if (DEBUG){
+        -:  694:	    printf("Cards Left: %d\n", supplyCount(choice1, state));
+        -:  695:	  }
+        -:  696:	}
+    #####:  697:	else if (state->coins < getCost(choice1)){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  698:	  printf("That card is too expensive!\n");
+call    0 never executed
+        -:  699:
+        -:  700:	  if (DEBUG){
+        -:  701:	    printf("Coins: %d < %d\n", state->coins, getCost(choice1));
+        -:  702:	  }
+        -:  703:	}
+        -:  704:	else{
+        -:  705:
+        -:  706:	  if (DEBUG){
+        -:  707:	    printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -:  708:	  }
+        -:  709:
+    #####:  710:	  gainCard(choice1, state, 0, currentPlayer);//Gain the card
+call    0 never executed
+    #####:  711:	  x = 0;//No more buying cards
+        -:  712:
+        -:  713:	  if (DEBUG){
+        -:  714:	    printf("Deck Count: %d\n", state->handCount[currentPlayer] + state->deckCount[currentPlayer] + state->discardCount[currentPlayer]);
+        -:  715:	  }
+        -:  716:
+        -:  717:	}
+        -:  718:      }     
+        -:  719:
+        -:  720:      //Reset Hand
+    #####:  721:      for (i = 0; i <= state->handCount[currentPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####:  722:	state->hand[currentPlayer][i] = temphand[i];
+    #####:  723:	temphand[i] = -1;
+        -:  724:      }
+        -:  725:      //Reset Hand
+        -:  726:      			
+    #####:  727:      return 0;
+        -:  728:			
+        -:  729:    case gardens:
+    #####:  730:      return -1;
+        -:  731:			
+        -:  732:    case mine:
+    #####:  733:            return mine_effect(state, choice1, choice2, currentPlayer, handPos);
+call    0 never executed
+        -:  734:            
+        -:  735:    case remodel:
+    #####:  736:      j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -:  737:
+    #####:  738:      if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  739:	{
+    #####:  740:	  return -1;
+        -:  741:	}
+        -:  742:
+    #####:  743:      gainCard(choice2, state, 0, currentPlayer);
+call    0 never executed
+        -:  744:
+        -:  745:      //discard card from hand
+    #####:  746:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -:  747:
+        -:  748:      //discard trashed card
+    #####:  749:      for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  750:	{
+    #####:  751:	  if (state->hand[currentPlayer][i] == j)
+branch  0 never executed
+branch  1 never executed
+        -:  752:	    {
+    #####:  753:	      discardCard(i, currentPlayer, state, 0);			
+call    0 never executed
+    #####:  754:	      break;
+        -:  755:	    }
+        -:  756:	}
+        -:  757:
+        -:  758:
+    #####:  759:      return 0;
+        -:  760:		
+        -:  761:    case smithy:
+    #####:  762:            return smithy_effect(currentPlayer, handPos, state);
+call    0 never executed
+        -:  763:
+        -:  764:    case village:
+    #####:  765:            return village_effect(currentPlayer, state, handPos);
+call    0 never executed
+        -:  766:            
+        -:  767:    case baron:
+    #####:  768:      state->numBuys++;//Increase buys by 1!
+    #####:  769:      if (choice1 > 0){//Boolean true or going to discard an estate
+branch  0 never executed
+branch  1 never executed
+    #####:  770:	int p = 0;//Iterator for hand!
+    #####:  771:	int card_not_discarded = 1;//Flag for discard set!
+    #####:  772:	while(card_not_discarded){
+branch  0 never executed
+branch  1 never executed
+    #####:  773:	  if (state->hand[currentPlayer][p] == estate){//Found an estate card!
+branch  0 never executed
+branch  1 never executed
+    #####:  774:	    state->coins += 4;//Add 4 coins to the amount of coins
+    #####:  775:	    state->discard[currentPlayer][state->discardCount[currentPlayer]] = state->hand[currentPlayer][p];
+    #####:  776:	    state->discardCount[currentPlayer]++;
+    #####:  777:	    for (;p < state->handCount[currentPlayer]; p++){
+branch  0 never executed
+branch  1 never executed
+    #####:  778:	      state->hand[currentPlayer][p] = state->hand[currentPlayer][p+1];
+        -:  779:	    }
+    #####:  780:	    state->hand[currentPlayer][state->handCount[currentPlayer]] = -1;
+    #####:  781:	    state->handCount[currentPlayer]--;
+    #####:  782:	    card_not_discarded = 0;//Exit the loop
+        -:  783:	  }
+    #####:  784:	  else if (p > state->handCount[currentPlayer]){
+branch  0 never executed
+branch  1 never executed
+        -:  785:	    if(DEBUG) {
+        -:  786:	      printf("No estate cards in your hand, invalid choice\n");
+        -:  787:	      printf("Must gain an estate if there are any\n");
+        -:  788:	    }
+    #####:  789:	    if (supplyCount(estate, state) > 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  790:	      gainCard(estate, state, 0, currentPlayer);
+call    0 never executed
+    #####:  791:	      state->supplyCount[estate]--;//Decrement estates
+    #####:  792:	      if (supplyCount(estate, state) == 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  793:		isGameOver(state);
+call    0 never executed
+        -:  794:	      }
+        -:  795:	    }
+    #####:  796:	    card_not_discarded = 0;//Exit the loop
+        -:  797:	  }
+        -:  798:			    
+        -:  799:	  else{
+    #####:  800:	    p++;//Next card
+        -:  801:	  }
+        -:  802:	}
+        -:  803:      }
+        -:  804:			    
+        -:  805:      else{
+    #####:  806:	if (supplyCount(estate, state) > 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  807:	  gainCard(estate, state, 0, currentPlayer);//Gain an estate
+call    0 never executed
+    #####:  808:	  state->supplyCount[estate]--;//Decrement Estates
+    #####:  809:	  if (supplyCount(estate, state) == 0){
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  810:	    isGameOver(state);
+call    0 never executed
+        -:  811:	  }
+        -:  812:	}
+        -:  813:      }
+        -:  814:	    
+        -:  815:      
+    #####:  816:      return 0;
+        -:  817:		
+        -:  818:    case great_hall:
+        -:  819:      //+1 Card
+    #####:  820:      drawCard(currentPlayer, state);
+call    0 never executed
+        -:  821:			
+        -:  822:      //+1 Actions
+    #####:  823:      state->numActions++;
+        -:  824:			
+        -:  825:      //discard card from hand
+    #####:  826:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####:  827:      return 0;
+        -:  828:		
+        -:  829:    case minion:
+        -:  830:      //+1 action
+        8:  831:      state->numActions++;
+        -:  832:			
+        -:  833:      //discard card from hand
+        8:  834:      discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+        -:  835:			
+        8:  836:      if (choice1)		//+2 coins
+branch  0 taken 50% (fallthrough)
+branch  1 taken 50%
+        -:  837:	{
+        4:  838:	  state->coins = state->coins + 2;
+        -:  839:	}
+        -:  840:			
+        4:  841:      else if (choice2)		//discard hand, redraw 4, other players with 5+ cards discard hand and draw 4
+branch  0 taken 50% (fallthrough)
+branch  1 taken 50%
+        -:  842:	{
+        -:  843:	  //discard hand
+       14:  844:	  while(numHandCards(state) > 0)
+call    0 returned 100%
+branch  1 taken 83%
+branch  2 taken 17% (fallthrough)
+        -:  845:	    {
+       10:  846:	      discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+        -:  847:	    }
+        -:  848:				
+        -:  849:	  //draw 4
+       10:  850:	  for (i = 0; i < 4; i++)
+branch  0 taken 80%
+branch  1 taken 20% (fallthrough)
+        -:  851:	    {
+        8:  852:	      drawCard(currentPlayer, state);
+call    0 returned 100%
+        -:  853:	    }
+        -:  854:				
+        -:  855:	  //other players discard hand and redraw if hand size > 4
+        8:  856:	  for (i = 0; i < state->numPlayers; i++)
+branch  0 taken 75%
+branch  1 taken 25% (fallthrough)
+        -:  857:	    {
+        6:  858:	      if (i != currentPlayer)
+branch  0 taken 67% (fallthrough)
+branch  1 taken 33%
+        -:  859:		{
+        4:  860:		  if ( state->handCount[i] > 4 )
+branch  0 taken 50% (fallthrough)
+branch  1 taken 50%
+        -:  861:		    {
+        -:  862:		      //discard hand
+       14:  863:		      while( state->handCount[i] > 0 )
+branch  0 taken 83%
+branch  1 taken 17% (fallthrough)
+        -:  864:			{
+       10:  865:			  discardCard(handPos, i, state, 0);
+call    0 returned 100%
+        -:  866:			}
+        -:  867:							
+        -:  868:		      //draw 4
+       10:  869:		      for (j = 0; j < 4; j++)
+branch  0 taken 80%
+branch  1 taken 20% (fallthrough)
+        -:  870:			{
+        8:  871:			  drawCard(i, state);
+call    0 returned 100%
+        -:  872:			}
+        -:  873:		    }
+        -:  874:		}
+        -:  875:	    }
+        -:  876:				
+        -:  877:	}
+        8:  878:      return 0;
+        -:  879:		
+        -:  880:    case steward:
+    #####:  881:      if (choice1 == 1)
+branch  0 never executed
+branch  1 never executed
+        -:  882:	{
+        -:  883:	  //+2 cards
+    #####:  884:	  drawCard(currentPlayer, state);
+call    0 never executed
+    #####:  885:	  drawCard(currentPlayer, state);
+call    0 never executed
+        -:  886:	}
+    #####:  887:      else if (choice1 == 2)
+branch  0 never executed
+branch  1 never executed
+        -:  888:	{
+        -:  889:	  //+2 coins
+    #####:  890:	  state->coins = state->coins + 2;
+        -:  891:	}
+        -:  892:      else
+        -:  893:	{
+        -:  894:	  //trash 2 cards in hand
+    #####:  895:	  discardCard(choice2, currentPlayer, state, 1);
+call    0 never executed
+    #####:  896:	  discardCard(choice3, currentPlayer, state, 1);
+call    0 never executed
+        -:  897:	}
+        -:  898:			
+        -:  899:      //discard card from hand
+    #####:  900:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####:  901:      return 0;
+        -:  902:		
+        -:  903:    case tribute:
+    #####:  904:      if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
+branch  0 never executed
+branch  1 never executed
+    #####:  905:	if (state->deckCount[nextPlayer] > 0){
+branch  0 never executed
+branch  1 never executed
+    #####:  906:	  tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####:  907:	  state->deckCount[nextPlayer]--;
+        -:  908:	}
+    #####:  909:	else if (state->discardCount[nextPlayer] > 0){
+branch  0 never executed
+branch  1 never executed
+    #####:  910:	  tributeRevealedCards[0] = state->discard[nextPlayer][state->discardCount[nextPlayer]-1];
+    #####:  911:	  state->discardCount[nextPlayer]--;
+        -:  912:	}
+        -:  913:	else{
+        -:  914:	  //No Card to Reveal
+        -:  915:	  if (DEBUG){
+        -:  916:	    printf("No cards to reveal\n");
+        -:  917:	  }
+        -:  918:	}
+        -:  919:      }
+        -:  920:	    
+        -:  921:      else{
+    #####:  922:	if (state->deckCount[nextPlayer] == 0){
+branch  0 never executed
+branch  1 never executed
+    #####:  923:	  for (i = 0; i < state->discardCount[nextPlayer]; i++){
+branch  0 never executed
+branch  1 never executed
+    #####:  924:	    state->deck[nextPlayer][i] = state->discard[nextPlayer][i];//Move to deck
+    #####:  925:	    state->deckCount[nextPlayer]++;
+    #####:  926:	    state->discard[nextPlayer][i] = -1;
+    #####:  927:	    state->discardCount[nextPlayer]--;
+        -:  928:	  }
+        -:  929:			    
+    #####:  930:	  shuffle(nextPlayer,state);//Shuffle the deck
+call    0 never executed
+        -:  931:	} 
+    #####:  932:	tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####:  933:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####:  934:	state->deckCount[nextPlayer]--;
+    #####:  935:	tributeRevealedCards[1] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
+    #####:  936:	state->deck[nextPlayer][state->deckCount[nextPlayer]--] = -1;
+    #####:  937:	state->deckCount[nextPlayer]--;
+        -:  938:      }    
+        -:  939:		       
+    #####:  940:      if (tributeRevealedCards[0] == tributeRevealedCards[1]){//If we have a duplicate card, just drop one 
+branch  0 never executed
+branch  1 never executed
+    #####:  941:	state->playedCards[state->playedCardCount] = tributeRevealedCards[1];
+    #####:  942:	state->playedCardCount++;
+    #####:  943:	tributeRevealedCards[1] = -1;
+        -:  944:      }
+        -:  945:
+    #####:  946:      for (i = 0; i <= 2; i ++){
+branch  0 never executed
+branch  1 never executed
+    #####:  947:	if (tributeRevealedCards[i] == copper || tributeRevealedCards[i] == silver || tributeRevealedCards[i] == gold){//Treasure cards
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  948:	  state->coins += 2;
+        -:  949:	}
+        -:  950:		    
+    #####:  951:	else if (tributeRevealedCards[i] == estate || tributeRevealedCards[i] == duchy || tributeRevealedCards[i] == province || tributeRevealedCards[i] == gardens || tributeRevealedCards[i] == great_hall){//Victory Card Found
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+branch  7 never executed
+branch  8 never executed
+branch  9 never executed
+    #####:  952:	  drawCard(currentPlayer, state);
+call    0 never executed
+    #####:  953:	  drawCard(currentPlayer, state);
+call    0 never executed
+        -:  954:	}
+        -:  955:	else{//Action Card
+    #####:  956:	  state->numActions = state->numActions + 2;
+        -:  957:	}
+        -:  958:      }
+        -:  959:	    
+    #####:  960:      return 0;
+        -:  961:		
+        -:  962:    case ambassador:
+    #####:  963:      j = 0;		//used to check if player has enough cards to discard
+        -:  964:
+    #####:  965:      if (choice2 > 2 || choice2 < 0)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  966:	{
+    #####:  967:	  return -1;				
+        -:  968:	}
+        -:  969:
+    #####:  970:      if (choice1 == handPos)
+branch  0 never executed
+branch  1 never executed
+        -:  971:	{
+    #####:  972:	  return -1;
+        -:  973:	}
+        -:  974:
+    #####:  975:      for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  976:	{
+    #####:  977:	  if (i != handPos && i == state->hand[currentPlayer][choice1] && i != choice1)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:  978:	    {
+    #####:  979:	      j++;
+        -:  980:	    }
+        -:  981:	}
+    #####:  982:      if (j < choice2)
+branch  0 never executed
+branch  1 never executed
+        -:  983:	{
+    #####:  984:	  return -1;				
+        -:  985:	}
+        -:  986:
+        -:  987:      if (DEBUG) 
+        -:  988:	printf("Player %d reveals card number: %d\n", currentPlayer, state->hand[currentPlayer][choice1]);
+        -:  989:
+        -:  990:      //increase supply count for choosen card by amount being discarded
+    #####:  991:      state->supplyCount[state->hand[currentPlayer][choice1]] += choice2;
+        -:  992:			
+        -:  993:      //each other player gains a copy of revealed card
+    #####:  994:      for (i = 0; i < state->numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -:  995:	{
+    #####:  996:	  if (i != currentPlayer)
+branch  0 never executed
+branch  1 never executed
+        -:  997:	    {
+    #####:  998:	      gainCard(state->hand[currentPlayer][choice1], state, 0, i);
+call    0 never executed
+        -:  999:	    }
+        -: 1000:	}
+        -: 1001:
+        -: 1002:      //discard played card from hand
+    #####: 1003:      discardCard(handPos, currentPlayer, state, 0);			
+call    0 never executed
+        -: 1004:
+        -: 1005:      //trash copies of cards returned to supply
+    #####: 1006:      for (j = 0; j < choice2; j++)
+branch  0 never executed
+branch  1 never executed
+        -: 1007:	{
+    #####: 1008:	  for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1009:	    {
+    #####: 1010:	      if (state->hand[currentPlayer][i] == state->hand[currentPlayer][choice1])
+branch  0 never executed
+branch  1 never executed
+        -: 1011:		{
+    #####: 1012:		  discardCard(i, currentPlayer, state, 1);
+call    0 never executed
+    #####: 1013:		  break;
+        -: 1014:		}
+        -: 1015:	    }
+        -: 1016:	}			
+        -: 1017:
+    #####: 1018:      return 0;
+        -: 1019:		
+        -: 1020:    case cutpurse:
+        -: 1021:
+    #####: 1022:      updateCoins(currentPlayer, state, 2);
+call    0 never executed
+    #####: 1023:      for (i = 0; i < state->numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1024:	{
+    #####: 1025:	  if (i != currentPlayer)
+branch  0 never executed
+branch  1 never executed
+        -: 1026:	    {
+    #####: 1027:	      for (j = 0; j < state->handCount[i]; j++)
+branch  0 never executed
+branch  1 never executed
+        -: 1028:		{
+    #####: 1029:		  if (state->hand[i][j] == copper)
+branch  0 never executed
+branch  1 never executed
+        -: 1030:		    {
+    #####: 1031:		      discardCard(j, i, state, 0);
+call    0 never executed
+    #####: 1032:		      break;
+        -: 1033:		    }
+    #####: 1034:		  if (j == state->handCount[i])
+branch  0 never executed
+branch  1 never executed
+        -: 1035:		    {
+    #####: 1036:		      for (k = 0; k < state->handCount[i]; k++)
+branch  0 never executed
+branch  1 never executed
+        -: 1037:			{
+        -: 1038:			  if (DEBUG)
+        -: 1039:			    printf("Player %d reveals card number %d\n", i, state->hand[i][k]);
+        -: 1040:			}	
+    #####: 1041:		      break;
+        -: 1042:		    }		
+        -: 1043:		}
+        -: 1044:					
+        -: 1045:	    }
+        -: 1046:				
+        -: 1047:	}				
+        -: 1048:
+        -: 1049:      //discard played card from hand
+    #####: 1050:      discardCard(handPos, currentPlayer, state, 0);			
+call    0 never executed
+        -: 1051:
+    #####: 1052:      return 0;
+        -: 1053:
+        -: 1054:		
+        -: 1055:    case embargo: 
+        -: 1056:      //+2 Coins
+    #####: 1057:      state->coins = state->coins + 2;
+        -: 1058:			
+        -: 1059:      //see if selected pile is in play
+    #####: 1060:      if ( state->supplyCount[choice1] == -1 )
+branch  0 never executed
+branch  1 never executed
+        -: 1061:	{
+    #####: 1062:	  return -1;
+        -: 1063:	}
+        -: 1064:			
+        -: 1065:      //add embargo token to selected supply pile
+    #####: 1066:      state->embargoTokens[choice1]++;
+        -: 1067:			
+        -: 1068:      //trash card
+    #####: 1069:      discardCard(handPos, currentPlayer, state, 1);		
+call    0 never executed
+    #####: 1070:      return 0;
+        -: 1071:		
+        -: 1072:    case outpost:
+        -: 1073:      //set outpost flag
+    #####: 1074:      state->outpostPlayed++;
+        -: 1075:			
+        -: 1076:      //discard card
+    #####: 1077:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1078:      return 0;
+        -: 1079:		
+        -: 1080:    case salvager:
+        -: 1081:      //+1 buy
+    #####: 1082:      state->numBuys++;
+        -: 1083:			
+    #####: 1084:      if (choice1)
+branch  0 never executed
+branch  1 never executed
+        -: 1085:	{
+        -: 1086:	  //gain coins equal to trashed card
+    #####: 1087:	  state->coins = state->coins + getCost( handCard(choice1, state) );
+call    0 never executed
+call    1 never executed
+        -: 1088:	  //trash card
+    #####: 1089:	  discardCard(choice1, currentPlayer, state, 1);	
+call    0 never executed
+        -: 1090:	}
+        -: 1091:			
+        -: 1092:      //discard card
+    #####: 1093:      discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1094:      return 0;
+        -: 1095:		
+        -: 1096:    case sea_hag:
+    #####: 1097:      for (i = 0; i < state->numPlayers; i++){
+branch  0 never executed
+branch  1 never executed
+    #####: 1098:	if (i != currentPlayer){
+branch  0 never executed
+branch  1 never executed
+    #####: 1099:	  state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
+    #####: 1100:	  state->discardCount[i]++;
+    #####: 1101:	  state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
+        -: 1102:	}
+        -: 1103:      }
+    #####: 1104:      return 0;
+        -: 1105:		
+        -: 1106:    case treasure_map:
+        -: 1107:      //search hand for another treasure_map
+    #####: 1108:      index = -1;
+    #####: 1109:      for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1110:	{
+    #####: 1111:	  if (state->hand[currentPlayer][i] == treasure_map && i != handPos)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -: 1112:	    {
+    #####: 1113:	      index = i;
+    #####: 1114:	      break;
+        -: 1115:	    }
+        -: 1116:	}
+    #####: 1117:      if (index > -1)
+branch  0 never executed
+branch  1 never executed
+        -: 1118:	{
+        -: 1119:	  //trash both treasure cards
+    #####: 1120:	  discardCard(handPos, currentPlayer, state, 1);
+call    0 never executed
+    #####: 1121:	  discardCard(index, currentPlayer, state, 1);
+call    0 never executed
+        -: 1122:
+        -: 1123:	  //gain 4 Gold cards
+    #####: 1124:	  for (i = 0; i < 4; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1125:	    {
+    #####: 1126:	      gainCard(gold, state, 1, currentPlayer);
+call    0 never executed
+        -: 1127:	    }
+        -: 1128:				
+        -: 1129:	  //return success
+    #####: 1130:	  return 1;
+        -: 1131:	}
+        -: 1132:			
+        -: 1133:      //no second treasure_map found in hand
+    #####: 1134:      return -1;
+        -: 1135:    }
+        -: 1136:	
+    #####: 1137:  return -1;
+        -: 1138:}
+        -: 1139:
+function discardCard called 4040 returned 100% blocks executed 100%
+     4040: 1140:int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
+        -: 1141:{
+        -: 1142:	
+        -: 1143:  //if card is not trashed, added to Played pile 
+     4040: 1144:  if (trashFlag < 1)
+branch  0 taken 100% (fallthrough)
+branch  1 taken 0%
+        -: 1145:    {
+        -: 1146:      //add card to played pile
+     4040: 1147:      state->playedCards[state->playedCardCount] = state->hand[currentPlayer][handPos]; 
+     4040: 1148:      state->playedCardCount++;
+        -: 1149:    }
+        -: 1150:	
+        -: 1151:  //set played card to -1
+     4040: 1152:  state->hand[currentPlayer][handPos] = -1;
+        -: 1153:	
+        -: 1154:  //remove card from player's hand
+     4040: 1155:  if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+        -: 1156:    {
+        -: 1157:      //reduce number of cards in hand
+       18: 1158:      state->handCount[currentPlayer]--;
+        -: 1159:    }
+     4022: 1160:  else if ( state->handCount[currentPlayer] == 1 ) //only one card in hand
+branch  0 taken 1% (fallthrough)
+branch  1 taken 99%
+        -: 1161:    {
+        -: 1162:      //reduce number of cards in hand
+        6: 1163:      state->handCount[currentPlayer]--;
+        -: 1164:    }
+        -: 1165:  else 	
+        -: 1166:    {
+        -: 1167:      //replace discarded card with last card in hand
+     4016: 1168:      state->hand[currentPlayer][handPos] = state->hand[currentPlayer][ (state->handCount[currentPlayer] - 1)];
+        -: 1169:      //set last card to -1
+     4016: 1170:      state->hand[currentPlayer][state->handCount[currentPlayer] - 1] = -1;
+        -: 1171:      //reduce number of cards in hand
+     4016: 1172:      state->handCount[currentPlayer]--;
+        -: 1173:    }
+        -: 1174:	
+     4040: 1175:  return 0;
+        -: 1176:}
+        -: 1177:
+function gainCard called 0 returned 0% blocks executed 0%
+    #####: 1178:int gainCard(int supplyPos, struct gameState *state, int toFlag, int player)
+        -: 1179:{
+        -: 1180:  //Note: supplyPos is enum of choosen card
+        -: 1181:	
+        -: 1182:  //check if supply pile is empty (0) or card is not used in game (-1)
+    #####: 1183:  if ( supplyCount(supplyPos, state) < 1 )
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -: 1184:    {
+    #####: 1185:      return -1;
+        -: 1186:    }
+        -: 1187:	
+        -: 1188:  //added card for [whoseTurn] current player:
+        -: 1189:  // toFlag = 0 : add to discard
+        -: 1190:  // toFlag = 1 : add to deck
+        -: 1191:  // toFlag = 2 : add to hand
+        -: 1192:
+    #####: 1193:  if (toFlag == 1)
+branch  0 never executed
+branch  1 never executed
+        -: 1194:    {
+    #####: 1195:      state->deck[ player ][ state->deckCount[player] ] = supplyPos;
+    #####: 1196:      state->deckCount[player]++;
+        -: 1197:    }
+    #####: 1198:  else if (toFlag == 2)
+branch  0 never executed
+branch  1 never executed
+        -: 1199:    {
+    #####: 1200:      state->hand[ player ][ state->handCount[player] ] = supplyPos;
+    #####: 1201:      state->handCount[player]++;
+        -: 1202:    }
+        -: 1203:  else
+        -: 1204:    {
+    #####: 1205:      state->discard[player][ state->discardCount[player] ] = supplyPos;
+    #####: 1206:      state->discardCount[player]++;
+        -: 1207:    }
+        -: 1208:	
+        -: 1209:  //decrease number in supply pile
+    #####: 1210:  state->supplyCount[supplyPos]--;
+        -: 1211:	 
+    #####: 1212:  return 0;
+        -: 1213:}
+        -: 1214:
+function updateCoins called 134 returned 100% blocks executed 82%
+      134: 1215:int updateCoins(int player, struct gameState *state, int bonus)
+        -: 1216:{
+        -: 1217:  int i;
+        -: 1218:	
+        -: 1219:  //reset coin count
+      134: 1220:  state->coins = 0;
+        -: 1221:
+        -: 1222:  //add coins for each Treasure card in player's hand
+      804: 1223:  for (i = 0; i < state->handCount[player]; i++)
+branch  0 taken 83%
+branch  1 taken 17% (fallthrough)
+        -: 1224:    {
+      670: 1225:      if (state->hand[player][i] == copper)
+branch  0 taken 69% (fallthrough)
+branch  1 taken 31%
+        -: 1226:	{
+      464: 1227:	  state->coins += 1;
+        -: 1228:	}
+      206: 1229:      else if (state->hand[player][i] == silver)
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+        -: 1230:	{
+    #####: 1231:	  state->coins += 2;
+        -: 1232:	}
+      206: 1233:      else if (state->hand[player][i] == gold)
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+        -: 1234:	{
+    #####: 1235:	  state->coins += 3;
+        -: 1236:	}	
+        -: 1237:    }	
+        -: 1238:
+        -: 1239:  //add bonus
+      134: 1240:  state->coins += bonus;
+        -: 1241:
+      134: 1242:  return 0;
+        -: 1243:}
+        -: 1244:
+        -: 1245:
+        -: 1246:/*Functions with bugs in them*/
+        -: 1247:
+function adventurer_effect called 4022 returned 100% blocks executed 100%
+     4022: 1248:int adventurer_effect(int drawntreasure, int currentPlayer, int cardDrawn, int z, int* temphand, struct gameState *state, int handPos){
+   508546: 1249:    while(drawntreasure < 4){ //bug, increased treasure from 2 to 4
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+   500502: 1250:        if(state->deckCount[currentPlayer] < 1){
+branch  0 taken 2% (fallthrough)
+branch  1 taken 98%
+     8312: 1251:            shuffle(currentPlayer, state);
+call    0 returned 100%
+        -: 1252:        }
+   500502: 1253:        drawCard(currentPlayer, state);
+call    0 returned 100%
+   500502: 1254:        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+   500502: 1255:        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+branch  0 taken 99% (fallthrough)
+branch  1 taken 1%
+branch  2 taken 99% (fallthrough)
+branch  3 taken 1%
+branch  4 taken 1% (fallthrough)
+branch  5 taken 99%
+    16088: 1256:            drawntreasure++;
+        -: 1257:        else{
+   484414: 1258:            temphand[z]=cardDrawn;
+   484414: 1259:            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+   484414: 1260:            z++;
+        -: 1261:        }
+        -: 1262:    }
+   492458: 1263:    while(z-1>=0){
+branch  0 taken 99%
+branch  1 taken 1% (fallthrough)
+   484414: 1264:        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+   484414: 1265:        z=z-1;
+        -: 1266:    }
+     4022: 1267:    return 0;
+        -: 1268:}
+        -: 1269:
+        -: 1270:
+function council_room_effect called 0 returned 0% blocks executed 0%
+    #####: 1271:int council_room_effect(int currentPlayer, struct gameState *state, int handPos){
+        -: 1272:    int i;
+        -: 1273:    //+4 Cards
+    #####: 1274:    for (i = 0; i < 4; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1275:    {
+    #####: 1276:        drawCard(currentPlayer, state);
+call    0 never executed
+        -: 1277:    }
+        -: 1278:    
+        -: 1279:    //+1 Buy
+    #####: 1280:    state->numBuys++;
+        -: 1281:    
+        -: 1282:    //Each other player draws a card
+    #####: 1283:    for (i = 0; i < state->numPlayers; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1284:    {
+    #####: 1285:        if ( i != currentPlayer )
+branch  0 never executed
+branch  1 never executed
+        -: 1286:        {
+    #####: 1287:            drawCard(i, state);
+call    0 never executed
+    #####: 1288:            drawCard(i, state); //bug - added additional card draw to other players
+call    0 never executed
+        -: 1289:        }
+        -: 1290:    }
+        -: 1291:    
+        -: 1292:    //put played card in played card pile
+    #####: 1293:    discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -: 1294:    
+    #####: 1295:    return 0;
+        -: 1296:}
+        -: 1297:
+function smithy_effect called 2006 returned 100% blocks executed 100%
+     2006: 1298:int smithy_effect(int currentPlayer, int handPos, struct gameState *state){
+        -: 1299:    int i;
+        -: 1300:    //+3 Cards
+    10030: 1301:    for (i = 0; i < 4; i++) //bug, increased boundary from 3 to 4
+branch  0 taken 80%
+branch  1 taken 20% (fallthrough)
+        -: 1302:    {
+     8024: 1303:        drawCard(currentPlayer, state);
+call    0 returned 100%
+        -: 1304:    }
+        -: 1305:    
+        -: 1306:    //discard card from hand
+     2006: 1307:    discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+     2006: 1308:    return 0;
+        -: 1309:}
+        -: 1310:
+        -: 1311:
+function village_effect called 2006 returned 100% blocks executed 100%
+     2006: 1312:int village_effect(int currentPlayer, struct gameState* state, int handPos){
+        -: 1313:    //+1 Card
+     2006: 1314:    drawCard(currentPlayer, state);
+call    0 returned 100%
+        -: 1315:    
+        -: 1316:    //+2 Actions
+     2006: 1317:    state->numActions = state->numActions + 2;
+        -: 1318:    
+        -: 1319:    //discard played card from hand
+     2006: 1320:    discardCard(handPos, currentPlayer, state, 0);
+call    0 returned 100%
+     2006: 1321:    return 0;}
+        -: 1322:
+        -: 1323:
+function mine_effect called 0 returned 0% blocks executed 0%
+    #####: 1324:int mine_effect(struct gameState* state, int choice1, int choice2, int currentPlayer, int handPos){
+        -: 1325:    int i;
+    #####: 1326:    int j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -: 1327:    
+    #####: 1328:    if (state->hand[currentPlayer][choice1] > copper || state->hand[currentPlayer][choice1] < gold) //bug, reversed inequality signs
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -: 1329:    {
+    #####: 1330:        return -1;
+        -: 1331:    }
+        -: 1332:    
+    #####: 1333:    if (choice2 > treasure_map || choice2 < curse)
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+        -: 1334:    {
+    #####: 1335:        return -1;
+        -: 1336:    }
+        -: 1337:    
+    #####: 1338:    if ( (getCost(state->hand[currentPlayer][choice1]) + 3) > getCost(choice2) )
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -: 1339:    {
+    #####: 1340:        return -1;
+        -: 1341:    }
+        -: 1342:    
+    #####: 1343:    gainCard(choice2, state, 2, currentPlayer);
+call    0 never executed
+        -: 1344:    
+        -: 1345:    //discard card from hand
+    #####: 1346:    discardCard(handPos, currentPlayer, state, 0);
+call    0 never executed
+        -: 1347:    
+        -: 1348:    //discard trashed card
+    #####: 1349:    for (i = 0; i < state->handCount[currentPlayer]; i++)
+branch  0 never executed
+branch  1 never executed
+        -: 1350:    {
+    #####: 1351:        if (state->hand[currentPlayer][i] == j)
+branch  0 never executed
+branch  1 never executed
+        -: 1352:        {
+    #####: 1353:            discardCard(i, currentPlayer, state, 0);
+call    0 never executed
+    #####: 1354:            break;
+        -: 1355:        }
+        -: 1356:    }
+        -: 1357:    
+    #####: 1358:    return 0;}
+        -: 1359:
+        -: 1360:
+        -: 1361:
+        -: 1362:/*"Fixed" versions of the card functions, modified to address caught bugs*/
+        -: 1363:/*
+        -: 1364:int adventurer_effect(int drawntreasure, int currentPlayer, int cardDrawn, int z, int* temphand, struct gameState *state, int handPos){
+        -: 1365:    int shuffle_count = 0;
+        -: 1366:    while(drawntreasure < 2 && shuffle_count < 2){ //bug, increased treasure from 2 to 4
+        -: 1367:        if(state->deckCount[currentPlayer] < 1){
+        -: 1368:            //Step 1 Shuffle the discard pile back into a deck //responds to bug identified by test suite section 2
+        -: 1369:            int i;
+        -: 1370:            //Move discard to deck
+        -: 1371:            for (i = 0; i < state->discardCount[currentPlayer];i++){
+        -: 1372:                state->deck[currentPlayer][i] = state->discard[currentPlayer][i];
+        -: 1373:                state->discard[currentPlayer][i] = -1;
+        -: 1374:            }
+        -: 1375:            
+        -: 1376:            state->deckCount[currentPlayer] = state->discardCount[currentPlayer];
+        -: 1377:            state->discardCount[currentPlayer] = 0;//Reset discard
+        -: 1378:            
+        -: 1379:            
+        -: 1380:            shuffle(currentPlayer, state);
+        -: 1381:            shuffle_count++;
+        -: 1382:        }
+        -: 1383:        int result = drawCard(currentPlayer, state);
+        -: 1384:        cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+        -: 1385:        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold){
+        -: 1386:            drawntreasure++;}
+        -: 1387:        else{
+        -: 1388:            if(result != -1){
+        -: 1389:                temphand[z]=cardDrawn;
+        -: 1390:                state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+        -: 1391:                z++;}
+        -: 1392:        }
+        -: 1393:    }
+        -: 1394:    while(z-1>=0){
+        -: 1395:        state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+        -: 1396:        z=z-1;
+        -: 1397:    }
+        -: 1398:    
+        -: 1399:    //discard card from hand
+        -: 1400:    discardCard(handPos, currentPlayer, state, 0);
+        -: 1401:    return 0;
+        -: 1402:}
+        -: 1403:
+        -: 1404:
+        -: 1405:int council_room_effect(int currentPlayer, struct gameState *state, int handPos){
+        -: 1406:    
+        -: 1407:    //+4 Cards
+        -: 1408:    for (int i = 0; i < 4; i++)
+        -: 1409:    {
+        -: 1410:        drawCard(currentPlayer, state);
+        -: 1411:    }
+        -: 1412:    
+        -: 1413:    //+1 Buy
+        -: 1414:    state->numBuys++;
+        -: 1415:    
+        -: 1416:    //Each other player draws a card
+        -: 1417:    for (int i = 0; i < state->numPlayers; i++)
+        -: 1418:    {
+        -: 1419:        if ( i != currentPlayer )
+        -: 1420:        {
+        -: 1421:            drawCard(i, state);
+        -: 1422:            //drawCard(i, state); //bug - added additional card draw for other players
+        -: 1423:        }
+        -: 1424:    }
+        -: 1425:    
+        -: 1426:    //put played card in played card pile
+        -: 1427:    discardCard(handPos, currentPlayer, state, 0);
+        -: 1428:    
+        -: 1429:    return 0;
+        -: 1430:}
+        -: 1431:
+        -: 1432:int smithy_effect(int currentPlayer, int handPos, struct gameState *state){
+        -: 1433:    //+3 Cards
+        -: 1434:    for (int i = 0; i < 3; i++) //bug, increased boundary from 3 to 4
+        -: 1435:    {
+        -: 1436:        drawCard(currentPlayer, state);
+        -: 1437:    }
+        -: 1438:    
+        -: 1439:    //discard card from hand
+        -: 1440:    discardCard(handPos, currentPlayer, state, 0);
+        -: 1441:    return 0;
+        -: 1442:}
+        -: 1443:
+        -: 1444:
+        -: 1445:int village_effect(int currentPlayer, struct gameState* state, int handPos){
+        -: 1446:    //+1 Card
+        -: 1447:    drawCard(currentPlayer, state);
+        -: 1448:    
+        -: 1449:    //+2 Actions
+        -: 1450:    state->numActions = state->numActions + 2;
+        -: 1451:    
+        -: 1452:    //discard played card from hand
+        -: 1453:    discardCard(handPos, currentPlayer, state, 0);
+        -: 1454:    return 0;}
+        -: 1455:
+        -: 1456:
+        -: 1457:int mine_effect(struct gameState* state, int choice1, int choice2, int currentPlayer, int handPos){
+        -: 1458:    int j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -: 1459:    
+        -: 1460:    if (state->hand[currentPlayer][choice1] < copper || state->hand[currentPlayer][choice1] > gold) //bug, reversed inequality signs
+        -: 1461:    {
+        -: 1462:        return -1;
+        -: 1463:    }
+        -: 1464:    
+        -: 1465:    if (choice2 > gold || choice2 < copper) //bug, needed to limit to treasure cards
+        -: 1466:    {
+        -: 1467:        return -1;
+        -: 1468:    }
+        -: 1469:    
+        -: 1470:    if ( (getCost(state->hand[currentPlayer][choice1]) + 3) < getCost(choice2) ) //bug, needed to reverse signs
+        -: 1471:    {
+        -: 1472:        return -1;
+        -: 1473:    }
+        -: 1474:    
+        -: 1475:    gainCard(choice2, state, 2, currentPlayer);
+        -: 1476:    
+        -: 1477:    //discard card from hand
+        -: 1478:    discardCard(handPos, currentPlayer, state, 0);
+        -: 1479:    
+        -: 1480:    //discard trashed card
+        -: 1481:    for (int i = 0; i < state->handCount[currentPlayer]; i++)
+        -: 1482:    {
+        -: 1483:        if (state->hand[currentPlayer][i] == j)
+        -: 1484:        {
+        -: 1485:            discardCard(choice1, currentPlayer, state, 1); // fixed bug to trash card rather than move to played
+        -: 1486:            break;
+        -: 1487:        }
+        -: 1488:    }
+        -: 1489:    
+        -: 1490:    return 0;}
+        -: 1491:
+        -: 1492:
+        -: 1493:*/
+        -: 1494:
+        -: 1495://end of dominion.c

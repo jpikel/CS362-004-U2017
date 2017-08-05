@@ -5,7 +5,7 @@
  * Class: CS362-400
  * ONID: pikelj
  * Assignment: #3
- * Description: this is a unit test file for the playAdventuer function in dominion.c
+ * Description: this is a unit test file for the adventuer_effect function in dominion.c
  * Cite: segmentation fault handling from this source
  * https://stackoverflow.com/questions/22052340/how-do-i-handle-and-move-past-a-segfault
  * *************************************/
@@ -49,7 +49,7 @@ const char* cardNames[] = {"Curse", "Estate", "Duchy", "Province", "Copper", "Si
  * Function: main()
  * Parameters: none
  * Preconditions: none
- * Postconditions: unit test the playAdventurer function
+ * Postconditions: unit test the adventurer_effect function
  * Description:
  * *************************************/
 int main(void){
@@ -65,6 +65,11 @@ int main(void){
     int player = 0;
     int fault_code;
     int i;
+    int drawntreasure = 0;
+    int cardDrawn = 0;
+    int z = 0;
+    int temphand[MAX_HAND];
+
 
     int k[10] = {adventurer, council_room, ambassador, gardens, mine,
         remodel, smithy, village, baron, minion};
@@ -74,7 +79,7 @@ int main(void){
     assert(result == 0);
 
     printStars();
-    printf("Unit test for the playAdventurer function\n");
+    printf("Unit test for the adventurer_effect function\n");
 
     /*This one was a bit tricky to test, because I added the seg fault possiblilty
      * I had to add some code here, to catch that and not cause the entire thing
@@ -90,7 +95,8 @@ int main(void){
             &currentTreasureCards);
     printCardsInDeck(testGame, player);
     printf("Playing adventurer, return = 0...");
-    validate(playAdventurer(player, testGame, 5), RETSUCCESS);
+    validate(adventurer_effect(drawntreasure, player, cardDrawn, z, temphand, 
+                testGame, 5), RETSUCCESS);
     printCardsInHand(testGame, player, newHand, newHandCount, &newTreasureCards);
     /*adventurer gives the player 2 additional treasure cards into their hand
      * cards are drawn from the deck until 2 treasure cards are found, all the 
@@ -114,6 +120,9 @@ int main(void){
 
     signal(SIGSEGV, sighandler);
     for( i = 0; i < 10; i++){
+        drawntreasure = 0;
+        cardDrawn = 0;
+        z = 0;
         if (fault_code == 0){
             printf("\nEnding turn twice to get back to player 0.");
             endTurn(testGame);
@@ -126,9 +135,9 @@ int main(void){
                     &currentTreasureCards);
             printCardsInDeck(testGame, player);
             printf("Playing adventurer, return = 0...");
-            player = 0;
             fault_code = setjmp(restore_point);
-            validate(playAdventurer(player, testGame, 5), RETSUCCESS);
+            validate(adventurer_effect(drawntreasure, player, cardDrawn, z, temphand, 
+                testGame, 5), RETSUCCESS);
             
             printCardsInDeck(testGame, player);
             printCardsInHand(testGame, player, currentHand, origHandCount,

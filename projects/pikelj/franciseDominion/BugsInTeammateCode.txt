@@ -1,0 +1,73 @@
+Author: Johannes Pikel
+ONID: pikelj
+Date: 2017.07.31
+Class: CS362-400
+Assignment: #5
+Description: bugs that I found in my teammate Edward Francis' code for dominion.c in the
+refactored cards
+
+I did find two bugs in my teammate's refactored cards specifically I found a bug in
+the adventurer_effect() smithy_effect().
+
+
+****adventurer_effect() add toos many treasure****
+Title: gives player's too many treasure cards when effect played
+Procedure: provided an initialize gameState, with a valid player that has the
+adventurer card
+Calling the function adveturer_effect results in the player receiving too many
+treasure cards into their hand
+Result: invalid number of treasure cards added to hand
+
+The unit test that I performed that validated the correct
+number of additional treasure cards the player should have after the adventurer card
+is played FAILED.  The line in my unittestresults.out is line 721 and 722 stating
+
+Discovery of this bug from the card unit tests reported in the unittestresults.out 
+
+721 Had 4 treasure cards, found 7 ....TEST FAILED
+722 Had 6 handCount, now have 9 handCount, expect +2 (adventurer is not discarded in the code)
+723 TEST FAILED
+
+There should have only been an additional 2 treasure cards in the hand of the player. 
+This bug I believe is from the line in the adventurer_effect() function on the line 
+shown below in the dominion.c code
+
+1249  while(drawntreasure < 4){}
+
+The 4 should be a 2 and thus would return the correct number of treasure cards in to the
+player's hand.  I did actually also find an error in my own testing method, if the player
+does not have 2 treasure cards in either their deck or their discard pile, then the 
+adventurer effect does not add any additional cards, which I do not specifically check
+for in my subsequent iterations of the playing the adventurer card.  Therefore, this 
+unittest could use some refactoring to make it more exact.  However, it does find the
+mistake the first time through and thus we need to inspect the adventurer_effect() more
+closely.
+
+
+****smithy_effect() adds too many cards****
+Title: smithy_effect gives player too many cards
+Procedure:
+Passing a valid gameState, player and handPos to the smithy_effect()
+the player gains too many cards in their hand.
+Result: too many cards added to player's hand
+
+I found a bug in the smithy_effect() of dominion.c looking once again at my
+unittestresults.out we can see that on line 582 through 587 we have a couple of Failed
+tests as reported in the unittestresults.out
+
+582 Player 0 has 9 cards in hand and should have 8...TEST FAILED
+583 Should only be 1 card in playedCard pile 'smithy'
+584 Played pile has 1...TEST SUCCESSFUL
+585 Played pile contains: Smithy
+586 Player 0 deck count should be 2, deck count now 1...TEST FAILED
+
+We know that the smithy card should only give the player an additional 3 cards instead 
+of 4 cards per the Dominion game rules.
+
+On close inspection of the smithy_effect() in the dominion.c code I believe the error
+arises from the FOR loop contained in the smithy_effect(). 
+
+Line 1301     for (i = 0; i < 4; i++)
+
+The 4 should be a 3 and thus the drawCard() called inside of the FOR loop is called
+one to many times, hence resulting in the bug.
